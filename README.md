@@ -7,3 +7,4 @@
 </p> 
 <h2> Sobre mim </h2>
 <p align="center"><img src="" width="20%"></p>
+<p> Formado em Técnico em Informática pela EScola Técnica Estadual Ilza Nascimento Pintus e atualmente matriculado no 5º semestre de Banco de Dados.</p>
