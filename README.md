@@ -7,4 +7,9 @@
 </p> 
 <h2> Sobre mim </h2>
 <p align="center"><img src="" width="20%"></p>
-<p> Formado em Técnico em Informática pela EScola Técnica Estadual Ilza Nascimento Pintus e atualmente matriculado no 5º semestre de Banco de Dados.</p>
+<p> Formado em Técnico em Informática pela Escola Técnica Estadual Ilza Nascimento Pintus e atualmente matriculado no 5º semestre de Banco de Dados pela Faculdade de Tecnologia de São José dos Campos (FATEC).
+</p>
+<p>
+     Atualmente sou estágiario de tecnologia no time de Planejamento e Compras de Interiores na Embraer, cujo o foco das minhas atividades permeiam por criação de RPAs (Robotic Process Automation)
+</p>
+
