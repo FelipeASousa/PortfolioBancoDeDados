@@ -16,3 +16,5 @@
     <li><a href="https://www.linkedin.com/in/felipe-s-89938418a/"> Linkedin </a></li>
     <li><a href="https://github.com/FelipeASousa"> Github </a></li>
 </ul>
+<hr/>
+<h2> Meus projetos </h2>
