@@ -10,6 +10,9 @@
 <p> Formado em Técnico em Informática pela Escola Técnica Estadual Ilza Nascimento Pintus e atualmente matriculado no 5º semestre de Banco de Dados pela Faculdade de Tecnologia de São José dos Campos (FATEC).
 </p>
 <p>
-     Atualmente sou estágiario de tecnologia no time de Planejamento e Compras de Interiores na Embraer, cujo o foco das minhas atividades permeiam por criação de RPAs (Robotic Process Automation)
+     Atualmente sou estágiario de tecnologia no time de Planejamento e Compras de Interiores na Embraer, cujo o foco das minhas atividades permeiam por criação de ETLs, desenvolvimento de RPAs (Robotic Process Automation) com Python, análise de dados e criação de dashboards e visibilidades.
 </p>
-
+<ul>
+    <li><a href="https://www.linkedin.com/in/felipe-s-89938418a/"> Linkedin </a></li>
+    <li><a href="https://github.com/FelipeASousa"> Github </a></li>
+</ul>
