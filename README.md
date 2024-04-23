@@ -33,7 +33,7 @@
 <h3> </h3>
 <p> 2º Semestre • 2/2021 </p>
 <p> Parceiro Acadêmico: Jetsoft </p>
-<hr/>
+
 <h4>Arquiterura do projeto</h4>
 <img src=""/>
 <h4> Prévia da Solução </h4>
@@ -42,6 +42,7 @@
 <h4> Lições Aprendidas </h4>
 <h4> Hard Skills </h4>
 <h4> Soft Skills </h4>
+<hr/>
 <h3> </h3>
 <p> 3º Semestre • 1/2022 </p>
 <p> Parceiro Acadêmico: TecSUS </p>
