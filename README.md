@@ -19,4 +19,30 @@
 <hr/>
 <h2> Meus projetos </h2>
 <h3> Site de Gerenciamento de Projetos </h3>
-<p> 1º Semestre • 1/2020 </p>
+<p> 1º Semestre • 1/2021 </p>
+<p> Parceiro Acadêmico: Faculdade Tecnológica de São José dos Campos </p>
+<hr/>
+<h3> </h3>
+<p> 2º Semestre • 2/2021 </p>
+<p> Parceiro Acadêmico: Jetsoft </p>
+<hr/>
+<h3> </h3>
+<p> 3º Semestre • 1/2022 </p>
+<p> Parceiro Acadêmico: TecSUS </p>
+<hr/>
+<h3> Controle de Laudos de Inspeção Predial</h3>
+<p> 4º Semestre • 2/2023 </p>
+<p> Parceiro Acadêmico:  Jaia Software </p>
+<img src=""/>
+<p> Aplicação que gerencia anomalias apontadas em um Laudo de Inspeção Predial e otimiza a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.</p>
+
+<h4>Arquiterura do projeto</h4>
+<img src=""/>
+<h4> Prévia da Solução </h4>
+<h4> Tecnologias Utilizadas </h4>
+<h4> Contribuições Pessoais </h4>
+<h4> Lições Aprendidas </h4>
+<h4> Hard Skills </h4>
+<h4> Soft Skills </h4>
+
+<hr/>
