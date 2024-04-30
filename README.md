@@ -65,9 +65,37 @@
 <img src=""/>
 <h4> Prévia da Solução </h4>
 <h4> Tecnologias Utilizadas </h4>
+Java
+Spring Boot
+Typescript
+Vue
+Oracle
 <h4> Contribuições Pessoais </h4>
-<h4> Lições Aprendidas </h4>
-<h4> Hard Skills </h4>
-<h4> Soft Skills </h4>
+Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, trabalhei no desenvolvimento das funcionalidades do backend, definiçao do tipo dos atributos do banco de dadoes e no design do frontend, sendo as atividades realizadas:
+    - Solução do problema.
+    - Levantamento de Requisitos.
+    - UX/UI design.
+    - Controller do backend.
+    - Refatoração do banco de dados.
+    - Funcionalidades CRUD do Frontend.
 
+<h4> Lições Aprendidas </h4>
+Como Product Owner, aprendi como absorver as necessidades do cliente e transformá-las em uma solução, assim como fazer o levantamento dos requisitos e estruturar um backlog e users stories, para que a equipe pudesse atuar no desenvolvimento do produto. Como desenvolvedor tive a oportunidade de aprender uma nova tecnologia para frontend - o Vue - que me permitiu entender como utilizar o Typescript nesse framework e extrair os benefícios de seu uso. Com ele, pude aplicar os conceitos de UX/UI no projeto e aprender como isso pode afetar a interação do usuário com o sistema.
+<h4> Hard Skills </h4>
+Linguagem de programação
+- Java
+- Typescript
+Desenvolvimento Web
+- HTML 
+- CSS
+Backend
+- Java
+- Spring Boot
+Banco de Dados
+- Oracle
+<h4> Soft Skills </h4>
+Visão do Negócio: Um desafio
+Organização e Planejamento
+Disciplina
+Respeito e Empatia
 <hr/>
