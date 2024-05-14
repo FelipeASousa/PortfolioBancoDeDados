@@ -16,6 +16,7 @@
     <li><a href="https://www.linkedin.com/in/felipe-s-89938418a/"> Linkedin </a></li>
     <li><a href="https://github.com/FelipeASousa"> Github </a></li>
 </ul>
+<p> Meus principais conhecimentos e foco de estudo atuais estão relacionados a Business Intelligence e todos seus pormenores. Processos de ETL, estruturação de data warehouse e construção de dashboards e visibilidades que ajudam na tomada de decisão de negócios. E também processos relacionados a automação de atividades através da criação de RPAs.</p>
 <hr/>
 <h2> Meus projetos </h2>
 <h3> Site de Gerenciamento de Projetos </h3>
