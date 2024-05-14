@@ -28,6 +28,23 @@
 <h4> Contribuições Pessoais </h4>
 <h4> Lições Aprendidas </h4>
 <h4> Hard Skills </h4>
+
+Frontend
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+</ul>
+Backend
+<ul>
+    <li>PHP</li>
+    <li>Laravel</li>
+</ul>
+Banco de Dados
+<ul>
+    <li>MySQL</li>
+</ul>
+
 <h4> Soft Skills </h4>
 <hr/>
 <h3> </h3>
@@ -41,6 +58,24 @@
 <h4> Contribuições Pessoais </h4>
 <h4> Lições Aprendidas </h4>
 <h4> Hard Skills </h4>
+
+Frontend
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>Bootstrap</li>
+</ul>
+Backend
+<ul>
+    <li>Python</li>
+    <li>Django</li>
+</ul>
+Banco de Dados
+<ul>
+    <li>MySQL</li>
+</ul>
+
 <h4> Soft Skills </h4>
 <hr/>
 <h3> </h3>
@@ -53,6 +88,24 @@
 <h4> Contribuições Pessoais </h4>
 <h4> Lições Aprendidas </h4>
 <h4> Hard Skills </h4>
+
+Frontend
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>Bootstrap</li>
+</ul>
+Backend
+<ul>
+    <li>Java</li>
+    <li>Spring Boot</li>
+</ul>
+Banco de Dados
+<ul>
+    <li>PostgreSQL</li>
+</ul>
+
 <h4> Soft Skills </h4>
 <hr/>
 <h3> Controle de Laudos de Inspeção Predial</h3>
