@@ -1,4 +1,4 @@
-<h1> Portifolio das APIs - Felipe Sousa </h1>
+![image](https://github.com/FelipeASousa/PortifolioBancoDeDados/assets/79467858/5e247ab8-9687-41d9-9418-228b291aea9d)<h1> Portifolio das APIs - Felipe Sousa </h1>
 <p> Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos, como parte dos requisitos necessários para a obtenção do título de Tecnólogo em Banco de Dados. </p>
 <hr/>
 <p align="center">
@@ -25,7 +25,9 @@
 <h4>Descrição do projeto</h4>
 <p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA)
+[![IMAGE ALT TEXT HERE](https://github.com/FelipeASousa/PortifolioBancoDeDados/assets/79467858/3f176af9-4a77-4684-9814-5dad19e85dd0
+)](https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA)
+
 
 <h4> Prévia da Solução </h4>
 <h4> Tecnologias Utilizadas </h4>
