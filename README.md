@@ -22,7 +22,8 @@
 <h3> Site de Gerenciamento de Projetos </h3>
 <p> 1º Semestre • 1/2021 </p>
 <p> Parceiro Acadêmico: Faculdade Tecnológica de São José dos Campos </p>
-<h4>Arquiterura do projeto</h4>
+<h4>Descrição do projeto</h4>
+<p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
 <img src=""/>
 <h4> Prévia da Solução </h4>
 <h4> Tecnologias Utilizadas </h4>
@@ -52,8 +53,9 @@ Banco de Dados
 <p> 2º Semestre • 2/2021 </p>
 <p> Parceiro Acadêmico: Jetsoft </p>
 
-<h4>Arquiterura do projeto</h4>
-<img src=""/>
+<h4>Descrição do projeto</h4>
+<p> Aplicação Web para emissão de relatórios mensais do quadro de presença de colaboradores em postos de trabalhos acordados em contrato, para uma empresa de tercerização de serviços.</p>
+<img src=""/>    
 <h4> Prévia da Solução </h4>
 <h4> Tecnologias Utilizadas </h4>
 <h4> Contribuições Pessoais </h4>
@@ -82,7 +84,8 @@ Banco de Dados
 <h3> </h3>
 <p> 3º Semestre • 1/2022 </p>
 <p> Parceiro Acadêmico: TecSUS </p>
-<h4>Arquiterura do projeto</h4>
+<h4>Descrição do projeto</h4>
+     Sistema Web desenvolvido para coleta e processamento de contas de energia, água e gás para diversas empresas dos setores do atacado e varejo, a fim de salvar essas informações no banco de dados para eventuais consultas e análises técnicas/financeiras, que podem trazer ao cliente oportunidades de redução de custos e alteração de contratos. 
 <img src=""/>
 <h4> Prévia da Solução </h4>
 <h4> Tecnologias Utilizadas </h4>
@@ -125,13 +128,15 @@ Typescript
 Vue
 Oracle
 <h4> Contribuições Pessoais </h4>
-Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, trabalhei no desenvolvimento das funcionalidades do backend, definiçao do tipo dos atributos do banco de dadoes e no design do frontend, sendo as atividades realizadas:
-    - Solução do problema.
-    - Levantamento de Requisitos.
-    - UX/UI design.
-    - Controller do backend.
-    - Refatoração do banco de dados.
-    - Funcionalidades CRUD do Frontend.
+<p></p>Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, trabalhei no desenvolvimento das funcionalidades do backend, definiçao do tipo dos atributos do banco de dadoes e no design do frontend, sendo as atividades realizadas:</p>
+<ul>
+    <li>Solução do problema</li>
+    <li>Levantamento de Requisitos</li>
+    <li>UX/UI design</li>
+    <li>Controller do backend</li>
+    <li>Refatoração do banco de dados</li>
+    <li>Funcionalidades CRUD do Frontend</li>
+</ul>
 
 <h4> Lições Aprendidas </h4>
 Como Product Owner, aprendi como absorver as necessidades do cliente e transformá-las em uma solução, assim como fazer o levantamento dos requisitos e estruturar um backlog e users stories, para que a equipe pudesse atuar no desenvolvimento do produto. Como desenvolvedor tive a oportunidade de aprender uma nova tecnologia para frontend - o Vue - que me permitiu entender como utilizar o Typescript nesse framework e extrair os benefícios de seu uso. Com ele, pude aplicar os conceitos de UX/UI no projeto e aprender como isso pode afetar a interação do usuário com o sistema.
