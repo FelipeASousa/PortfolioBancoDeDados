@@ -25,7 +25,7 @@
 <h4>Descrição do projeto</h4>
 <p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
 
-<iframe src="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA" height="200" width="300" title="Iframe Example"></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA)
 
 <h4> Prévia da Solução </h4>
 <h4> Tecnologias Utilizadas </h4>
