@@ -83,16 +83,25 @@ Atuei como Product Owner, no entendimento das necessidades do cliente, no desenv
 Como Product Owner, aprendi como absorver as necessidades do cliente e transformá-las em uma solução, assim como fazer o levantamento dos requisitos e estruturar um backlog e users stories, para que a equipe pudesse atuar no desenvolvimento do produto. Como desenvolvedor tive a oportunidade de aprender uma nova tecnologia para frontend - o Vue - que me permitiu entender como utilizar o Typescript nesse framework e extrair os benefícios de seu uso. Com ele, pude aplicar os conceitos de UX/UI no projeto e aprender como isso pode afetar a interação do usuário com o sistema.
 <h4> Hard Skills </h4>
 Linguagem de programação
-- Java
-- Typescript
+<ul>
+    <li>Java</li>
+    <li>Typescript</li>
+</ul>
 Desenvolvimento Web
-- HTML 
-- CSS
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
 Backend
-- Java
-- Spring Boot
+<ul>
+    <li>Java</li>
+    <li>Spring Boot</li>
+</ul>
 Banco de Dados
-- Oracle
+<ul>
+    <li>Oracle</li>
+</ul>
+
 <h4> Soft Skills </h4>
 Visão do Negócio: Um desafio
 Organização e Planejamento
