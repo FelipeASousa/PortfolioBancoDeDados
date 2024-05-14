@@ -24,11 +24,7 @@
 <p> Parceiro Acadêmico: Faculdade Tecnológica de São José dos Campos </p>
 <h4>Descrição do projeto</h4>
 <p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
-
-
-
-![Projeto](https://github.com/FelipeASousa/PortifolioBancoDeDados/assets/79467858/3f176af9-4a77-4684-9814-5dad19e85dd0 | width=100)(https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA)
-
+<a href="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-2.png?raw=true" width="300"/></a>
 
 <h4> Prévia da Solução </h4>
 <h4> Tecnologias Utilizadas </h4>
@@ -61,7 +57,7 @@ Banco de Dados
 <h4>Descrição do projeto</h4>
 <p> Aplicação Web para emissão de relatórios mensais do quadro de presença de colaboradores em postos de trabalhos acordados em contrato, para uma empresa de tercerização de serviços.</p>
 
-<a href="https://youtu.be/822ikn9mlRQ?si=ENVGBBPhOa6YHv7O"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-2.png?raw=true" width="100"/></a>
+<a href="https://youtu.be/822ikn9mlRQ?si=ENVGBBPhOa6YHv7O"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-2.png?raw=true" width="300"/></a>
 
 
 
