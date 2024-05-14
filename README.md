@@ -1,4 +1,4 @@
-![image](https://github.com/FelipeASousa/PortifolioBancoDeDados/assets/79467858/5e247ab8-9687-41d9-9418-228b291aea9d)<h1> Portifolio das APIs - Felipe Sousa </h1>
+<h1> Portifolio das APIs - Felipe Sousa </h1>
 <p> Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos, como parte dos requisitos necessários para a obtenção do título de Tecnólogo em Banco de Dados. </p>
 <hr/>
 <p align="center">
@@ -59,6 +59,10 @@ Banco de Dados
 
 <h4>Descrição do projeto</h4>
 <p> Aplicação Web para emissão de relatórios mensais do quadro de presença de colaboradores em postos de trabalhos acordados em contrato, para uma empresa de tercerização de serviços.</p>
+
+[![Resultado do Projeto](https://github.com/FelipeASousa/PortifolioBancoDeDados/assets/79467858/3f176af9-4a77-4684-9814-5dad19e85dd0)](https://youtu.be/822ikn9mlRQ?si=ENVGBBPhOa6YHv7O)
+
+
 <img src=""/>    
 <h4> Prévia da Solução </h4>
 <h4> Tecnologias Utilizadas </h4>
