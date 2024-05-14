@@ -26,7 +26,7 @@
 <p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
 
 [![Resultado do Projeto](https://github.com/FelipeASousa/PortifolioBancoDeDados/assets/79467858/3f176af9-4a77-4684-9814-5dad19e85dd0
-)](https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA)
+) | width=10 ](https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA)
 
 
 <h4> Prévia da Solução </h4>
