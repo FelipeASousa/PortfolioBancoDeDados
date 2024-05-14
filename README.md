@@ -61,7 +61,8 @@ Banco de Dados
 <h4>Descrição do projeto</h4>
 <p> Aplicação Web para emissão de relatórios mensais do quadro de presença de colaboradores em postos de trabalhos acordados em contrato, para uma empresa de tercerização de serviços.</p>
 
-[![Resultado do Projeto](https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-2.png?raw=true =250x250)](https://youtu.be/822ikn9mlRQ?si=ENVGBBPhOa6YHv7O)
+<a href="https://youtu.be/822ikn9mlRQ?si=ENVGBBPhOa6YHv7O"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-2.png?raw=true" width="100"/></a>
+
 
 
 
