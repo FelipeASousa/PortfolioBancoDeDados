@@ -24,7 +24,7 @@
 <p> Parceiro Acadêmico: Faculdade Tecnológica de São José dos Campos </p>
 <h4>Descrição do projeto</h4>
 <p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
-<a href="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-2.png?raw=true" width="300"/></a>
+<a href="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
 
 <h4> Prévia da Solução </h4>
 <h4> Tecnologias Utilizadas </h4>
