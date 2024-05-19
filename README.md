@@ -29,6 +29,7 @@
 <h4> Prévia da Solução </h4>
 <h4> Tecnologias Utilizadas </h4>
 <h4> Contribuições Pessoais </h4>
+<p> Atuei como Scrum Master, apoiando a equipe na ritual do Scrum e como desenvolvedor front-end, criando a interface que interage com o usuário final, como os cadastros e portfolio do site.</p>
 <h4> Lições Aprendidas </h4>
 <h4> Hard Skills </h4>
 
