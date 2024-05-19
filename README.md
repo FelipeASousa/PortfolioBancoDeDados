@@ -107,11 +107,14 @@ Banco de Dados
      Sistema Web desenvolvido para coleta e processamento de contas de energia, água e gás para diversas empresas dos setores do atacado e varejo, a fim de salvar essas informações no banco de dados para eventuais consultas e análises técnicas/financeiras, que podem trazer ao cliente oportunidades de redução de custos e alteração de contratos. 
 <img src=""/>
 <h4> Prévia da Solução </h4>
+<p>Desenvolver um site responsivo para cadastro de faturas, clientes e contratos dos fornecimentos de energia e água e fornecendo relatórios de  pós cadastro, para emissão de alertas de alta demanda de consumo e alto preço.</p>
 <h4> Tecnologias Utilizadas </h4>
+<p>Java, Spring Boot, Html, CSS e PostgreSQL</p>
 <h4> Contribuições Pessoais </h4>
+<p>Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, trabalhei no desenvolvimento das funcionalidades do backend, criando todas as entidades de cadastro e rotas de acesso</p>
 <h4> Lições Aprendidas </h4>
+<p> Aprendi a lidar com diferentes tecnologias no processo de desenvolvimento do software. E também como estruturar toda a parte de planejamento do projeto, estabelecer uma comunicação ativa com o cliente, como Product Owner.</p>
 <h4> Hard Skills </h4>
-
 Frontend
 <ul>
     <li>HTML</li>
@@ -130,6 +133,12 @@ Banco de Dados
 </ul>
 
 <h4> Soft Skills </h4>
+<ul>
+<li>Comunicação</li>
+<li>Planejamento de Projeto</li>
+<li>Disciplina</li>
+</ul>
+<p></p>
 <hr/>
 <h3> Controle de Laudos de Inspeção Predial</h3>
 <p> 4º Semestre • 2/2023 </p>
