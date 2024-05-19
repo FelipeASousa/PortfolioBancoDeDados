@@ -28,6 +28,7 @@
 
 <h4> Prévia da Solução </h4>
 <h4> Tecnologias Utilizadas </h4>
+<p>PHP, framework Laravel, MySQl, HTML,CSS, Javascript</p>
 <h4> Contribuições Pessoais </h4>
 <p> Atuei como Scrum Master, apoiando a equipe na ritual do Scrum e como desenvolvedor front-end, criando a interface que interage com o usuário final. Minhas principais contribuições foram:</p>
 <ul>
