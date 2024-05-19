@@ -27,6 +27,7 @@
 <a href="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
 
 <h4> Prévia da Solução </h4>
+<p> Como solução, foi planejado um site web com duas interfaces de uso. A primeira seria uma área reservada para os gerenciamento de voluntários e projetos, com as principais funções de cadastro, alteração e deleção e a outra área concernente a exposição de projetos em um site aberto ao público.</p>
 <h4> Tecnologias Utilizadas </h4>
 <p>PHP, framework Laravel, MySQl, HTML,CSS, Javascript</p>
 <h4> Contribuições Pessoais </h4>
