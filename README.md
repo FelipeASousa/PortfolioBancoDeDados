@@ -36,8 +36,8 @@
     <li>Desenvolvimento do portfolio do site.</li>
 </ul>
 <h4> Lições Aprendidas </h4>
+<p>Nesse semestre pude apreder a como aplicar as práticas Scrum, como reuniões diárias e planejamento, no desenvolvimwento de um projeto e aprimorar sua estrutura através do uso de frameworks e ferramentas.</p>
 <h4> Hard Skills </h4>
-
 Frontend
 <ul>
     <li>HTML</li>
@@ -55,6 +55,10 @@ Banco de Dados
 </ul>
 
 <h4> Soft Skills </h4>
+<ul> 
+    <li>Comucação assertiva</li>
+    <li>Planejamento pessoal</li>
+</ul>
 <hr/>
 <h3> </h3>
 <p> 2º Semestre • 2/2021 </p>
