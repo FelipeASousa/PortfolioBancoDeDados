@@ -70,15 +70,15 @@ Banco de Dados
 <p> Aplicação Web para emissão de relatórios mensais do quadro de presença de colaboradores em postos de trabalhos acordados em contrato, para uma empresa de tercerização de serviços.</p>
 
 <a href="https://youtu.be/822ikn9mlRQ?si=ENVGBBPhOa6YHv7O"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-2.png?raw=true" width="300"/></a>
-
-
-
-
-<img src=""/>    
+  
 <h4> Prévia da Solução </h4>
+<p> Como solução foi estruturado um site, para realizar os cadastros de colaborades e postos de trabalho. O site também possui um quadro de colaboradores, com um sistema de contigências para possíveis alterações no quadro. Por fim, pelo site também é possível gerar relatórios e dahsboards para garantir o acompanhamento.</p>
 <h4> Tecnologias Utilizadas </h4>
+<p> Python,Django, Html, CSS, MySQL</p>
 <h4> Contribuições Pessoais </h4>
+<p> Nesse projeto contribui para as funcionalidades do backend, como cadastros, atualizações e deleções. Também realizei a construção do quadro de presenças e do sistema de contigências, através do uso de framework Django. Atuei com o Product Owner, desenvolvendo os artefatos Scrum para realização do projeto.</p>
 <h4> Lições Aprendidas </h4>
+<p> Aprendi a implementar o modelo MVT, utilizar API Rest e lógica de programação com Python</p>
 <h4> Hard Skills </h4>
 
 Frontend
