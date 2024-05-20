@@ -105,7 +105,7 @@ Banco de Dados
 <p> Parceiro Acadêmico: TecSUS </p>
 <h4>Descrição do projeto</h4>
      Sistema Web desenvolvido para coleta e processamento de contas de energia, água e gás para diversas empresas dos setores do atacado e varejo, a fim de salvar essas informações no banco de dados para eventuais consultas e análises técnicas/financeiras, que podem trazer ao cliente oportunidades de redução de custos e alteração de contratos. 
-<img src=""/>
+
 <h4> Prévia da Solução </h4>
 <p>Desenvolver um site responsivo para cadastro de faturas, clientes e contratos dos fornecimentos de energia e água e fornecendo relatórios de  pós cadastro, para emissão de alertas de alta demanda de consumo e alto preço.</p>
 <h4> Tecnologias Utilizadas </h4>
@@ -143,12 +143,10 @@ Banco de Dados
 <h3> Controle de Laudos de Inspeção Predial</h3>
 <p> 4º Semestre • 2/2023 </p>
 <p> Parceiro Acadêmico:  Jaia Software </p>
-<img src=""/>
-<p> Aplicação que gerencia anomalias apontadas em um Laudo de Inspeção Predial e otimiza a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.</p>
 
-<h4>Arquiterura do projeto</h4>
-<img src=""/>
+<p> Aplicação que gerencia anomalias apontadas em um Laudo de Inspeção Predial e otimiza a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.</p>
 <h4> Prévia da Solução </h4>
+<p> Desenvolver um site para emissão de laudos prediais, gerenciamento de ordens de serviço e controle de usuários, serviços e setores.</p>
 <h4> Tecnologias Utilizadas </h4>
 Java
 Spring Boot
