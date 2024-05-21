@@ -159,8 +159,8 @@ Vue
 Oracle
 <h4> Contribuições Pessoais </h4>
 <p></p>Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, trabalhei no desenvolvimento das funcionalidades do backend, definiçao do tipo dos atributos do banco de dadoes e no design do frontend, sendo as atividades realizadas:</p>
+Solução do problema
 <ul>
-    <li>Solução do problema</li>
     <li>Levantamento de Requisitos</li>
     <li>UX/UI design</li>
     <li>Controller do backend</li>
