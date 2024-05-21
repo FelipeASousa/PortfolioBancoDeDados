@@ -5,8 +5,8 @@
     <a href =""> Sumário </a>  •
     <a href =""> Projetos</a>  • 
 </p> 
-<h2> Sobre mim </h2>
-<p align="center"><img src="" width="20%"></p>
+<h2> Sobre mim </h2>ASo
+<p align="center"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/profile.jpeg?raw=true" width="20%"></p>
 <p> Formado em Técnico em Informática pela Escola Técnica Estadual Ilza Nascimento Pintus e atualmente matriculado no 5º semestre de Banco de Dados pela Faculdade de Tecnologia de São José dos Campos (FATEC).
 </p>
 <p>
