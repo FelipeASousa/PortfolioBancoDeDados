@@ -5,7 +5,7 @@
     <a href =""> Sumário </a>  •
     <a href =""> Projetos</a>  • 
 </p> 
-<h2> Sobre mim </h2>ASo
+<h2> Sobre mim </h2>
 <p align="center"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/profile.jpeg?raw=true" width="20%"></p>
 <p> Formado em Técnico em Informática pela Escola Técnica Estadual Ilza Nascimento Pintus e atualmente matriculado no 5º semestre de Banco de Dados pela Faculdade de Tecnologia de São José dos Campos (FATEC).
 </p>
@@ -26,6 +26,7 @@
 <p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
 <a href="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
 
+<p>Link do Repositório </p><a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix"> Instituto Vó Maria Félix</a>
 <h4> Prévia da Solução </h4>
 <p> Como solução, foi planejado um site web com duas interfaces de uso. A primeira seria uma área reservada para os gerenciamento de voluntários e projetos, com as principais funções de cadastro, alteração e deleção e a outra área concernente a exposição de projetos em um site aberto ao público.</p>
 <h4> Tecnologias Utilizadas </h4>
@@ -70,7 +71,8 @@ Banco de Dados
 <p> Aplicação Web para emissão de relatórios mensais do quadro de presença de colaboradores em postos de trabalhos acordados em contrato, para uma empresa de tercerização de serviços.</p>
 
 <a href="https://youtu.be/822ikn9mlRQ?si=ENVGBBPhOa6YHv7O"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-2.png?raw=true" width="300"/></a>
-  
+
+<p>Link do Repositório </p><a href="https://github.com/gbrramos/API_ADS_2021_2">JetSoft</a>
 <h4> Prévia da Solução </h4>
 <p> Como solução foi estruturado um site, para realizar os cadastros de colaborades e postos de trabalho. O site também possui um quadro de colaboradores, com um sistema de contigências para possíveis alterações no quadro. Por fim, pelo site também é possível gerar relatórios e dahsboards para garantir o acompanhamento.</p>
 <h4> Tecnologias Utilizadas </h4>
@@ -105,7 +107,7 @@ Banco de Dados
 <p> Parceiro Acadêmico: TecSUS </p>
 <h4>Descrição do projeto</h4>
      Sistema Web desenvolvido para coleta e processamento de contas de energia, água e gás para diversas empresas dos setores do atacado e varejo, a fim de salvar essas informações no banco de dados para eventuais consultas e análises técnicas/financeiras, que podem trazer ao cliente oportunidades de redução de custos e alteração de contratos. 
-
+<p>Link do Repositório </p><a href="https://github.com/UniversalDevs/Projeto_API_TecSus"> TecSUS</a>
 <h4> Prévia da Solução </h4>
 <p>Desenvolver um site responsivo para cadastro de faturas, clientes e contratos dos fornecimentos de energia e água e fornecendo relatórios de  pós cadastro, para emissão de alertas de alta demanda de consumo e alto preço.</p>
 <h4> Tecnologias Utilizadas </h4>
@@ -145,6 +147,8 @@ Banco de Dados
 <p> Parceiro Acadêmico:  Jaia Software </p>
 
 <p> Aplicação que gerencia anomalias apontadas em um Laudo de Inspeção Predial e otimiza a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.</p>
+
+<p>Link do Repositório </p><a href="https://github.com/Great-Pretender/GreatPretender-API"> Jaia Software</a>
 <h4> Prévia da Solução </h4>
 <p> Desenvolver um site para emissão de laudos prediais, gerenciamento de ordens de serviço e controle de usuários, serviços e setores.</p>
 <h4> Tecnologias Utilizadas </h4>
