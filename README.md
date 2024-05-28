@@ -1147,6 +1147,7 @@ def justificarFalta(request, id):
 </details>
 <details>
     <summary>Apresentação do Projeto</summary>
+    <p>Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções, no qual fui responsável por fazer a apresentação do projeto.</po>
 <a href="https://youtu.be/822ikn9mlRQ?si=ENVGBBPhOa6YHv7O"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-2.png?raw=true" width="300"/></a>
 </details>
 <h4> Lições Aprendidas </h4>
