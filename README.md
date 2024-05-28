@@ -70,8 +70,8 @@
 <img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/Sprint4/GraficodoBurndownSprint4.PNG" width="200"/>
 
 <h5>Backlog da Sprint</h5>
-<img src="https://github.com/UniversalDevs/Projeto_API/blob/main/Documentos/CronogramaParte1.PNG"/>
-<img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/CronogramaParte2.PNG"/>
+<img src="https://github.com/UniversalDevs/Projeto_API/blob/main/Documentos/CronogramaParte1.PNG" width="300"/>
+<img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/CronogramaParte2.PNG" width="300"/>
 </details>
 
 <details>
@@ -81,28 +81,43 @@
 
 <h4> Lições Aprendidas </h4>
 <p>Nesse semestre pude apreder a como aplicar as práticas Scrum, como reuniões diárias e planejamento, no desenvolvimwento de um projeto e aprimorar sua estrutura através do uso de frameworks e ferramentas.</p>
-<h4> Hard Skills </h4>
-Frontend
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-</ul>
-Backend
-<ul>
-    <li>PHP</li>
-    <li>Laravel</li>
-</ul>
-Banco de Dados
-<ul>
-    <li>MySQL</li>
-</ul>
 
-<h4> Soft Skills </h4>
-<ul> 
-    <li>Comucação assertiva</li>
-    <li>Planejamento pessoal</li>
-</ul>
+<table>
+    <thead>
+        <th>Hard Skill</th>
+        <th>Soft Skill</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                Frontend
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+                Backend
+                <ul>
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                </ul>
+                Banco de Dados
+                <ul>
+                    <li>MySQL</li>
+                </ul>
+            </td>
+            <td>
+                <ul> 
+                    <li>Comucação assertiva</li>
+                    <li>Planejamento pessoal</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<h4> Hard Skills </h4>
+
 <hr/>
 <h3> </h3>
 <p> 2º Semestre • 2/2021 </p>
