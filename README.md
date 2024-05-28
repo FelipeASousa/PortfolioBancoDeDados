@@ -208,7 +208,7 @@
     <details>
         <summary>Código Frontend</summary>
         admin.py
-            ``` python
+            ```python
             from django.contrib import admin
             from .models import Clientes
             # Register your models here.
