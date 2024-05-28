@@ -163,7 +163,7 @@
 </details>
 
 <details>
-    <summary>Funcionalides de Cadastro</summary>
+    <summary>Funcionalidades de Cadastro</summary>
     <p> Nesse projeto contribui para as funcionalidades do backend, como cadastros, atualizações e deleções. Também realizei a construção do quadro de presenças e do sistema de contigências, através do uso de framework Django.</p>
     <details>
         <summary>Cadastro de Clientes</summary>
