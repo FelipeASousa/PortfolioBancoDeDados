@@ -78,11 +78,12 @@
 
 <details>
     <summary>Apresentação do Projeto</summary>
+    <p> Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções, no qual fui responsável por fazer a apresentação do projeto.</p>
 <a href="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
 </details>
 
 <h4> Lições Aprendidas </h4>
-<p>Nesse semestre pude apreder a como aplicar as práticas Scrum, como reuniões diárias e planejamento, no desenvolvimento de um projeto e aprimorar sua estrutura através do uso de frameworks e ferramentas.</p>
+<p>Nesse semestre pude aprender a como aplicar as práticas Scrum, como reuniões diárias e planejamento, no desenvolvimento de um projeto e aprimorar sua estrutura através do uso de frameworks e ferramentas.</p>
 
 <table>
     <thead>
