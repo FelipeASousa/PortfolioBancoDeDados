@@ -46,7 +46,7 @@
 <h5>Galeria de voluntários</h5>
 <img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/GaleriaVoluntarios.gif"/>
 <a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Sprint1/Front-End-main/home.html">Link do Código desenvolvido</a>
-</details>
+
 
 <h5>Página de Projetos</h5>
 <img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/AbaProjetos.gif"/>
