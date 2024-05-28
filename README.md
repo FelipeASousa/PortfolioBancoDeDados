@@ -206,7 +206,7 @@
 <details>
     <summary>Funcionalides de Cadastro</summary>
     <p> Nesse projeto contribui para as funcionalidades do backend, como cadastros, atualizações e deleções. Também realizei a construção do quadro de presenças e do sistema de contigências, através do uso de framework Django.</p>
-<img src-="https://github.com/gbrramos/API_ADS_2021_2/blob/main/Sprint1/Gifs/Clientes.gif?raw=true" width="400"/>
+<img src-="https://github.com/gbrramos/API_ADS_2021_2/blob/main/Sprint1/Gifs/Clientes.gif?raw=true"/>
     <h5>Cadastro de Clientes</h5>
     <details>
         <summary>Código Backend</summary>
