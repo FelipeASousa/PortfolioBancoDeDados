@@ -188,7 +188,7 @@
 <h4>Descrição do projeto</h4>
 <p> Aplicação Web para emissão de relatórios mensais do quadro de presença de colaboradores em postos de trabalhos acordados em contrato, para uma empresa de tercerização de serviços.</p>
 
-<a href="https://youtu.be/822ikn9mlRQ?si=ENVGBBPhOa6YHv7O"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-2.png?raw=true" width="300"/></a>
+
 
 <p>Link do Repositório </p><a href="https://github.com/gbrramos/API_ADS_2021_2">JetSoft</a>
 <h4> Prévia da Solução </h4>
@@ -1186,8 +1186,12 @@ def justificarFalta(request, id):
 ```
 </details>
 </details>
+<details>
+    <summary>Apresentação do Projeto</summary>
+<a href="https://youtu.be/822ikn9mlRQ?si=ENVGBBPhOa6YHv7O"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-2.png?raw=true" width="300"/></a>
+</details>
 <h4> Lições Aprendidas </h4>
-<p> Aprendi a implementar o modelo MVT, utilizar API Rest e lógica de programação com Python</p>
+<p> Aprendi a implementar o modelo MVT para estruturar o projeto, utilizar API Rest e lógica de programação com Python.</p>
 <table>
     <thead>
         <th>Soft Skill</th>
@@ -1313,30 +1317,72 @@ Solução do problema
 
 <h4> Lições Aprendidas </h4>
 Como Product Owner, aprendi como absorver as necessidades do cliente e transformá-las em uma solução, assim como fazer o levantamento dos requisitos e estruturar um backlog e users stories, para que a equipe pudesse atuar no desenvolvimento do produto. Como desenvolvedor tive a oportunidade de aprender uma nova tecnologia para frontend - o Vue - que me permitiu entender como utilizar o Typescript nesse framework e extrair os benefícios de seu uso. Com ele, pude aplicar os conceitos de UX/UI no projeto e aprender como isso pode afetar a interação do usuário com o sistema.
-<h4> Hard Skills </h4>
-Linguagem de programação
-<ul>
-    <li>Java</li>
-    <li>Typescript</li>
-</ul>
-Desenvolvimento Web
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-</ul>
-Backend
-<ul>
-    <li>Java</li>
-    <li>Spring Boot</li>
-</ul>
-Banco de Dados
-<ul>
-    <li>Oracle</li>
-</ul>
 
-<h4> Soft Skills </h4>
-Visão do Negócio: Um desafio
-Organização e Planejamento
-Disciplina
-Respeito e Empatia
-<hr/>
+<table>
+    <thead>
+        <th>Hard Skill</th>
+        <th>Descrição</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                Linguagem de programação
+                <ul>
+                    <li>Java</li>
+                    <li>Typescript</li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Desenvolvimento Web
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Backend
+                <ul>
+                    <li>Java</li>
+                    <li>Spring Boot</li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Banco de Dados
+                <ul>
+                    <li>Oracle</li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <th>Soft Skill</th>
+        <th>Descrição</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Organização e Planejamento</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Disciplina</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Respeito e Empatia</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
