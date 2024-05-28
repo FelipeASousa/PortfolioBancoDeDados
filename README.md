@@ -1,7 +1,4 @@
-```python
-def func():
-    return 'hello, world!'
-```
+
 
 <h1> Portfolio das APIs - Felipe Sousa </h1>
 <p> Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos, como parte dos requisitos necessários para a obtenção do título de Tecnólogo em Banco de Dados. </p>
@@ -211,14 +208,63 @@ def func():
     <h5>Cadastro de Colaborador</h5>
     <img src-="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Sprint1/Gifs/Coloboradores.gif" width="400"/>
     <details>
-        <summary>Código Frontend</summary>
-        admin.py
-            ```python
-            from django.contrib import admin
-            from .models import Clientes
-            # Register your models here.
-            admin.site.register(Clientes)
-            ```
+        <summary>Código Backend</summary>
+
+Python
+        
+```python
+from django.contrib import admin
+from .models import Clientes
+
+
+# Register your models here.
+admin.site.register(Clientes)
+
+
+# apps.py
+
+from django.apps import AppConfig
+
+
+class ClientesConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'Clientes'
+
+# forms.py
+from django import forms
+from django.db.models import fields
+from .models import Clientes
+
+class ClientesForm(forms.ModelForm):
+
+    class Meta:
+        model =  Clientes
+        fields = ('nome_fantasia', 'razao_social', 'cnpj', 'contato', 'endereco')
+
+        widgets = {
+            'contato': forms.TextInput(attrs={'data-mask':"(00) 00000-0000"}),
+            'cnpj': forms.TextInput(attrs={'data-mask': "00.000.000/0000-00"})
+            }
+
+# models.py
+from django.db import models
+from django.db.models.fields import CharField, TextField
+
+
+# Create your models here.
+class Clientes(models.Model):
+
+    nome_fantasia = models.CharField(max_length=255)
+    razao_social = models.CharField(max_length=50)
+    cnpj = models.CharField(max_length=50)
+    contato = models.CharField(max_length=50)
+    endereco = CharField(max_length=255)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.nome_fantasia
+```
 </details>
     <h5>Cadastro de Clientes</h5>
     <img src-="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Sprint1/Gifs/Coloboradores.gif" width="400"/>
