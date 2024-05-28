@@ -1296,7 +1296,7 @@ Oracle
 </details>
 <details>
     <summary>Controller do Backend</summary>
-  <p>Crier a estrutura de rotas do backend para as funcionalidades de cadastro de Contratos, Setores, Serviços, Ordens de Serviço e Usuários.</p>
+  <p>Crier a estrutura de rotas do backend para as funcionalidades de cadastro de Contratos, Setores, Serviços, Ordens de Serviço e Usuários, para que fosse possível a utilização dessas funcionalidades no frontend.</p>
 <h5>Controller de Contrato</h5>
     
 ```java
