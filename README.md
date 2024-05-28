@@ -26,23 +26,25 @@
 <p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
 <a href="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
 
-<details>
- <summary>Summary Goes Here</summary>
- ...this is hidden, collapsable content...
-</details>
+
 
 <p>Link do Repositório </p><a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix"> Instituto Vó Maria Félix</a>
 <h4> Prévia da Solução </h4>
 <p> Como solução, foi planejado um site web com duas interfaces de uso. A primeira seria uma área reservada para os gerenciamento de voluntários e projetos, com as principais funções de cadastro, alteração e deleção e a outra área concernente a exposição de projetos em um site aberto ao público.</p>
 <h4> Tecnologias Utilizadas </h4>
 <p>PHP, framework Laravel, MySQl, HTML,CSS, Javascript</p>
-<h4> Contribuições Pessoais </h4>
+
+<details>
+ <summary><h4> Contribuições Pessoais </h4></summary>
 <p> Atuei como Scrum Master, apoiando a equipe na ritual do Scrum e como desenvolvedor front-end, criando a interface que interage com o usuário final. Minhas principais contribuições foram:</p>
-<ul>
+    <ul>
     <li>Práticas Scrum: Daily, Sprint Review, Relatórios Burndown, controle de quadro Scrum. </li>
     <li>Criação de telas de Cadastro</li>
     <li>Desenvolvimento do portfolio do site.</li>
 </ul>
+</details>
+
+
 <h4> Lições Aprendidas </h4>
 <p>Nesse semestre pude apreder a como aplicar as práticas Scrum, como reuniões diárias e planejamento, no desenvolvimwento de um projeto e aprimorar sua estrutura através do uso de frameworks e ferramentas.</p>
 <h4> Hard Skills </h4>
