@@ -90,8 +90,10 @@
     <tbody>
         <tr>
             <td></td>
+            <td></td>
         </tr>
         <tr>
+            <td></td>
             <td></td>
         </tr>
     </tbody>
@@ -105,8 +107,10 @@
     <tbody>
         <tr>
             <td></td>
+            <td></td>
         </tr>
         <tr>
+            <td></td>
             <td></td>
         </tr>
     </tbody>
@@ -190,30 +194,97 @@
 <h4> Tecnologias Utilizadas </h4>
 <p> Python,Django, Html, CSS, MySQL</p>
 <h4> Contribuições Pessoais </h4>
-<p> Nesse projeto contribui para as funcionalidades do backend, como cadastros, atualizações e deleções. Também realizei a construção do quadro de presenças e do sistema de contigências, através do uso de framework Django. Atuei com o Product Owner, desenvolvendo os artefatos Scrum para realização do projeto.</p>
+<details>
+    <summary>Artefatos Scrum</summary>
+    <p>Nesse semestre atuei como Product Owner e fui responsável por desenvolver os artefatos scrum</p>
+    <h5>Product Backlog</h5>
+    <img src="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Documentacao/BacklogProdutoAPI.PNG" width="300"/>
+</details>
+<p> Nesse projeto contribui para as funcionalidades do backend, como cadastros, atualizações e deleções. Também realizei a construção do quadro de presenças e do sistema de contigências, através do uso de framework Django.</p>
+<details>
+    <summary>Funcionalides de Cadastro</summary>
+    <h5>Cadastro de Colaborador</h5>
+    <img src-="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Sprint1/Gifs/Coloboradores.gif" width="400"/>
+    <details>
+        <summary>Código Frontend</summary>
+        admin.py
+        ```python
+from django.contrib import admin
+from .models import Clientes
+
+
+# Register your models here.
+admin.site.register(Clientes)
+        ```
+    </details>
+    
+    <h5>Cadastro de Clientes</h5>
+    <img src-="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Sprint1/Gifs/Coloboradores.gif" width="400"/>
+    <h5>Cadastro de Contratos</h5>
+    <img src-="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Sprint1/Gifs/Contratos.gif" width="400"/>
+    <h5>Cadastro de Postos de trabalho</h5>
+    <img src-="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Sprint1/Gifs/Postos-de-Trabalho.gif width="400"/>
+    
+</details>
 <h4> Lições Aprendidas </h4>
 <p> Aprendi a implementar o modelo MVT, utilizar API Rest e lógica de programação com Python</p>
-<h4> Hard Skills </h4>
+<table>
+    <thead>
+        <th>Soft Skill</th>
+        <th>Descrição</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                Frontend
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Backend
+                <ul>
+                    <li>Python</li>
+                    <li>Django</li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Banco de Dados
+                <ul>
+                    <li>MySQL</li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
-Frontend
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-    <li>Bootstrap</li>
-</ul>
-Backend
-<ul>
-    <li>Python</li>
-    <li>Django</li>
-</ul>
-Banco de Dados
-<ul>
-    <li>MySQL</li>
-</ul>
+<table>
+    <thead>
+        <th>Soft Skill</th>
+        <th>Descrição</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
-<h4> Soft Skills </h4>
-<hr/>
 <h3> </h3>
 <p> 3º Semestre • 1/2022 </p>
 <p> Parceiro Acadêmico: TecSUS </p>
