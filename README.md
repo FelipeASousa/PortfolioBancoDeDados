@@ -41,9 +41,20 @@
 <p> As telas apresentadas abaixo são a interface do usuário com as informações cadastrada dos projetos </p>
 <h5>Página Home</h5>
 <img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/PaginaInicial.gif"/>
-<a href="">Link do Código desenvolvido</a>
+<a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Sprint1/Front-End-main/home.html">Link do Código desenvolvido</a>
+
+<h5>Galeria de voluntários</h5>
+<img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/GaleriaVoluntarios.gif"/>
+<a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Sprint1/Front-End-main/home.html">Link do Código desenvolvido</a>
 </details>
 
+<h5>Página de Projetos</h5>
+<img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/AbaProjetos.gif"/>
+<a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Sprint1/Front-End-main/Projetos.html">Link do Código desenvolvido</a>
+
+<h5>Aba de Contatos</h5>
+<img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/Contatos.gif"/>
+<a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Sprint1/Front-End-main/Contato.html">Link do Código desenvolvido</a>
 
 <h4> Lições Aprendidas </h4>
 <p>Nesse semestre pude apreder a como aplicar as práticas Scrum, como reuniões diárias e planejamento, no desenvolvimwento de um projeto e aprimorar sua estrutura através do uso de frameworks e ferramentas.</p>
