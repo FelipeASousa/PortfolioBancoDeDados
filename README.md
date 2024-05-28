@@ -57,6 +57,22 @@
 <a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Sprint1/Front-End-main/Contato.html">Link do Código desenvolvido</a>
 
 </details>
+<details>
+ <summary>Artefatos Scrum</summary>
+
+<h5>Product Backlog</h5>
+<img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/BacklogTotal.PNG"/>
+
+<h5>Controle de Atividades & Burndown</h5>
+<img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/Burndowns/BurndownSprint%231.png" width="200"/>
+<img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/Burndowns/BurndownSprint%232.PNG" width="200"/>
+<img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/Burndowns/BurndownSprint%233.PNG" width="200"/>
+<img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/Sprint4/GraficodoBurndownSprint4.PNG" width="200"/>
+
+<h5></h5>
+<img src=""/>
+</details>
+
 <h4> Lições Aprendidas </h4>
 <p>Nesse semestre pude apreder a como aplicar as práticas Scrum, como reuniões diárias e planejamento, no desenvolvimwento de um projeto e aprimorar sua estrutura através do uso de frameworks e ferramentas.</p>
 <h4> Hard Skills </h4>
