@@ -202,13 +202,14 @@
     <h5>Product Backlog</h5>
     <img src="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Documentacao/BacklogProdutoAPI.PNG" width="300"/>
 </details>
-<p> Nesse projeto contribui para as funcionalidades do backend, como cadastros, atualizações e deleções. Também realizei a construção do quadro de presenças e do sistema de contigências, através do uso de framework Django.</p>
+
 <details>
     <summary>Funcionalides de Cadastro</summary>
+    <p> Nesse projeto contribui para as funcionalidades do backend, como cadastros, atualizações e deleções. Também realizei a construção do quadro de presenças e do sistema de contigências, através do uso de framework Django.</p>
     <h5>Cadastro de Colaborador</h5>
     <img src-="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Sprint1/Gifs/Coloboradores.gif" width="400"/>
     <details>
-        <summary>Código Backend</summary>
+        <summary>Código Clientes</summary>
 
 Python
         
@@ -264,6 +265,19 @@ class Clientes(models.Model):
 
     def __str__(self):
         return self.nome_fantasia
+
+# urls.py
+from django.urls import path
+
+from . import views
+
+urlpatterns = [
+    path('lista', views.lista, name='clientes-lista'),
+    path('novo/', views.novo, name="clientes-novo"),
+    path('editar/<int:id>', views.editar, name="clientes-editar"),
+    path('delete/<int:id>', views.delete, name="clientes-delete"),
+    path('view/<int:id>', views.view, name="clientes-view"),
+]
 ```
 </details>
     <h5>Cadastro de Clientes</h5>
