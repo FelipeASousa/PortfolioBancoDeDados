@@ -40,7 +40,7 @@
 <h4> Contribuições Pessoais </h4>
 <details>
  <summary>Páginas do Site Público</summary>
-<p> Essas são as telas desenvolvivas para acesso do cliente ao site público. Nele ficam contidas as informações de todos os projetos publicados, bem como os voluntários participantes desse projeto.</p>
+<p> Essas são as telas desenvolvivas para acesso do cliente ao site público. Nelas ficam contidas as informações de todos os projetos publicados, bem como os voluntários participantes desse projeto. Também há uma área destinada para contato, a fim de obter feedbacks do site.</p>
 <h5>Página Home</h5>
 <img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/PaginaInicial.gif"/>
 <a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Sprint1/Front-End-main/home.html">Link do Código desenvolvido</a>
