@@ -90,18 +90,18 @@
     <tbody>
         <tr>
             <td>
-                Frontend
+                Desenvolvimento de Frontend com
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
                 </ul>
-                Backend
+                Desenvolvimento de Backend
                 <ul>
                     <li>PHP</li>
                     <li>Laravel</li>
                 </ul>
-                Banco de Dados
+                Criaçao de Banco de Dados com
                 <ul>
                     <li>MySQL</li>
                 </ul>
