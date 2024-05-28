@@ -1263,7 +1263,7 @@ def justificarFalta(request, id):
         <tr>
             <td><li>Planejamento de Projeto</li></td>
         <tr>
-            <td><li>Disciplina<li></td>
+            <td><li>Disciplina</li></td>
         </tr>
     </tbody>
 </table>
