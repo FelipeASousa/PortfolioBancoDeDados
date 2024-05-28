@@ -26,6 +26,11 @@
 <p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
 <a href="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
 
+<details>
+ <summary>Summary Goes Here</summary>
+ ...this is hidden, collapsable content...
+</details>
+
 <p>Link do Repositório </p><a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix"> Instituto Vó Maria Félix</a>
 <h4> Prévia da Solução </h4>
 <p> Como solução, foi planejado um site web com duas interfaces de uso. A primeira seria uma área reservada para os gerenciamento de voluntários e projetos, com as principais funções de cadastro, alteração e deleção e a outra área concernente a exposição de projetos em um site aberto ao público.</p>
