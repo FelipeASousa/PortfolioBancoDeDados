@@ -22,7 +22,7 @@
 <hr/>
 <h2> Meus projetos </h2>
 <h3> Site de Gerenciamento de Projetos </h3>
-<p> 1º Semestre • 1/2021 </p>
+<h3> 1º Semestre • 1/2021 </h3>
 <p> Parceiro Acadêmico: Faculdade Tecnológica de São José dos Campos </p>
 <h4>Descrição do projeto</h4>
 <p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
@@ -182,7 +182,7 @@
 
 <hr/>
 <h3> </h3>
-<p> 2º Semestre • 2/2021 </p>
+<h3> 2º Semestre • 2/2021 </h3>
 <p> Parceiro Acadêmico: Jetsoft </p>
 
 <h4>Descrição do projeto</h4>
@@ -432,16 +432,394 @@ def delete(request, id):
 
 ```
 </details>
-    <h5>Cadastro de Contratos</h5>
-    <img src-="https://github.com/gbrramos/API_ADS_2021_2/blob/main/Sprint1/Gifs/Contratos.gif?raw=true" width="400"/>
     <details>
-        <summary>Código Backend</summary>
-    </details>
-    <h5>Cadastro de Postos de trabalho</h5>
-    <img src-="https://github.com/gbrramos/API_ADS_2021_2/blob/main/Sprint1/Gifs/Postos-de-Trabalho.gif?raw=true" width="400"/>
+        <summary>Cadastro de Contratos</summary>
+
+```python
+# admin.py
+
+from django.contrib import admin
+from .models import Contrato
+# Register your models here.
+admin.site.register(Contrato)
+
+# apps.py
+from django.apps import AppConfig
+
+
+class ContratosConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'Contratos'
+# forms.py
+from django.forms import widgets
+from PostosDeTrabalho.models import PostoDeTrabalho
+from django import forms
+from django.db.models import fields
+from .models import Contrato
+from PostosDeTrabalho.models import PostoDeTrabalho
+
+
+class CustomPostoDeTrabalho(forms.ModelMultipleChoiceField):
+    def label_from_instance(self, postoDeTrabalho):
+        return "%s" % postoDeTrabalho.descricao
+class ContratosForms(forms.ModelForm):
+
+    class Meta:
+        model =  Contrato
+        fields = ['numero', 'valor','cliente', 'postoDeTrabalho']
+
+    postoDeTrabalho = CustomPostoDeTrabalho(
+        queryset=PostoDeTrabalho.objects.all(),
+        widget=forms.CheckboxSelectMultiple,
+    )
+# models.py
+from django.db import models
+from django.db.models.fields import CharField, TextField
+from Clientes.models import Clientes
+from PostosDeTrabalho.models import PostoDeTrabalho
+
+# Create your models here.
+
+class Contrato(models.Model):
+    numero = models.IntegerField()
+    valor = models.FloatField()
+    cliente = models.ForeignKey(
+        Clientes,
+        on_delete=models.SET_NULL,
+        blank=True,
+        null=True,
+        related_name="cliente_id",  
+    )
+    postoDeTrabalho = models.ManyToManyField(PostoDeTrabalho)
+# urls.py
+
+from django.urls import path
+
+from . import views
+
+urlpatterns = [
+    path('lista', views.lista, name='contratos-lista'),
+    path('novo/', views.novo, name="contratos-novo"),
+    path('editar/<int:id>', views.edit, name="contratos-editar"),
+    path('delete/<int:id>', views.delete, name="contratos-delete"),
+    path('view/<int:id>', views.view, name="contratos-view"),
+    path('gerarRelatorio/<int:id>', views.gerarRelatorio, name="gerar-relatorio"),
+]
+
+# views.py
+from django.shortcuts import render, get_object_or_404, redirect
+from django.http import HttpResponse
+
+from Clientes.models import Clientes
+from .forms import ContratosForms
+from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from io import StringIO
+from io import BytesIO
+from xhtml2pdf import pisa
+from django.template.loader import get_template
+from django.template import Context
+from django.http import HttpResponse
+from html import escape
+from QuadroPresenca.models import QuadroPresenca
+from PostosDeTrabalho.models import PostoDeTrabalho
+from QuadroPresenca.models import Data, QuadroPresenca
+from Colaboradores.models import Colaborador
+from .models import Contrato
+
+# Create your views here.
+@login_required
+def novo(request):
+    if request.method == 'POST':
+        form = ContratosForms(request.POST)
+
+        if form.is_valid():
+            posto = form.save(commit=False)
+            posto.save()
+            return(redirect('../lista'))
+    else:
+        form = ContratosForms()
+        return render(request, 'contratos/novo.html', {'form':form})
+
+
+@login_required
+def lista(request):
+        #Search
+    search = request.GET.get('search')
+
+    if search:
+        contratos = Clientes.objects.filter(razao_social__icontains=search)
+        for c in contratos:
+            print(c.id)
+            contratos = Contrato.objects.filter(cliente_id=c.id)
+    else:
+        contratos = Contrato.objects.all()
+    return render(request, 'contratos/contratosList.html', {'contratos' : contratos})
+
+@login_required
+def edit(request, id):
+    contrato = get_object_or_404(Contrato, pk=id)
+    form = ContratosForms(instance=contrato)
+
+    if(request.method == 'POST'):
+        form = ContratosForms(request.POST, instance=contrato)
+
+        if(form.is_valid()):
+            contrato.save()
+            return redirect('/contratos/lista')
+        else:
+            return render(request, 'contratos/editar.html', {'form': form, 'contrato': contrato})
+    else:
+        return render(request, 'contratos/editar.html', {'form': form, 'contrato': contrato})
+
+@login_required
+def view(request, id):
+    contrato = get_object_or_404(Contrato, pk=id)
+    return render(request, 'contratos/view.html', {'contrato': contrato})
+
+@login_required
+def delete(request, id):
+    contrato = get_object_or_404(Contrato, pk=id)
+    contrato.delete()
+    messages.info(request, 'Contrato deletado com Sucesso!')
+    return redirect('/contratos/lista')
+
+
+# @login_required
+# def gerarRelatorio(request):
+#     # Create Bytestream buffer
+#     buf = io.BytesIO()
+#     # Create a canvas
+#     c = canvas.Canvas(buf, pagesize=letter, bottomup=0)
+#     # Create a text object
+#     textob = c.beginText()
+#     textob.setTextOrigin(inch, inch)
+#     textob.setFont("Helvetica", 14)
+#     #Dados do Contrato
+
+#     #Add some lines of text
+#     lines = [
+#         "Guilherme",
+#         "Felipe",
+#         "Eduardo",
+#     ]
+
+#     for line in lines:
+#         textob.textLine(line)
+
+#     c.drawText(textob)
+#     c.showPage()
+#     c.save()
+#     buf.seek(0)
+#     return FileResponse(buf, as_attachment=True, filename='relatorio.pdf')
+
+@login_required
+def gerarRelatorio(request, id):
+    posto = PostoDeTrabalho.objects.filter(id=id)
+    quadro = QuadroPresenca.objects.order_by('-id').first()
+    data = Data.objects.all().order_by('-id').first()
+    cols = Colaborador.objects.filter(posto_id=id,tipoDeCobertura='fixa')
+    dataQuadro = quadro.data_id.all()
+    diaMes = Data.objects.filter(month=data.month)
+    colabQuadro = QuadroPresenca.objects.filter(data_id=data.id)
+    quadroP = QuadroPresenca.objects.all()
+    colaboradores = Colaborador.objects.all()
+    data = Data.objects.raw("SELECT * FROM quadropresenca_quadropresenca_data_id")
+    data_id = []
+    for d in data:
+        data_id.append(d.quadropresenca_id)
+    print(data_id)
+    p = []   
+    presencas = {}
+    for d in diaMes:
+        q = QuadroPresenca.objects.filter(data_id=d.id)
+        for quadro in q:
+            if quadro.presenca == True:
+                p.append('P')
+            if quadro.presenca == False:
+                p.append('F')
+    # pPerCol = int(len(p)/len(q))
+    print(f'Quantidade de presencas ao longo de {len(diaMes)} dia(s) = {len(p)}')  
+    print(f'Numeros de quadros por dia: {len(q)}')
+    # print(pPerCol)  
+    dia = len(diaMes)
+    i = 0
+    #Quantidade de quadros por dia
+    qPerDia = len(q)
+    #Caso só houver um dia registrado, as presenças são todas alocadas neste dia
+    if len(diaMes) == 1:
+        for d in diaMes:
+            presencas[d.dia] = p
+    else:
+    #Caso haja mais de um dia, as presencas são alocadas por dia
+        #Para cada dia no mes:
+        for d in cols:
+            #Em cada chave do dicionario(que são representadas em dia), registra as Presencas/Faltas dos colaboradores no dia
+            presencas[int(d.id)] = p[i:qPerDia]
+            # a cada dia a variavel "i"(que inicia em zero) recebe a posicao da ultima presenca registrada
+            i = qPerDia
+            # a variavel "qPerdia" recebe qPerdia + a quantidade de quadros por dia
+            qPerDia+=len(q)
+    # print(presencas)
+   
+    colabIds = []
+    for colab in cols:
+        colabIds.append(colab.id)
+    print(quadroP.values())
+
+    #Retrieve data or whatever you need
+    contrato = get_object_or_404(Contrato, pk=id)
+    print(f"Request: {contrato}")
+    return render_to_pdf(
+            'contratos/pdf.html',
+            {
+                'pagesize':'A4',
+                'contrato': contrato,
+                'colaboradores': cols,
+                'presencas': quadroP, 
+                'dia': diaMes, 
+                'data_id': data_id
+            }
+        )
+
+
+def render_to_pdf(template_src, context_dict):
+    template = get_template(template_src)
+    # context = Context(context_dict)
+    html  = template.render(context_dict)
+    result = BytesIO()
+
+    pdf = pisa.pisaDocument(BytesIO(html.encode("ISO-8859-1")), result)
+    if not pdf.err:
+        return HttpResponse(result.getvalue(), content_type='application/pdf')
+    return HttpResponse('We had some errors<pre>%s</pre>' % escape(html))
+```
+</details>
     <details>
-        <summary>Código Backend</summary>
-    </details>
+        <summary>Cadastro de Postos de trabalho</summary>
+
+```python
+# admin.py
+from django.contrib import admin
+
+# Register your models here.
+from .models import PostoDeTrabalho
+admin.site.register(PostoDeTrabalho)
+
+# apps.py
+from django.apps import AppConfig
+
+
+class PostosdetrabalhoConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'PostosDeTrabalho'
+
+
+# forms.py
+from django import forms
+from django.db.models import fields
+from .models import PostoDeTrabalho
+
+class PostosDeTrabalhoForms(forms.ModelForm):
+
+    class Meta:
+        model =  PostoDeTrabalho
+        fields = ('descricao', 'escala', 'limites_multa', 'numero_cadastro')
+
+# models.py
+from django.db import models
+from django.db.models.fields import CharField, TextField
+from django.db.models.fields.json import ContainedBy
+
+
+# Create your models here.
+
+class PostoDeTrabalho(models.Model):
+    descricao = models.TextField()
+    escala = models.CharField(max_length=255)
+    numero_cadastro = models.IntegerField()
+    limites_multa = models.IntegerField(null=True, blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.descricao
+# urls.py
+from django.urls import path
+
+from . import views
+
+urlpatterns = [
+    path('lista/', views.lista, name='postos-trabalho-lista'),
+    path('novo/', views.novo, name="postos-trabalho-novo"),
+    path('editar/<int:id>', views.edit, name="postos-trabalho-editar"),
+    path('delete/<int:id>', views.delete, name="postos-trabalho-delete"),
+    path('view/<int:id>', views.view, name="postos-trabalho-view"),
+]
+
+# views.py
+from django.shortcuts import render, get_object_or_404, redirect
+from django.http import HttpResponse
+from .forms import PostosDeTrabalhoForms
+from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from .models import PostoDeTrabalho
+
+# Create your views here.
+@login_required
+def novo(request):
+    if request.method == 'POST':
+        form = PostosDeTrabalhoForms(request.POST)
+
+        if form.is_valid():
+            posto = form.save(commit=False)
+            posto.save()
+            return(redirect('../lista'))
+    else:
+        form = PostosDeTrabalhoForms()
+        return render(request, 'postosdetrabalho/novo.html', {'form':form})
+
+
+@login_required
+def lista(request):
+        #Search
+    search = request.GET.get('search')
+
+    if search:
+        postos = PostoDeTrabalho.objects.filter(descricao__icontains=search)
+    else:
+        postos = PostoDeTrabalho.objects.all().order_by('-created_at')
+    return render(request, 'postosdetrabalho/postosTrabalhoList.html', {'postos' : postos})
+
+@login_required
+def edit(request, id):
+    posto = get_object_or_404(PostoDeTrabalho, pk=id)
+    form = PostosDeTrabalhoForms(instance=posto)
+
+    if(request.method == 'POST'):
+        form = PostosDeTrabalhoForms(request.POST, instance=posto)
+
+        if(form.is_valid()):
+            posto.save()
+            return redirect('/postosTrabalho/lista')
+        else:
+            return render(request, 'postosdetrabalho/editar.html', {'form': form, 'posto': posto})
+    else:
+        return render(request, 'postosdetrabalho/editar.html', {'form': form, 'posto': posto})
+
+@login_required
+def view(request, id):
+    posto = get_object_or_404(PostoDeTrabalho, pk=id)
+    return render(request, 'postosdetrabalho/view.html', {'posto': posto})
+
+@login_required
+def delete(request, id):
+    posto = get_object_or_404(PostoDeTrabalho, pk=id)
+    posto.delete()
+    messages.info(request, 'Posto de Trabalho deletado com Sucesso!')
+    return redirect('/postosTrabalho/lista')
+```
+</details>
 </details>
 <h4> Lições Aprendidas </h4>
 <p> Aprendi a implementar o modelo MVT, utilizar API Rest e lógica de programação com Python</p>
@@ -503,7 +881,7 @@ def delete(request, id):
 </table>
 
 <h3> </h3>
-<p> 3º Semestre • 1/2022 </p>
+<h3> 3º Semestre • 1/2022 </h3>
 <p> Parceiro Acadêmico: TecSUS </p>
 <h4>Descrição do projeto</h4>
      Sistema Web desenvolvido para coleta e processamento de contas de energia, água e gás para diversas empresas dos setores do atacado e varejo, a fim de salvar essas informações no banco de dados para eventuais consultas e análises técnicas/financeiras, que podem trazer ao cliente oportunidades de redução de custos e alteração de contratos. 
@@ -543,7 +921,7 @@ Banco de Dados
 <p></p>
 <hr/>
 <h3> Controle de Laudos de Inspeção Predial</h3>
-<p> 4º Semestre • 2/2023 </p>
+<h3> 4º Semestre • 2/2023 </h3>
 <p> Parceiro Acadêmico:  Jaia Software </p>
 
 <p> Aplicação que gerencia anomalias apontadas em um Laudo de Inspeção Predial e otimiza a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.</p>
