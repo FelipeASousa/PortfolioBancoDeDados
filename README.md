@@ -34,14 +34,13 @@
 <h4> Tecnologias Utilizadas </h4>
 <p>PHP, framework Laravel, MySQl, HTML,CSS, Javascript</p>
 
+<hr/>
+<h4> Contribuições Pessoais </h4>
 <details>
- <summary><h4> Contribuições Pessoais </h4></summary>
-<p> Atuei como Scrum Master, apoiando a equipe na ritual do Scrum e como desenvolvedor front-end, criando a interface que interage com o usuário final. Minhas principais contribuições foram:</p>
-    <ul>
-    <li>Práticas Scrum: Daily, Sprint Review, Relatórios Burndown, controle de quadro Scrum. </li>
-    <li>Criação de telas de Cadastro</li>
-    <li>Desenvolvimento do portfolio do site.</li>
-</ul>
+ <summary>Página Inicial do Site</summary>
+<h5> As telas apresentadas abaixo são a interface do usuário com as informações cadastrada dos projetos </h5>
+<img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/PaginaInicial.gif"/>
+
 </details>
 
 
