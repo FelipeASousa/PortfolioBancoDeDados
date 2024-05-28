@@ -1263,29 +1263,82 @@ def justificarFalta(request, id):
 <p>Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, trabalhei no desenvolvimento das funcionalidades do backend, criando todas as entidades de cadastro e rotas de acesso</p>
 <h4> Lições Aprendidas </h4>
 <p> Aprendi a lidar com diferentes tecnologias no processo de desenvolvimento do software. E também como estruturar toda a parte de planejamento do projeto, estabelecer uma comunicação ativa com o cliente, como Product Owner.</p>
-<h4> Hard Skills </h4>
-Frontend
+<table>
+    <thead>
+        <th>Hard Skill</th>
+        <th>Descrição</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                Frontend
 <ul>
     <li>HTML</li>
     <li>CSS</li>
     <li>Javascript</li>
     <li>Bootstrap</li>
 </ul>
-Backend
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Backend
 <ul>
     <li>Java</li>
     <li>Spring Boot</li>
 </ul>
-Banco de Dados
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Banco de Dados
 <ul>
     <li>PostgreSQL</li>
 </ul>
+            </td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <th>Soft Skill</th>
+        <th>Descrição</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td><li>Comunicação</li></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><li>Planejamento de Projeto</li></td>
+            <td></td>
+        <tr>
+            <td>Disciplina</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <th>Soft Skill</th>
+        <th>Descrição</th>
+    </thead>
+    <tbody>
+<h4> Hard Skills </h4>
+
+
+
 
 <h4> Soft Skills </h4>
 <ul>
-<li>Comunicação</li>
-<li>Planejamento de Projeto</li>
-<li>Disciplina</li>
+
+
+
 </ul>
 <p></p>
 <hr/>
