@@ -61,8 +61,7 @@
 </details>
 <details>
  <summary>Artefatos Scrum</summary>
-<p> Nesse semestre atuei como Scrum Master e fiquei responsável por manter todos os rituais do Scrum. Abaixo se encontram o Product Backlog, utilizado para mapear quais as tarefas necessitavam ser realizadas para a construção do projeo, o contrle de atividades através do uso de gráficos burndown, em estimativa de tempo e o backlog da sprint, 
- para o planejamento das entregas por sprint.</p>
+<p> Nesse semestre atuei como Scrum Master e fiquei responsável por manter todos os rituais do Scrum. Abaixo se encontram o Product Backlog, utilizado para mapear quais as tarefas necessitavam ser realizadas para a construção do projeo, o controle de atividades através do uso de gráficos burndown, em estimativa de tempo e o backlog da sprint, para o planejamento das entregas por sprint.</p>
 <h5>Product Backlog</h5>
 <img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/BacklogTotal.PNG"/>
 
