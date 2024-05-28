@@ -40,7 +40,7 @@
 <h4> Contribuições Pessoais </h4>
 <details>
  <summary>Páginas do Site Público</summary>
-<p> As telas apresentadas abaixo são a interface do usuário com as informações cadastrada dos projetos </p>
+<p> Essas são as telas desenvolvivas para acesso do cliente ao site público. Nele ficam contidas as informações de todos os projetos publicados, bem como os voluntários participantes desse projeto.</p>
 <h5>Página Home</h5>
 <img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/PaginaInicial.gif"/>
 <a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Sprint1/Front-End-main/home.html">Link do Código desenvolvido</a>
@@ -61,7 +61,8 @@
 </details>
 <details>
  <summary>Artefatos Scrum</summary>
-
+<p> Nesse semestre atuei como Scrum Master e fiquei responsável por manter todos os rituais do Scrum. Abaixo se encontram o Product Backlog, utilizado para mapear quais as tarefas necessitavam ser realizadas para a construção do projeo, o contrle de atividades através do uso de gráficos burndown, em estimativa de tempo e o backlog da sprint, 
+ para o planejamento das entregas por sprint.</p>
 <h5>Product Backlog</h5>
 <img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/BacklogTotal.PNG"/>
 
