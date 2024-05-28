@@ -37,10 +37,11 @@
 <hr/>
 <h4> Contribuições Pessoais </h4>
 <details>
- <summary>Página Inicial do Site</summary>
-<h5> As telas apresentadas abaixo são a interface do usuário com as informações cadastrada dos projetos </h5>
+ <summary>Páginas do Site Público</summary>
+<p> As telas apresentadas abaixo são a interface do usuário com as informações cadastrada dos projetos </p>
+<h5>Página Home</h5>
 <img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/PaginaInicial.gif"/>
-
+<a href="">Link do Código desenvolvido</a>
 </details>
 
 
