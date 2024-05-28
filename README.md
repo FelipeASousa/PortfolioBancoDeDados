@@ -80,12 +80,63 @@
 </details>
 
 <h4> Lições Aprendidas </h4>
-<p>Nesse semestre pude apreder a como aplicar as práticas Scrum, como reuniões diárias e planejamento, no desenvolvimwento de um projeto e aprimorar sua estrutura através do uso de frameworks e ferramentas.</p>
+<p>Nesse semestre pude apreder a como aplicar as práticas Scrum, como reuniões diárias e planejamento, no desenvolvimento de um projeto e aprimorar sua estrutura através do uso de frameworks e ferramentas.</p>
+
+<table>
+    <thead>
+        <th>Soft Skill</th>
+        <th>Descrição</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <th>Soft Skill</th>
+        <th>Descrição</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <th>Soft Skill</th>
+        <th>Descrição</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <li>Comunicação assertiva</li>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <li>Planejamento pessoal</li>
+            </td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 <table>
     <thead>
         <th>Hard Skill</th>
-        <th>Soft Skill</th>
+        <th>Descrição</th>
     </thead>
     <tbody>
         <tr>
@@ -95,23 +146,28 @@
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
-                </ul>
+                </ul>  
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
                 Desenvolvimento de Backend
                 <ul>
                     <li>PHP</li>
                     <li>Laravel</li>
                 </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
                 Criaçao de Banco de Dados com
                 <ul>
                     <li>MySQL</li>
                 </ul>
             </td>
-            <td>
-                <ul> 
-                    <li>Comucação assertiva</li>
-                    <li>Planejamento pessoal</li>
-                </ul>
-            </td>
+            <td></td>
         </tr>
     </tbody>
 </table>
