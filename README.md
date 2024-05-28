@@ -24,7 +24,7 @@
 <p> Parceiro Acadêmico: Faculdade Tecnológica de São José dos Campos </p>
 <h4>Descrição do projeto</h4>
 <p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
-<a href="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
+
 
 
 
@@ -69,8 +69,14 @@
 <img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/Burndowns/BurndownSprint%233.PNG" width="200"/>
 <img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/Sprint4/GraficodoBurndownSprint4.PNG" width="200"/>
 
-<h5></h5>
-<img src=""/>
+<h5>Backlog da Sprint</h5>
+<img src="https://github.com/UniversalDevs/Projeto_API/blob/main/Documentos/CronogramaParte1.PNG"/>
+<img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/CronogramaParte2.PNG"/>
+</details>
+
+<details>
+    <summary>Apresentação do Projeto</summary>
+<a href="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
 </details>
 
 <h4> Lições Aprendidas </h4>
