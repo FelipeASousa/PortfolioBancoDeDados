@@ -206,10 +206,10 @@
 <details>
     <summary>Funcionalides de Cadastro</summary>
     <p> Nesse projeto contribui para as funcionalidades do backend, como cadastros, atualizações e deleções. Também realizei a construção do quadro de presenças e do sistema de contigências, através do uso de framework Django.</p>
-    <h5>Cadastro de Colaborador</h5>
-    <img src-="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Sprint1/Gifs/Coloboradores.gif" width="400"/>
+    <h5>Cadastro de Clientes</h5>
+    <img src-="https://github.com/gbrramos/API_ADS_2021_2/blob/main/Sprint1/Gifs/Clientes.gif?raw=true" width="400"/>
     <details>
-        <summary>Código Clientes</summary>
+        <summary>Código Backend</summary>
 
 Python
         
@@ -280,13 +280,174 @@ urlpatterns = [
 ]
 ```
 </details>
-    <h5>Cadastro de Clientes</h5>
-    <img src-="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Sprint1/Gifs/Coloboradores.gif" width="400"/>
+    <h5>Cadastro de Usuários</h5>
+    <img src-="https://github.com/gbrramos/API_ADS_2021_2/blob/main/Sprint1/Gifs/Usuario.gif?raw=true" width="400"/>
+    <details>
+        <summary>Código Backend</summary>
+        
+```python
+# admin.py
+from django.contrib import admin
+from Usuarios.models import Usuarios
+# Register your models here.
+admin.site.register(Usuarios)
+
+# apps.py
+from django.apps import AppConfig
+
+
+class UsuariosConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'Usuarios'
+
+# forms.py
+from django import forms
+from django.db.models import fields
+from django.contrib.auth.models import User
+
+class UsuariosForm(forms.ModelForm):
+
+    class Meta:
+        model =  User
+        fields = ('username', 'password',  'email', 'is_superuser')
+
+        widgets = {
+        'password': forms.PasswordInput(),
+        }
+
+# models.py
+from django.db import models
+from django.db.models.fields import CharField, TextField
+
+class Usuarios(models.Model):
+
+    STATUS  = (
+        ('tatico','TÁTICO'),
+        ('operacional','OPERACIONAL'),
+    )
+
+    nome = models.CharField(max_length=255)
+    username = models.CharField(max_length=255)
+    password = models.CharField(max_length=255)
+    perfil = models.CharField(max_length=11, choices=STATUS)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.username
+
+# urls.py
+from django.urls import path
+from django.contrib.auth import views as auth_views
+
+from . import views
+
+urlpatterns = [
+    path('lista', views.lista, name='usuarios-lista'),
+    path('login/', auth_views.LoginView.as_view(
+        template_name='usuarios/login.html'
+    ), name='login'),
+    path('novo/', views.novo, name="usuarios-novo"),
+    path('editar/<int:id>', views.editar, name="usuarios-editar"),
+    path('delete/<int:id>', views.delete, name="usuarios-delete"),
+    path('view/<int:id>', views.view, name="usuarios-view"),
+    path('logout/', auth_views.LogoutView.as_view(), name='logout'),
+
+]
+
+# views.py
+
+from django.shortcuts import render, get_object_or_404, redirect
+from django.http import HttpResponse
+from .forms import UsuariosForm
+from django.contrib import messages
+from django.contrib.auth import authenticate
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.models import User, Group
+from django.contrib.auth.hashers import make_password
+from .models import Usuarios
+
+# Create your views here.
+@login_required
+def novo(request):
+    if request.method == 'POST':
+        form = UsuariosForm(request.POST)
+        if form.is_valid():
+            # user = form.save()
+            username = request.POST['username']
+            password = request.POST['password']
+            if form.data['perfil'] == 'Tatico':
+                group = Group.objects.get(name='Tatico')
+            else:
+                group = Group.objects.get(name='Operacional')
+            user = User.objects.create_user(username, password=password)
+            user.is_superuser=True
+            user.is_staff=True
+            user.groups.add(group)
+            user.save()
+            return(redirect('../lista'))
+    else:
+        form = UsuariosForm()
+        return render(request, 'usuarios/novo.html', {'form':form})
+
+@login_required
+def lista(request):
+        #Search
+    search = request.GET.get('search')
+
+    if search:
+        user = User.objects.filter(username__icontains=search)
+    else:
+        user = User.objects.all()
+    return render(request, 'usuarios/lista.html', {'usuarios' : user})
+
+@login_required
+def editar(request, id):
+    user = get_object_or_404(User, pk=id)
+    form = UsuariosForm(instance=user)
+
+    if(request.method == 'POST'):
+
+        form = UsuariosForm(request.POST, instance=user)
+        if(form.is_valid()):
+            User.objects.filter(pk=id).update(username=request.POST['username'])
+            User.objects.filter(pk=id).update(password=make_password(request.POST['password']))
+            User.objects.filter(pk=id).update(email=request.POST['email'])
+            if request.POST['is_superuser'] == 'on':
+                User.objects.filter(pk=id).update(is_superuser=True)
+            else:
+                User.objects.filter(pk=id).update(is_superuser=False)
+            return redirect('/usuarios/lista')
+        else:
+            return render(request, 'usuarios/editar.html', {'form': form, 'usuarios': user})
+    else:
+        return render(request, 'usuarios/editar.html', {'form': form, 'usuarios': user})
+
+@login_required
+def view(request, id):
+    user = get_object_or_404(User, pk=id)
+    return render(request, 'usuarios/view.html', {'user': user})
+
+@login_required
+def delete(request, id):
+    user = get_object_or_404(User, pk=id)
+    user.delete()
+    messages.info(request, 'Usuário deletado com Sucesso!')
+    return redirect('/usuarios/lista')
+
+```
+</details>
     <h5>Cadastro de Contratos</h5>
-    <img src-="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Sprint1/Gifs/Contratos.gif" width="400"/>
+    <img src-="https://github.com/gbrramos/API_ADS_2021_2/blob/main/Sprint1/Gifs/Contratos.gif?raw=true" width="400"/>
+    <details>
+        <summary>Código Backend</summary>
+    </details>
     <h5>Cadastro de Postos de trabalho</h5>
-    <img src-="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Sprint1/Gifs/Postos-de-Trabalho.gif width="400"/>
-    
+    <img src-="https://github.com/gbrramos/API_ADS_2021_2/blob/main/Sprint1/Gifs/Postos-de-Trabalho.gif?raw=true" width="400"/>
+    <details>
+        <summary>Código Backend</summary>
+    </details>
 </details>
 <h4> Lições Aprendidas </h4>
 <p> Aprendi a implementar o modelo MVT, utilizar API Rest e lógica de programação com Python</p>
