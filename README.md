@@ -87,54 +87,17 @@
 <table>
     <thead>
         <th>Soft Skill</th>
-        <th>Descrição</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
-
-<table>
-    <thead>
-        <th>Soft Skill</th>
-        <th>Descrição</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
-
-<table>
-    <thead>
-        <th>Soft Skill</th>
-        <th>Descrição</th>
     </thead>
     <tbody>
         <tr>
             <td>
                 <li>Comunicação assertiva</li>
             </td>
-            <td></td>
         </tr>
         <tr>
             <td>
                 <li>Planejamento pessoal</li>
             </td>
-            <td></td>
         </tr>
     </tbody>
 </table>
@@ -142,7 +105,6 @@
 <table>
     <thead>
         <th>Hard Skill</th>
-        <th>Descrição</th>
     </thead>
     <tbody>
         <tr>
@@ -154,7 +116,6 @@
                     <li>Javascript</li>
                 </ul>  
             </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -164,7 +125,6 @@
                     <li>Laravel</li>
                 </ul>
             </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -173,7 +133,6 @@
                     <li>MySQL</li>
                 </ul>
             </td>
-            <td></td>
         </tr>
     </tbody>
 </table>
@@ -1195,7 +1154,6 @@ def justificarFalta(request, id):
 <table>
     <thead>
         <th>Soft Skill</th>
-        <th>Descrição</th>
     </thead>
     <tbody>
         <tr>
@@ -1208,7 +1166,6 @@ def justificarFalta(request, id):
                     <li>Bootstrap</li>
                 </ul>
             </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -1218,7 +1175,6 @@ def justificarFalta(request, id):
                     <li>Django</li>
                 </ul>
             </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -1227,7 +1183,6 @@ def justificarFalta(request, id):
                     <li>MySQL</li>
                 </ul>
             </td>
-            <td></td>
         </tr>
     </tbody>
 </table>
@@ -1235,16 +1190,13 @@ def justificarFalta(request, id):
 <table>
     <thead>
         <th>Soft Skill</th>
-        <th>Descrição</th>
     </thead>
     <tbody>
         <tr>
-            <td></td>
-            <td></td>
+            <td>Organização</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td>Comunicação</td>
         </tr>
     </tbody>
 </table>
@@ -1266,7 +1218,6 @@ def justificarFalta(request, id):
 <table>
     <thead>
         <th>Hard Skill</th>
-        <th>Descrição</th>
     </thead>
     <tbody>
         <tr>
@@ -1279,7 +1230,6 @@ def justificarFalta(request, id):
     <li>Bootstrap</li>
 </ul>
             </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -1289,7 +1239,6 @@ def justificarFalta(request, id):
     <li>Spring Boot</li>
 </ul>
             </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -1298,7 +1247,6 @@ def justificarFalta(request, id):
     <li>PostgreSQL</li>
 </ul>
             </td>
-            <td></td>
         </tr>
     </tbody>
 </table>
@@ -1306,19 +1254,15 @@ def justificarFalta(request, id):
 <table>
     <thead>
         <th>Soft Skill</th>
-        <th>Descrição</th>
     </thead>
     <tbody>
         <tr>
             <td><li>Comunicação</li></td>
-            <td></td>
         </tr>
         <tr>
             <td><li>Planejamento de Projeto</li></td>
-            <td></td>
         <tr>
-            <td>Disciplina</td>
-            <td></td>
+            <td><li>Disciplina<li></td>
         </tr>
     </tbody>
 </table>
@@ -1666,7 +1610,6 @@ Como Product Owner, aprendi como absorver as necessidades do cliente e transform
 <table>
     <thead>
         <th>Hard Skill</th>
-        <th>Descrição</th>
     </thead>
     <tbody>
         <tr>
@@ -1677,7 +1620,6 @@ Como Product Owner, aprendi como absorver as necessidades do cliente e transform
                     <li>Typescript</li>
                 </ul>
             </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -1686,7 +1628,6 @@ Como Product Owner, aprendi como absorver as necessidades do cliente e transform
                     <li>Vue</li>
                 </ul>
             </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -1696,7 +1637,6 @@ Como Product Owner, aprendi como absorver as necessidades do cliente e transform
                     <li>Spring Boot</li>
                 </ul>
             </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -1705,7 +1645,6 @@ Como Product Owner, aprendi como absorver as necessidades do cliente e transform
                     <li>Oracle</li>
                 </ul>
             </td>
-            <td></td>
         </tr>
     </tbody>
 </table>
@@ -1713,20 +1652,16 @@ Como Product Owner, aprendi como absorver as necessidades do cliente e transform
 <table>
     <thead>
         <th>Soft Skill</th>
-        <th>Descrição</th>
     </thead>
     <tbody>
         <tr>
             <td>Organização e Planejamento</td>
-            <td></td>
         </tr>
         <tr>
             <td>Disciplina</td>
-            <td></td>
         </tr>
         <tr>
             <td>Respeito e Empatia</td>
-            <td></td>
         </tr>
     </tbody>
 </table>
