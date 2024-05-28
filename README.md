@@ -208,19 +208,12 @@
     <details>
         <summary>Código Frontend</summary>
         admin.py
-``` python
-from django.contrib import admin
-from .models import Clientes
-# Register your models here.
-admin.site.register(Clientes)
-```
-admin.py
-``` python
-from django.apps import AppConfig
-class ClientesConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'Clientes'
-```
+            ``` python
+            from django.contrib import admin
+            from .models import Clientes
+            # Register your models here.
+            admin.site.register(Clientes)
+            ```
 </details>
     <h5>Cadastro de Clientes</h5>
     <img src-="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Sprint1/Gifs/Coloboradores.gif" width="400"/>
