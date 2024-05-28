@@ -1323,24 +1323,6 @@ def justificarFalta(request, id):
     </tbody>
 </table>
 
-<table>
-    <thead>
-        <th>Soft Skill</th>
-        <th>Descrição</th>
-    </thead>
-    <tbody>
-<h4> Hard Skills </h4>
-
-
-
-
-<h4> Soft Skills </h4>
-<ul>
-
-
-
-</ul>
-<p></p>
 <hr/>
 <h3> Controle de Laudos de Inspeção Predial</h3>
 <h3> 4º Semestre • 2/2023 </h3>
