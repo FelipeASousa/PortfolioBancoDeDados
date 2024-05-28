@@ -1358,15 +1358,21 @@ Typescript
 Vue
 Oracle
 <h4> Contribuições Pessoais </h4>
-<p></p>Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, trabalhei no desenvolvimento das funcionalidades do backend, definiçao do tipo dos atributos do banco de dadoes e no design do frontend, sendo as atividades realizadas:</p>
-Solução do problema
+<details>
+    <summary>Artefatos Scrum</summary>
+    <p>Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, sendo as atividades realizadas:</p>
+    Solução do problema
 <ul>
     <li>Levantamento de Requisitos</li>
-    <li>UX/UI design</li>
-    <li>Controller do backend</li>
-    <li>Refatoração do banco de dados</li>
-    <li>Funcionalidades CRUD do Frontend</li>
+    <li>Users Stories</li>
+    <li>Product Backlog</li>
+    <li>Sprint Backlog</li>
 </ul>
+</details>
+<details>
+    <summary>Controller do Backend</summary>
+  <p>Crier a estrutura de rotas do backend para as funcionalidades de cadastro de Contratos, Setores, desenvolvidas</p>
+</details>
 
 <h4> Lições Aprendidas </h4>
 Como Product Owner, aprendi como absorver as necessidades do cliente e transformá-las em uma solução, assim como fazer o levantamento dos requisitos e estruturar um backlog e users stories, para que a equipe pudesse atuar no desenvolvimento do produto. Como desenvolvedor tive a oportunidade de aprender uma nova tecnologia para frontend - o Vue - que me permitiu entender como utilizar o Typescript nesse framework e extrair os benefícios de seu uso. Com ele, pude aplicar os conceitos de UX/UI no projeto e aprender como isso pode afetar a interação do usuário com o sistema.
@@ -1391,8 +1397,7 @@ Como Product Owner, aprendi como absorver as necessidades do cliente e transform
             <td>
                 Desenvolvimento Web
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
+                    <li>Vue</li>
                 </ul>
             </td>
             <td></td>
