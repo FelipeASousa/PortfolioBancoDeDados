@@ -56,6 +56,7 @@
 <img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/Contatos.gif"/>
 <a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Sprint1/Front-End-main/Contato.html">Link do Código desenvolvido</a>
 
+</details>
 <h4> Lições Aprendidas </h4>
 <p>Nesse semestre pude apreder a como aplicar as práticas Scrum, como reuniões diárias e planejamento, no desenvolvimwento de um projeto e aprimorar sua estrutura através do uso de frameworks e ferramentas.</p>
 <h4> Hard Skills </h4>
