@@ -208,16 +208,13 @@
     <details>
         <summary>Código Frontend</summary>
         admin.py
-        ```python
+<code>
 from django.contrib import admin
 from .models import Clientes
 
-
 # Register your models here.
 admin.site.register(Clientes)
-        ```
-    </details>
-    
+</code>
     <h5>Cadastro de Clientes</h5>
     <img src-="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Sprint1/Gifs/Coloboradores.gif" width="400"/>
     <h5>Cadastro de Contratos</h5>
