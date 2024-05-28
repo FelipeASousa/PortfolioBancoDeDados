@@ -1372,6 +1372,59 @@ Oracle
 <details>
     <summary>Controller do Backend</summary>
   <p>Crier a estrutura de rotas do backend para as funcionalidades de cadastro de Contratos, Setores, Serviços, Ordens de Serviço e Usuários.</p>
+<h5>Controller de Contrato</h5>
+    
+```java
+package com.greatpretender.api.projetoapijaia.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.greatpretender.api.projetoapijaia.entity.Contrato;
+import com.greatpretender.api.projetoapijaia.service.IContratoService;
+
+@RestController
+@RequestMapping("/contrato")
+@CrossOrigin
+public class ContratoController {
+    @Autowired
+    private IContratoService service;
+
+    @GetMapping
+    public List<Contrato> buscarTodos(){
+        return service.buscarTodosContratos();
+    }
+    @PostMapping
+    public Contrato novocContrato(@RequestBody Contrato contrato){
+        return service.novoContrato(contrato);
+    }
+    @GetMapping(value = "/{contrato}")
+    public Contrato buscarPorId(@PathVariable("contrato") Long id){
+        return service.buscarPorId(id);
+    }
+    @PutMapping("/{contrato}")
+    public Contrato editContrato(@RequestBody Contrato servico){
+      return service.novoContrato(servico);
+    }  
+
+    @DeleteMapping(value = "/{contrato}")
+    public Contrato deleteServico(@PathVariable("contrato") Long id) {
+      return service.deletarPorId(id);
+    }
+
+}
+```
+<h5>Controller de Setor</h5>
 
 ```java
 package com.greatpretender.api.projetoapijaia.controller;
@@ -1423,6 +1476,138 @@ public class ContratoController {
 
 }
 ```
+<h5>Controller de Serviços</h5>
+
+```java
+package com.greatpretender.api.projetoapijaia.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.greatpretender.api.projetoapijaia.entity.Servico;
+import com.greatpretender.api.projetoapijaia.entity.Setor;
+import com.greatpretender.api.projetoapijaia.service.IServicoService;
+
+@RestController
+@RequestMapping("/servico")
+@CrossOrigin
+public class ServicoController {
+     @Autowired
+     private IServicoService service;
+
+     @GetMapping
+     public List<Servico> buscarTodos() {
+          return service.buscarTodosServicos();
+     }
+
+     @PostMapping
+     public Servico novoServico(@RequestBody Servico servico) {
+          return service.novoServico(servico);
+     }
+     
+     @GetMapping(value = "/{servico}")
+     public Servico buscarPorId(@PathVariable("servico") Long id) {
+     return service.buscarPorId(id);
+      }
+     
+      //
+      @PostMapping(value = "/idSetor")
+      public List<Servico> buscarPorIdSetor(@RequestBody Setor idSetor) {
+           return service.buscarPorIdSetor(idSetor);
+      }
+
+     // Função para deletar servico por id
+     @DeleteMapping(value = "/{servico}")
+     public Servico deleteServico(@PathVariable("servico") Long id) {
+          return service.deletarPorId(id);
+     }
+
+     @PutMapping(value = "/{servico}")
+     public Servico editServico(@RequestBody Servico servico) {
+          return service.novoServico(servico);
+     }
+
+}
+```
+<h5>Controller de Ordens de Serviço</h5>
+
+```java
+package com.greatpretender.api.projetoapijaia.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.greatpretender.api.projetoapijaia.entity.OrdemDeServico;
+import com.greatpretender.api.projetoapijaia.entity.Setor;
+import com.greatpretender.api.projetoapijaia.service.IOrdemDeServicoService;
+import com.greatpretender.api.projetoapijaia.entity.Cliente;
+
+@RestController
+@RequestMapping(value = "/ordemdeservico")
+@CrossOrigin
+public class OrdemDeServicoController {
+    
+    @Autowired
+    private IOrdemDeServicoService service;
+
+    // Função para buscar todas as ordens de servico
+    @GetMapping
+    public List<OrdemDeServico> buscarTodasOrdensDeServicos() {
+        return service.buscarTodasOrdensDeServico();
+    }
+    // Função para cadastrar uma nova ordem de servico
+    @PostMapping
+    public OrdemDeServico novaOrdemDeServico(@RequestBody OrdemDeServico  ordemDeServico){
+        return service.novaOrdemDeServico(ordemDeServico);
+    }
+    // Função para buscar uma ordem de servico pelo ID
+    @GetMapping(value = "/{ordemDeServico}")
+    public OrdemDeServico buscarPorId(@PathVariable("ordemDeServico") Long id) {
+        return service.buscarPorId(id);
+    }
+
+    // Função para deletar ordem de serviço por id
+    @DeleteMapping(value = "/{ordemDeServico}")
+    public OrdemDeServico deleteOrdemDeServico(@PathVariable("ordemDeServico") Long id) {
+        return service.deletarPorId(id);
+    }
+
+    @PutMapping("/{ordemDeServico}")
+    public OrdemDeServico editOrdemDeServico(@RequestBody OrdemDeServico ordemDeServico){
+        return service.novaOrdemDeServico(ordemDeServico);
+    }
+
+    @PostMapping(value = "/idSetor")
+      public List<OrdemDeServico> buscarPorIdSetor(@RequestBody Setor idSetor) {
+           return service.buscarPorIdSetor(idSetor);}
+
+    @PostMapping(value = "/idCliente")
+      public List<OrdemDeServico> buscarPorIdCliente(@RequestBody Cliente idCliente) {
+           return service.buscarPorIdCliente(idCliente);
+      }
+}
+```
+<h5>Controller de Usuários</h5>
 </details>
 
 <h4> Lições Aprendidas </h4>
