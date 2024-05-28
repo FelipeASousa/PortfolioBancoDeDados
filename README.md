@@ -137,7 +137,6 @@
     </tbody>
 </table>
 
-<h4> Hard Skills </h4>
 
 <hr/>
 <h3> </h3>
