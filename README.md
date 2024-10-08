@@ -24,8 +24,11 @@ Minhas principais habilidades e foco estão voltados para Business Intelligence,
     <img src="https://github.com/user-attachments/assets/04c730cf-b618-4a37-8089-48a6fefb0c9b" width=50/>
 </a>
 <a href="https://github.com/FelipeASousa"> 
-    <img src="https://github.com/user-attachments/assets/04c730cf-b618-4a37-8089-48a6fefb0c9b" width=50/>
+    <img src="https://github.com/user-attachments/assets/b126daa6-6e4d-4f17-9648-b3f06fdbfb81" width=50/>
 </a>
+
+
+
 <hr/>
 <h2> Meus projetos </h2>
 <h3> Site de Gerenciamento de Projetos </h3>
