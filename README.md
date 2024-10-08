@@ -6,7 +6,7 @@
 <h3>Sumário</h3>
 
 <ul align="justify">
-    <li><a href =""> Sobre Mim </a> </li>
+    <li><a href ="https://github.com/FelipeASousa/PortifolioBancoDeDados/tree/main?tab=readme-ov-file#-sobre-mim-"> Sobre Mim </a> </li>
     <li><a href =""> Projetos</a></li>
 </ul> 
 <h2> Sobre mim </h2>
