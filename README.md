@@ -1,7 +1,7 @@
 
 
 <h1> Portfolio das APIs - Felipe Sousa </h1>
-<p> Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos, como parte dos requisitos necessários para a obtenção do título de Tecnólogo em Banco de Dados. </p>
+<p align="justify"> Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos, como parte dos requisitos necessários para a obtenção do título de Tecnólogo em Banco de Dados. </p>
 <hr/>
 <p align="center">
     <a href =""> Sumário </a>  •
@@ -9,15 +9,15 @@
 </p> 
 <h2> Sobre mim </h2>
 <p align="center"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/profile_photo.jfif" width="20%"></p>
-<p> Formado em Técnico em Informática pela Escola Técnica Estadual Ilza Nascimento Pintus e, atualmente, cursando Tecnologia em Banco de Dados na Faculdade de Tecnologia de São José dos Campos (FATEC).
+<p align="justify"> Formado em Técnico em Informática pela Escola Técnica Estadual Ilza Nascimento Pintus e, atualmente, cursando Tecnologia em Banco de Dados na Faculdade de Tecnologia de São José dos Campos (FATEC).
 </p>
-<p>
+<p align="justify">
    Tenho experiência no desenvolvimento de soluções tecnológicas voltadas para o setor de Suprimentos, com foco nas áreas de Planejamento e Compras. Durante dois anos de estágio na área de Interiores da Embraer, atuei na criação de pipelines de dados (ETLs), automação de processos utilizando Robotic Process Automation (RPA) com Python, além de realizar análises de dados complexas e desenvolver dashboards interativos. Minhas atividades também incluíram a automatização de processos de gestão e projeção de estoque, elaboração e otimização de planilhas, planejamento de materiais, e extração e carga de dados em sistemas de gestão ERP.
 </p>
 <p>
 Atualmente, estou ampliando meus conhecimentos em análise de dados e aprofundando meus estudos em Machine Learning, com foco no desenvolvimento de soluções tecnológicas para os setores financeiro, de suprimentos e outras indústrias.
 </p>
-<p> 
+<p align="justify"> 
 Minhas principais habilidades e foco estão voltados para Business Intelligence, abrangendo desde processos de ETL e estruturação de data warehouses até a criação de dashboards, visibilidades e algoritmos de Machine Learning para suportar a tomada de decisões estratégicas.  
 </p>
 <ul>
