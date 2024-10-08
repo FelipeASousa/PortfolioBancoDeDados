@@ -19,6 +19,8 @@ Atualmente, estou ampliando meus conhecimentos em análise de dados e aprofundan
 </p>
 <p align="justify"> 
 Minhas principais habilidades e foco estão voltados para Business Intelligence, abrangendo desde processos de ETL e estruturação de data warehouses até a criação de dashboards, visibilidades e algoritmos de Machine Learning para suportar a tomada de decisões estratégicas.  
+
+<p>Sites principais:<p>
 </p>
 <a href="https://www.linkedin.com/in/felipe-s-89938418a/"> 
     <img src="https://github.com/user-attachments/assets/04c730cf-b618-4a37-8089-48a6fefb0c9b" width=50/>
