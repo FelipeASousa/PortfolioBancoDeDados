@@ -3,8 +3,9 @@
 <h1> Portfolio das APIs - Felipe Sousa </h1>
 <p align="justify"> Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos, como parte dos requisitos necessários para a obtenção do título de Tecnólogo em Banco de Dados. </p>
 <hr/>
+<h3>Sumário</h3>
 <p align="center">
-    <a href =""> Sumário </a>  •
+    <a href =""> Sobre Mim </a>  •
     <a href =""> Projetos</a>  • 
 </p> 
 <h2> Sobre mim </h2>
