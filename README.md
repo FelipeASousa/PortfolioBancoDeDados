@@ -14,7 +14,7 @@
 <p align="justify">
    Tenho experiência no desenvolvimento de soluções tecnológicas voltadas para o setor de Suprimentos, com foco nas áreas de Planejamento e Compras. Durante dois anos de estágio na área de Interiores da Embraer, atuei na criação de pipelines de dados (ETLs), automação de processos utilizando Robotic Process Automation (RPA) com Python, além de realizar análises de dados complexas e desenvolver dashboards interativos. Minhas atividades também incluíram a automatização de processos de gestão e projeção de estoque, elaboração e otimização de planilhas, planejamento de materiais, e extração e carga de dados em sistemas de gestão ERP.
 </p>
-<p>
+<p align="justify">
 Atualmente, estou ampliando meus conhecimentos em análise de dados e aprofundando meus estudos em Machine Learning, com foco no desenvolvimento de soluções tecnológicas para os setores financeiro, de suprimentos e outras indústrias.
 </p>
 <p align="justify"> 
