@@ -4,10 +4,11 @@
 <p align="justify"> Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos, como parte dos requisitos necessários para a obtenção do título de Tecnólogo em Banco de Dados. </p>
 <hr/>
 <h3>Sumário</h3>
-<p align="center">
-    <a href =""> Sobre Mim </a>  •
-    <a href =""> Projetos</a>  • 
-</p> 
+
+<ul align="justify">
+    <li><a href =""> Sobre Mim </a> </li>
+    <li><a href =""> Projetos</a></li>
+</ul> 
 <h2> Sobre mim </h2>
 <p align="center"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/profile_photo.jfif" width="20%"></p>
 <p align="justify"> Formado em Técnico em Informática pela Escola Técnica Estadual Ilza Nascimento Pintus e, atualmente, cursando Tecnologia em Banco de Dados na Faculdade de Tecnologia de São José dos Campos (FATEC).
