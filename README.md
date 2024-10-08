@@ -9,16 +9,21 @@
 </p> 
 <h2> Sobre mim </h2>
 <p align="center"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/profile_photo.jfif" width="20%"></p>
-<p> Formado em Técnico em Informática pela Escola Técnica Estadual Ilza Nascimento Pintus e atualmente matriculado no 5º semestre de Banco de Dados pela Faculdade de Tecnologia de São José dos Campos (FATEC).
+<p> Formado em Técnico em Informática pela Escola Técnica Estadual Ilza Nascimento Pintus e, atualmente, cursando Tecnologia em Banco de Dados na Faculdade de Tecnologia de São José dos Campos (FATEC).
 </p>
 <p>
-     Atualmente sou estágiario de tecnologia no time de Planejamento e Compras de Interiores na Embraer, cujo o foco das minhas atividades permeiam por criação de ETLs, desenvolvimento de RPAs (Robotic Process Automation) com Python, análise de dados e criação de dashboards e visibilidades.
+   Tenho experiência no desenvolvimento de soluções tecnológicas voltadas para o setor de Suprimentos, com foco nas áreas de Planejamento e Compras. Durante dois anos de estágio na área de Interiores da Embraer, atuei na criação de pipelines de dados (ETLs), automação de processos utilizando Robotic Process Automation (RPA) com Python, além de realizar análises de dados complexas e desenvolver dashboards interativos. Minhas atividades também incluíram a automatização de processos de gestão e projeção de estoque, elaboração e otimização de planilhas, planejamento de materiais, e extração e carga de dados em sistemas de gestão ERP.
+</p>
+<p>
+Atualmente, estou ampliando meus conhecimentos em análise de dados e aprofundando meus estudos em Machine Learning, com foco no desenvolvimento de soluções tecnológicas para os setores financeiro, de suprimentos e outras indústrias.
+</p>
+<p> 
+Minhas principais habilidades e foco estão voltados para Business Intelligence, abrangendo desde processos de ETL e estruturação de data warehouses até a criação de dashboards, visibilidades e algoritmos de Machine Learning para suportar a tomada de decisões estratégicas.  
 </p>
 <ul>
     <li><a href="https://www.linkedin.com/in/felipe-s-89938418a/"> Linkedin </a></li>
     <li><a href="https://github.com/FelipeASousa"> Github </a></li>
 </ul>
-<p> Meus principais conhecimentos e foco de estudo atuais estão relacionados a Business Intelligence e todos seus pormenores. Processos de ETL, estruturação de data warehouse e construção de dashboards e visibilidades que ajudam na tomada de decisão de negócios. E também processos relacionados a automação de atividades através da criação de RPAs.</p>
 <hr/>
 <h2> Meus projetos </h2>
 <h3> Site de Gerenciamento de Projetos </h3>
