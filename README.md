@@ -17,14 +17,15 @@
 Atualmente, meu objetivo é ampliar meus conhecimentos em análise de dados e aprofundar meus estudos em Machine Learning, com foco no desenvolvimento de soluções tecnológicas para os setores financeiro, de suprimentos e outras indústrias.
 </p>
 
-<p>Sites principais:</p>
+<p align="center">Principais Redes:</p>
+<p align="center">
 <a href="https://www.linkedin.com/in/felipe-s-89938418a/"> 
     <img src="https://github.com/user-attachments/assets/04c730cf-b618-4a37-8089-48a6fefb0c9b" width=50/>
 </a>
 <a href="https://github.com/FelipeASousa"> 
     <img src="https://github.com/user-attachments/assets/b126daa6-6e4d-4f17-9648-b3f06fdbfb81" width=50/>
 </a>
-
+</p>
 <hr/>
 <h2 align="center"> Meus projetos </h2>
 <table align="center">
@@ -68,6 +69,7 @@ Atualmente, meu objetivo é ampliar meus conhecimentos em análise de dados e ap
         </tr>
     </tbody>
 </table>
+<hr/>
 <h3> Site de Gerenciamento de Projetos </h3>
 <h3> 1º Semestre • 1/2021 </h3>
 <p> Parceiro Acadêmico: Faculdade Tecnológica de São José dos Campos </p>
