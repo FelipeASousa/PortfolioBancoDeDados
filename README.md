@@ -1,9 +1,9 @@
 
 
-<h1> Portfolio das APIs - Felipe Sousa </h1>
+<h1 align="center"> Portfolio das APIs - Felipe Sousa </h1>
 <p align="justify"> Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos, como parte dos requisitos necessários para a obtenção do título de Tecnólogo em Banco de Dados. </p>
 <hr/>
-<h2> Sobre mim </h2>
+<h2 align="center"> Sobre mim </h2>
 <p align="center"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/profile_photo.jfif" width="20%"></p>
 <p align="justify"> Sou Felipe Augusto dos Santos Sousa, tenho 21 anos, sou formado em Técnico em Informática pela Escola Técnica Estadual profª Ilza Nascimento Pintus e atualmente, cursando Tecnologia em Banco de Dados na Faculdade de Tecnologia de São José dos Campos (FATEC).
 </p>
@@ -26,13 +26,12 @@ Atualmente, meu objetivo é ampliar meus conhecimentos em análise de dados e ap
 </a>
 
 <hr/>
-<h2> Meus projetos </h2>
-<table>
+<h2 align="center"> Meus projetos </h2>
+<table align="center">
     <thead>
         <tr>
         <th>Semestre</th>
         <th>Projeto/ Repositório </th>
-        <th>Descrição</th>
         <th>Empresa/ Parceiro Acadêmico</th>
         </tr>
     </thead>
@@ -40,37 +39,31 @@ Atualmente, meu objetivo é ampliar meus conhecimentos em análise de dados e ap
         <tr align="center">
             <td>1º</td>
             <td><a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix">API 2021/1</a></td>
-            <td></td>
             <td>FATEC</td>
         </tr>
         <tr align="center">
             <td>2º</td>
             <td><a href="API_ADS_2021_2"> API 2021/2</a></td>
-            <td></td>
             <td>Jetsoft</td>
         </tr>
         <tr align="center">
             <td>3º</td>
             <td><a href="https://github.com/UniversalDevs/Projeto_API_TecSus">API 2022/1</a></td>
-            <td></td>
             <td>TecSUS</td>
         </tr>
         <tr align="center">
             <td>4º</td>
             <td><a href="https://github.com/UniversalDevs/Projeto_API_TecSus">API 2023/2</a></td>
-            <td></td>
             <td>Jaia Software</td>
         </tr>
         <tr align="center">
             <td>5º</td>
             <td><a href="">API 2024/1</a></td>
-            <td></td>
             <td>TecSUS</td>
         </tr>
         <tr align="center">
             <td>6º</td>
             <td><a href="">API 2024/2</a></td>
-            <td></td>
             <td>SPC Grafeno</td>
         </tr>
     </tbody>
