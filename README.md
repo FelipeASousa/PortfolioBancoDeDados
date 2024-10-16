@@ -1,28 +1,23 @@
 
 
-<h1> Portfolio das APIs - Felipe Sousa </h1>
+<h1 aling="justify"> Felipe Augusto dos Santos Sousa - Portfolio das APIs</h1>
 <p align="justify"> Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos, como parte dos requisitos necessários para a obtenção do título de Tecnólogo em Banco de Dados. </p>
-<hr/>
-<h3>Sumário</h3>
 
-<ul align="justify">
-    <li><a href ="https://github.com/FelipeASousa/PortifolioBancoDeDados/tree/main?tab=readme-ov-file#-sobre-mim-"> Sobre Mim </a> </li>
-    <li><a href =""> Projetos</a></li>
-</ul> 
 <h2> Sobre mim </h2>
 <p align="center"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/profile_photo.jfif" width="20%"></p>
-<p align="justify"> Formado em Técnico em Informática pela Escola Técnica Estadual Ilza Nascimento Pintus e, atualmente, cursando Tecnologia em Banco de Dados na Faculdade de Tecnologia de São José dos Campos (FATEC).
+<p align="justify">Sou Felipe Augusto dos Santos Sousa, tenho 21 anos, sou formado em Técnico em Informática pela Escola Técnica Estadual profª Ilza Nascimento Pintus e atualmente, cursando Tecnologia em Banco de Dados na Faculdade de Tecnologia de São José dos Campos (FATEC).
 </p>
 <p align="justify">
-   Tenho experiência no desenvolvimento de soluções tecnológicas voltadas para o setor de Suprimentos, com foco nas áreas de Planejamento e Compras. Durante dois anos de estágio na área de Interiores da Embraer, atuei na criação de pipelines de dados (ETLs), automação de processos utilizando Robotic Process Automation (RPA) com Python, além de realizar análises de dados complexas e desenvolver dashboards interativos. Minhas atividades também incluíram a automatização de processos de gestão e projeção de estoque, elaboração e otimização de planilhas, planejamento de materiais, e extração e carga de dados em sistemas de gestão ERP.
+    Iniciei minha carreira na área de tecnologia em 2018, quando ingressei em um curso de Informática, onde descobri minha afeição pela ramo e que posteriormente, me motivou a continuar nesse setor. Em 2021, visando mais conhecimento, ingressei no Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas na FATEC, onde estudei por dois anos antes de migrar para o curso superior de Banco de Dados no ano de 2023, na mesma instituição.
 </p>
 <p align="justify">
-Atualmente, estou ampliando meus conhecimentos em análise de dados e aprofundando meus estudos em Machine Learning, com foco no desenvolvimento de soluções tecnológicas para os setores financeiro, de suprimentos e outras indústrias.
+   Possuo experiência no desenvolvimento de pipelines de dados (ETLs), gerenciamento de banco de dados, automação de processos com Robotic Process Automation (RPA) em Python, análise de dados e desenvolvimento de dashboards. Esses conhecimentos foram adquiridos durante meu estágio na Embraer S/A entre os anos de 2022 e 2024, onde  atuei na área de Compras e Planejamento de Interiores, desenvolvendo processos de gestão e projeção de estoque, elaboração e otimização de planilhas, planejamento de materiais e extração e carga de dados em sistemas de gestão ERP.
 </p>
-<p align="justify"> 
-Minhas principais habilidades e foco estão voltados para Business Intelligence, abrangendo desde processos de ETL e estruturação de data warehouses até a criação de dashboards, visibilidades e algoritmos de Machine Learning para suportar a tomada de decisões estratégicas.  
+<p align="justify">
+Atualmente, meu objetivo é ampliar meus conhecimentos em análise de dados e aprofundar meus estudos em Machine Learning, com foco no desenvolvimento de soluções tecnológicas para os setores financeiro, de suprimentos e outras indústrias.  
+</p>
 
-<p>Sites principais:<p>
+<p>Sites principais: <p>
 </p>
 <a href="https://www.linkedin.com/in/felipe-s-89938418a/"> 
     <img src="https://github.com/user-attachments/assets/04c730cf-b618-4a37-8089-48a6fefb0c9b" width=50/>
@@ -31,7 +26,7 @@ Minhas principais habilidades e foco estão voltados para Business Intelligence,
     <img src="https://github.com/user-attachments/assets/b126daa6-6e4d-4f17-9648-b3f06fdbfb81" width=50/>
 </a>
 
-
+<h2>Projetos</h2>
 
 <hr/>
 <h2> Meus projetos </h2>
