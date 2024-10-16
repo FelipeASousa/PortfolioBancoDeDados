@@ -39,39 +39,41 @@ Atualmente, meu objetivo é ampliar meus conhecimentos em análise de dados e ap
     <tbody>
         <tr align="center">
             <td>1º</td>
-            <td><a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix">API 2021/1</a></td>
+            <td><a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix">API 01/2021</a></td>
             <td>FATEC</td>
         </tr>
         <tr align="center">
             <td>2º</td>
-            <td><a href="API_ADS_2021_2"> API 2021/2</a></td>
+            <td><a href="API_ADS_2021_2"> API 02/2021</a></td>
             <td>Jetsoft</td>
         </tr>
         <tr align="center">
             <td>3º</td>
-            <td><a href="https://github.com/UniversalDevs/Projeto_API_TecSus">API 2022/1</a></td>
+            <td><a href="https://github.com/UniversalDevs/Projeto_API_TecSus">API 01/2022</a></td>
             <td>TecSUS</td>
         </tr>
         <tr align="center">
             <td>4º</td>
-            <td><a href="https://github.com/UniversalDevs/Projeto_API_TecSus">API 2023/2</a></td>
+            <td><a href="https://github.com/UniversalDevs/Projeto_API_TecSus">API 02/2023</a></td>
             <td>Jaia Software</td>
         </tr>
         <tr align="center">
             <td>5º</td>
-            <td><a href="">API 2024/1</a></td>
+            <td><a href="">API 01/2024</a></td>
             <td>TecSUS</td>
         </tr>
         <tr align="center">
             <td>6º</td>
-            <td><a href="">API 2024/2</a></td>
+            <td><a href="">API 02/2024</a></td>
             <td>SPC Grafeno</td>
         </tr>
     </tbody>
 </table>
 <hr/>
+<h2> 1º Semestre • 01/2021 </h2>
 <h3> Site de Gerenciamento de Projetos </h3>
-<h3> 1º Semestre • 1/2021 </h3>
+<img src="https://github.com/user-attachments/assets/bc4d88f7-a16c-455a-a838-019f64308252"/>
+
 <p> Parceiro Acadêmico: Faculdade Tecnológica de São José dos Campos </p>
 <h4>Descrição do projeto</h4>
 <p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
