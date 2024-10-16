@@ -73,12 +73,10 @@ Atualmente, meu objetivo é ampliar meus conhecimentos em análise de dados e ap
 <h2> 1º Semestre • 01/2021 </h2>
 <h3> Site de Gerenciamento de Projetos </h3>
 <img src="https://github.com/user-attachments/assets/bc4d88f7-a16c-455a-a838-019f64308252"/>
-
 <p> Parceiro Acadêmico: Faculdade Tecnológica de São José dos Campos </p>
+
 <h4>Descrição do projeto</h4>
 <p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
-
-
 
 
 <p>Link do Repositório </p><a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix"> Instituto Vó Maria Félix</a>
