@@ -70,10 +70,11 @@ Atualmente, meu objetivo é ampliar meus conhecimentos em análise de dados e ap
     </tbody>
 </table>
 <hr/>
-<h2> 1º Semestre • 01/2021 </h2>
-<h3> Site de Gerenciamento de Projetos </h3>
+<h2 align="center"> 1º Semestre • 01/2021 • Parceiro Acadêmico: FATEC</h2>
+<p align="center">
 <img src="https://github.com/user-attachments/assets/bc4d88f7-a16c-455a-a838-019f64308252"/>
-<p> Parceiro Acadêmico: Faculdade Tecnológica de São José dos Campos </p>
+</p>
+<h3> Site de Gerenciamento de Projetos </h3>
 
 <h4>Descrição do projeto</h4>
 <p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
