@@ -77,8 +77,7 @@ Atualmente, meu objetivo é ampliar meus conhecimentos em análise de dados e ap
 <h3> Site de Gerenciamento de Projetos </h3>
 
 <h4>Descrição do projeto</h4>
-<p> Sistema web desenvolvido para uma creche, com o objetivo de realizar cadastros de Voluntários e Projetos instituicionais.</p>
-
+<p> No primeiro projeto, o objetivo era criar um sistema web para gerenciar projetos de uma creche, denominada Instituto Vó Maria Felix. Durante o semestre foi desenvolvido um site para o controle de projetos, colaboradores, voluntários e participantes. Ele era dividido em dois setores: um para os usuários do sistema, onde havia o acesso aos controles e outro apenas para a visualização de projetos.</p>
 
 <p>Link do Repositório </p><a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix"> Instituto Vó Maria Félix</a>
 <h4> Prévia da Solução </h4>
