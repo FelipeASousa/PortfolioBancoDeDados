@@ -31,7 +31,7 @@ Atualmente, meu objetivo é ampliar meus conhecimentos em análise de dados e ap
     <thead>
         <tr>
         <th>Semestre</th>
-        <th>Projeto</th>
+        <th>Projeto/ Repositório </th>
         <th>Descrição</th>
         <th>Empresa/ Parceiro Acadêmico</th>
         </tr>
