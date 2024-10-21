@@ -70,123 +70,428 @@ Atualmente, meu objetivo é ampliar meus conhecimentos em análise de dados e ap
     </tbody>
 </table>
 <hr/>
-<h2 align="center"> 1º Semestre • 01/2021 • Parceiro Acadêmico: FATEC</h2>
+<h2> 1º Semestre • 01/2021 </h2>
+<h3>Site de Gerenciamento de Projetos </h3>
+<p><strong>Parceiro Acadêmico:</strong> Faculdade de Tecnologia de São José dos Campos</p>
 <p align="center">
 <img src="https://github.com/user-attachments/assets/bc4d88f7-a16c-455a-a838-019f64308252"/>
 </p>
-<h3> Site de Gerenciamento de Projetos </h3>
 
-<h4>Descrição do projeto</h4>
-<p> No primeiro projeto, o objetivo era criar um sistema web para gerenciar projetos de uma creche, denominada Instituto Vó Maria Felix. Durante o semestre foi desenvolvido um site para o controle de projetos, colaboradores, voluntários e participantes. Ele era dividido em dois setores: um para os usuários do sistema, onde havia o acesso aos controles e outro apenas para a visualização de projetos.</p>
-
-<p>Link do Repositório </p><a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix"> Instituto Vó Maria Félix</a>
-<h4> Prévia da Solução </h4>
-<p> Como solução, foi planejado um site web com duas interfaces de uso. A primeira seria uma área reservada para os gerenciamento de voluntários e projetos, com as principais funções de cadastro, alteração e deleção e a outra área concernente a exposição de projetos em um site aberto ao público.</p>
-<h4> Tecnologias Utilizadas </h4>
-<p>PHP, framework Laravel, MySQl, HTML,CSS, Javascript</p>
-
-<hr/>
-<h4> Contribuições Pessoais </h4>
+<h4>PROBLEMA:</h4>
+<p align="justify"> Desenvolver um site institucional para a ONG Instituto Vó Maria Félix, que atende crianças de 0 à 7 anos e que necessitava gerenciar suas atividades e projetos voluntários. O site deveria permitir que o usuário gerenciasse o cadastro de participantes, de voluntários e de projetos, de forma eficiente, para melhorar a gestão e organização do instituto.</p>
+<h4>SOLUÇÃO:</h4>
+<p align="justify">A partir do problema proposto, foi desenvolvida uma proposta de solução composta por duas etapas principais. A primeira etapa consistia em um painel administrativo com o foco no gerenciamento dos participantes, projetos e voluntários. Esse painel também permitiria controlar as publicações que seriam expostas no site voltado à exposição dos projetos realizados.</p>
+<p align="justify">
+A segunda etapa era desenvolver um site informativo, voltado para o público externo, com o foco de apresentar os projetos trabalhados e atividades do instituto, visando promover maior visibilidade e recrutar novos voluntários.</p>
+<p align="justify"> Esses foram os resultados desse projeto:</p>
 <details>
- <summary>Páginas do Site Público</summary>
-<p> Essas são as telas desenvolvivas para acesso do cliente ao site público. Nelas ficam contidas as informações de todos os projetos publicados, bem como os voluntários participantes desse projeto. Também há uma área destinada para contato, a fim de obter feedbacks do site.</p>
-<h5>Página Home</h5>
-<img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/PaginaInicial.gif"/>
-<a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Sprint1/Front-End-main/home.html">Link do Código desenvolvido</a>
-
-<h5>Galeria de voluntários</h5>
-<img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/GaleriaVoluntarios.gif"/>
-<a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Sprint1/Front-End-main/home.html">Link do Código desenvolvido</a>
-
-
-<h5>Página de Projetos</h5>
-<img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/AbaProjetos.gif"/>
-<a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Sprint1/Front-End-main/Projetos.html">Link do Código desenvolvido</a>
-
-<h5>Aba de Contatos</h5>
-<img src ="https://github.com/UniversalDevs/Projeto_API/raw/main/Gifs/Contatos.gif"/>
-<a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Sprint1/Front-End-main/Contato.html">Link do Código desenvolvido</a>
-
+    <summary><strong>Painel Administrativo</strong></summary>
+    <p>No Painel Administrativo é composta duas partes:</p>
+   <ul>
+   <li><strong>CRUD:</strong> O Cadastro, Leitura, Atualiação e Deleção de Projetos, Voluntários e Participantes, dividos por abas em um menu lateral: </li>
+      <table>
+         <thead>
+            <th>Entidade</th>
+            <th>Funcionalidade</th>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Voluntário</td>
+               <td><img src="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Gifs/CadastroDeVoluntariosPt2.gif?raw=true" width="500"/></td>
+            </tr>
+            <tr>
+               <td>Projeto</td>
+               <td><img src="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Gifs/CadastroDeProjetos.gif?raw=true" width="500"/></td>
+            </tr>
+            <tr>
+               <td>Participante</td>
+               <td><img src="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Gifs/CadastroParticipantesPt2.gif?raw=true" width="500"/></td>
+            </tr>
+         </tbody>
+      </table>
+   <li><strong>Publicação de projetos:</strong> através da aba de cadastro de projetos, há a funcionalidade de publicá-los diretamente no site informativo.</li>
+      <img src="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Gifs/BotaoPublicacaoParte1.gif?raw=true" width="500"/>
+      <img src="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Gifs/BotaoPublicacaoParte2.gif?raw=true" width="500"/>
+   </ul>
 </details>
 <details>
- <summary>Artefatos Scrum</summary>
-<p> Nesse semestre atuei como Scrum Master e fiquei responsável por manter todos os rituais do Scrum. Abaixo se encontram o Product Backlog, utilizado para mapear quais as tarefas necessitavam ser realizadas para a construção do projeo, o controle de atividades através do uso de gráficos burndown, em estimativa de tempo e o backlog da sprint, para o planejamento das entregas por sprint.</p>
+    <summary><strong>Site Informativo</strong></summary>
+    <p>A página inicial do site informativo, é composta por três seções principais:</p>
+   <ul>
+      <li><strong>Formulário de Interesse para Voluntariado:</strong> quando acessado, redireciona o visitante do site à um formulário onde é realizado a coleta de informações básicas do usuário, bem como a área de preferência de atuação dos interessados.</li>
+      <img src="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Gifs/FormularioParte1.gif?raw=true" width="500"/>
+      <li><strong>Prévia dos Projetos:</strong> prévia visual dos principais projetos da instituição, com uma curta descrição e imagem de representação. Quando clicado, redireciona à uma outra página, onde há uma visualização com mais detalhes e imagens do projeto.</li>
+      <img src="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Gifs/ProjetoNoSite1.gif?raw=true" width="500"/>
+      <li><strong>Aba de Contato:</strong> Onde os visitantes podem enviar mensagens diretamente para o instituto, através do preenchimento de um formulário.</li>
+      <img src="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Gifs/EnviarEmailContatos1.gif?raw=true" width="500"/>
+   </ul>
+</details>
+    <p> Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções. O video encontra-se na íntegra, no canal fatecsjc:</p>
+<a href="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
+
+<p>Link do Repositório: <a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix">Projeto_API_VoMariaFelix</a></p>
+<h4>CONTRIBUIÇÕES PESSOAIS:</h4>
+<p align="justify"> Durante esse projeto, atuei na função de Scrum Master da equipe Universal Devs, no qual pude me empenhar em manter todos os rituais do Scrum, como dailies, scrum retrospective e sprint planning. Nesse semestre inicial, o Scrum Master também exercia a função de Product Owner, no qual trabalhei na elaboração do Product Backlog, do Sprint Backlog e principalmente no contato com o cliente do projeto.</p>
+<p align="justify"> Além disso, a fim de aprender mais sobre a parte técnica, atuei no desenvolvimento do site informativo do projeto, na parte de frontend, onde desenvolvi a página principal do site, a página de projetos, aba de Contatos e a galeria de voluntários.</p>
+
+<details>
+ <summary><strong>ARTEFATOS SCRUM</strong></summary>
 <h5>Product Backlog</h5>
 <img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/BacklogTotal.PNG"/>
-
 <h5>Controle de Atividades & Burndown</h5>
 <img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/Burndowns/BurndownSprint%231.png" width="200"/>
 <img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/Burndowns/BurndownSprint%232.PNG" width="200"/>
 <img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/Burndowns/BurndownSprint%233.PNG" width="200"/>
 <img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/Sprint4/GraficodoBurndownSprint4.PNG" width="200"/>
-
 <h5>Backlog da Sprint</h5>
 <img src="https://github.com/UniversalDevs/Projeto_API/blob/main/Documentos/CronogramaParte1.PNG" width="300"/>
 <img src="https://github.com/UniversalDevs/Projeto_API/raw/main/Documentos/CronogramaParte2.PNG" width="300"/>
 </details>
 
 <details>
-    <summary>Apresentação do Projeto</summary>
-    <p> Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções, no qual fui responsável por fazer a apresentação do projeto.</p>
-<a href="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
+ <summary><strong>CÓDIGO</strong></summary>
+<h5>Página Incial</h5>
+   
+```javascript
+   
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoMariaFelix</title>
+    <link rel="stylesheet" type="text/css" href="CSS/cssGeral.css" media="screen" />
+    <script type="text/javascript" src="Javascript/Carrosel.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div id="tudo">
+  <header>
+    <img src="./Imagens/logo.PNG" id="logo">
+      <h1 class="float-l">  
+      </h1>   
+      <input type="checkbox" id="control-nav" />
+      <label for="control-nav" class="control-nav"></label>
+      <label for="control-nav" class="control-nav-close"></label>
+      <nav class="float-r">
+        <ul class="list-auto">
+          <li>
+            <a href="home.html" title="PaginaInicial">Página Inicial</a>
+          </li>
+          <li>
+            <a href="Projetos.html" title="Projetos">Projetos</a>
+          </li>
+          <li>
+            <a href="home.html" title="Voluntarios">Voluntários</a>
+          </li>
+          <li>
+            <a href="Contato.html" title="Contato">Contato</a>
+          </li>
+          <li>
+            <a href="Sobre.html" title="Sobre">Sobre</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="container">
+      <p id="Formulario">FAÇA SUA INSCRIÇÃO</p>
+    <section id="Formulario">
+      <p id="inscricao">
+        <strong>FAÇA SUA <br/>INSCRIÇÃO!  </strong>
+      </p>
+      <div id="linha">
+      <hr />
+      </div>
+      <p id= "descricaoForm">
+        <br>
+        <strong>Acesse e venha fazer parte<br> da nossa ONG</strong>
+      </p>
+      <a href=""><button>Clique Aqui</button></a>      
+    </section>
+    <h2 id="Voluntarios">Voluntários</h2>
+    <br>  
+    <figure>
+      <span class="trs next"></span>
+      <span class="trs prev"></span>
+      <div id="slider">
+        <a href="#" class="trs"><img src="Imagens/v2.jpg" alt="Equipe de Dentistas Valeclin"></a>
+        <a href="#" class="trs"><img src="Imagens/v3.jpg" alt="Psicóloga Lilian"></a>	
+        <a href="#" class="trs inativo"><img src="Imagens/alunos.jpg" alt="Alunos no primeiro dia de aula"></a>		   
+      </div>
+      <figcaption>Legenda da imagem 1</figcaption>
+    </figure>
+  </div>
+    <footer class = "footer">
+      <div class="cont">
+        <div class="row">     
+          <div class="footer-col">
+            <h4>O que procura?</h4>
+            <ul>
+              <li><a href="home.html">Voluntários</a></li>
+              <li><a href="Projetos.html">Projetos</a></li>
+              <li><a href="Contato.html">Contato</a></li>
+              <li><a href="#">Inscrever-se</a></li>
+              <li><a href="Sobre.html">Sobre Nós</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Siga-nos</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
+```
+
+<h5>Página de Projetos</h5>
+
+```javascript
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoMariaFelix</title>
+    <link rel="stylesheet" type="text/css" href="CSS/cssGeral.css" media="screen" />
+    <script type="text/javascript" src="Javascript/Carrosel.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <img src="./Imagens/logo.PNG" id="logo">
+      <h1 class="float-l">      
+      </h1>    
+      <input type="checkbox" id="control-nav" />
+      <label for="control-nav" class="control-nav"></label>
+      <label for="control-nav" class="control-nav-close"></label>
+
+      <nav class="float-r">
+        <ul class="list-auto">
+          <li>
+            <a href="home.html" title="PaginaInicial">Página Inicial</a>
+          </li>
+          <li>
+            <a href="Projetos.html" title="Projetos">Projetos</a>
+          </li>
+          <li>
+            <a href="home.html" title="Voluntarios">Voluntários</a>
+          </li>
+          <li>
+            <a href="Contato.html" title="Contato">Contato</a>
+          </li>
+          <li>
+            <a href="Sobre.html" title="Sobre">Sobre</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+      <section id="Projeto1">
+        <img src="Imagens/sala-de-aula-lousa-escola-publica.jpg" class="float-r" id = "FotoProjeto"/>
+        <h2 id="Titulo">Projeto 1</h2>
+        <br>
+        <p>
+          <strong>Descrição:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate corporis quo libero eius repellendus modi enim eveniet, inventore officia ad incidunt facere maiores officiis quasi cumque accusantium natus distinctio alias.
+        </p>
+        <p id="Informacoes">
+          <strong>Data:</strong> XX/XX/XXXX
+        </p>
+      </section>
+      <section id="Projeto1">
+        <img src="Imagens/projeto 2.png" class="float-r" id = "FotoProjeto"/>
+        <h2 id="Titulo">Projeto 2</h2>
+        <br>
+        <p>
+          <strong>Descrição:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate corporis quo libero eius repellendus modi enim eveniet, inventore officia ad incidunt facere maiores officiis quasi cumque accusantium natus distinctio alias.
+        </p>
+        <p id="Informacoes">
+          <strong>Data:</strong> XX/XX/XXXX
+        </p>
+      </section>
+      <section id="Projeto1">
+        <img src="Imagens/projeto 3.jpg" class="float-r" id = "FotoProjeto"/>
+        <h2 id="Titulo">Projeto 3</h2>
+        <br>
+        <p>
+          <strong>Descrição:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate corporis quo libero eius repellendus modi enim eveniet, inventore officia ad incidunt facere maiores officiis quasi cumque accusantium natus distinctio alias.
+        </p>
+        <p id="Informacoes">
+          <strong>Data:</strong> XX/XX/XXXX
+        </p>
+      </section> 
+      <footer class = "footer">
+        <div class="cont">
+          <div class="row">          
+            <div class="footer-col">
+              <h4>O que procura?</h4>
+              <ul>
+                <li><a href="home.html">Voluntários</a></li>
+                <li><a href="Projetos.html">Projetos</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="#">Inscrever-se</a></li>
+                <li><a href="Sobre.html">Sobre Nós</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Siga-nos</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
+```
+
+<h5>Aba de Contatos</h5>
+
+```javascript
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoMariaFelix</title>
+    <link rel="stylesheet" type="text/css" href="CSS/cssGeral.css" media="screen" />
+    <script type="text/javascript" src="Javascript/Carrosel.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>      
+    </style>
+</head>
+<body>
+    <header>
+      <img src="./Imagens/logo.PNG" id="logo">
+        <h1 class="float-l">     
+        </h1>   
+        <input type="checkbox" id="control-nav" />
+        <label for="control-nav" class="control-nav"></label>
+        <label for="control-nav" class="control-nav-close"></label>
+        <nav class="float-r">
+          <ul class="list-auto">
+            <li>
+              <a href="home.html" title="PaginaInicial">Página Inicial</a>
+            </li>
+            <li>
+              <a href="Projetos.html" title="Projetos">Projetos</a>
+            </li>
+            <li>
+              <a href="home.html" title="Voluntarios">Voluntários</a>
+            </li>
+            <li>
+              <a href="Contato.html" title="Contato">Contato</a>
+            </li>
+            <li>
+              <a href="Sobre.html" title="Sobre">Sobre</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div id="container">
+      <h1 id= "Contato">Contato</h1>
+      <div class="containeri">
+        <form action="#" class="form-contact" method="post" tabindex="1">
+          <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />
+          <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
+          <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>
+          <button type="submit" class="form-contact-button">Enviar</button>
+        </form>
+      </div>
+      <br>
+    </div>
+      <footer class = "footer">
+        <div class="cont">
+          <div class="row">       
+            <div class="footer-col">
+              <h4>O que procura?</h4>
+              <ul>
+                <li><a href="home.html">Voluntários</a></li>
+                <li><a href="Projetos.html">Projetos</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="#">Inscrever-se</a></li>
+                <li><a href="Sobre.html">Sobre Nós</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Siga-nos</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
+```
+<h5>Galeria de voluntários</h5>
+
+```javascript
+<figure>
+      <span class="trs next"></span>
+      <span class="trs prev"></span>
+      <div id="slider">
+        <a href="#" class="trs"><img src="Imagens/v2.jpg" alt="Equipe de Dentistas Valeclin"></a>
+        <a href="#" class="trs"><img src="Imagens/v3.jpg" alt="Psicóloga Lilian"></a>	
+        <a href="#" class="trs inativo"><img src="Imagens/alunos.jpg" alt="Alunos no primeiro dia de aula"></a>		
+      </div>
+      <figcaption>Legenda da imagem 1</figcaption>
+    </figure>
+```
 </details>
 
+
 <h4> Lições Aprendidas </h4>
-<p>Nesse semestre pude aprender a como aplicar as práticas Scrum, como reuniões diárias e planejamento, no desenvolvimento de um projeto e aprimorar sua estrutura através do uso de frameworks e ferramentas.</p>
+<p align="justify">Durante o desenvolvimento desse projeto, pude aprender a como aplicar as metodologias ágeis do Scrum, como reuniões diárias e planejamento. Também aprendi como coordenar uma equipe respeitando o processo de aprendizado individual, sempre tentando usar uma comunicação mais assetiva, clara e menos impositória. Já como desenvolvedor, pude aprimorar os conhecimentos em estrutura HTML e como utilizar pela primeira vez um framework, o Laravel, para realizar a conexão do frontend com o backend e entender melhor as camadas de uma aplicação.</p>
 
+<h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
-    <thead>
-        <th>Soft Skill</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <li>Comunicação assertiva</li>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <li>Planejamento pessoal</li>
-            </td>
-        </tr>
-    </tbody>
+   <thead>
+      <th>FrontEnd</th>
+      <th>BackEnd</th>
+      <th>Database</th>
+   </thead>
+   <tbody>
+      <tr>
+         <td>
+            <ul>
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>Javascript</li>
+            </ul>
+         </td>
+         <td>
+            <ul>
+               <li>PHP</li>
+               <li>Laravel</li>
+            </ul>
+         </td>
+         <td>
+            <ul>
+               <li>SQL</li>
+               <li>MySQL</li>
+            </ul>
+         </td>
+      </tr>
+   </tbody>
 </table>
-
-<table>
-    <thead>
-        <th>Hard Skill</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                Desenvolvimento de Frontend com
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                </ul>  
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Desenvolvimento de Backend
-                <ul>
-                    <li>PHP</li>
-                    <li>Laravel</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Criaçao de Banco de Dados com
-                <ul>
-                    <li>MySQL</li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
 
 <hr/>
 <h3> </h3>
