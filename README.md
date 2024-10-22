@@ -492,7 +492,7 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
       </tr>
    </tbody>
 </table>
-
+<h4>DESENVOLVIMENTO DE HABILIDADES:</h4>
 <table>
    <thead>
       <th>SOFT SKILL</th>
@@ -500,10 +500,20 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
    </thead>
    <tbody>
       <tr>
-         <td></td>
-      </tr>
-      <tr>
-         <td></td>
+         <td>
+            <ul>
+               <li>Organização pessoal</li>
+               <li>Comunicação assertiva</li>
+               <li>Liderança</li>
+            </ul>
+         </td>
+         <td>
+            <ul>
+               <li>Desenvolvimento Frontend</li>
+               <li>Uso de frameworks</li>
+               <li>Comandos github</li>
+            </ul>
+         </td>
       </tr>
    </tbody>  
 </table>
