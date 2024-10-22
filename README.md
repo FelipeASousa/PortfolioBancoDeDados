@@ -127,7 +127,7 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
    </ul>
 </details>
     <p> Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções. O video encontra-se na íntegra, no canal fatecsjc:</p>
-<a href="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
+<a href="https://www.youtube.com/watch?v=B-WpxeDSc34"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
 <p>Link do Repositório: <a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix">Projeto_API_VoMariaFelix</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
 <p align="justify"> Durante esse projeto, atuei na função de Scrum Master da equipe Universal Devs, no qual pude me empenhar em manter todos os rituais do Scrum, como dailies, scrum retrospective e sprint planning. Nesse semestre inicial, o Scrum Master também exercia a função de Product Owner, no qual trabalhei na elaboração do Product Backlog, do Sprint Backlog e principalmente no contato com o cliente do projeto.</p>
