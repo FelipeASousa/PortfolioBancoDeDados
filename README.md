@@ -524,7 +524,7 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
 <img src="https://github.com/user-attachments/assets/b0fc3747-1842-4b3d-a34f-c393edb29138" width="500"/>
 </p>
 <h4>PROBLEMA:</h4>
-<p>A Jetsoft é uma empresa de terceirização de serviços, a qual necessitava emitir relatórios mensais, apresentando o quadro de presença de colaboradores em postos de trabalhos acordados em contrato. Esses quadros de presença deveriam possuir um fechamento mensal e passar por um nível de aprovação.</p>
+<p align="justify">A Jetsoft é uma empresa de terceirização de serviços, a qual necessitava emitir relatórios mensais, apresentando o quadro de presença de colaboradores em postos de trabalhos acordados em contrato. Esses quadros de presença deveriam possuir um fechamento mensal e passar por um nível de aprovação.</p>
 
 <h4>SOLUÇÃO:</h4>
 <p> Aplicação Web para emissão de relatórios mensais do quadro de presença de colaboradores em postos de trabalhos acordados em contrato, para uma empresa de tercerização de serviços.</p>
