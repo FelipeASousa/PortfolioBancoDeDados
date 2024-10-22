@@ -128,7 +128,6 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
 </details>
     <p> Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções. O video encontra-se na íntegra, no canal fatecsjc:</p>
 <a href="https://youtu.be/3tuGaeSp4I8?si=97fQEwyRCjKnHCiA"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
-
 <p>Link do Repositório: <a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix">Projeto_API_VoMariaFelix</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
 <p align="justify"> Durante esse projeto, atuei na função de Scrum Master da equipe Universal Devs, no qual pude me empenhar em manter todos os rituais do Scrum, como dailies, scrum retrospective e sprint planning. Nesse semestre inicial, o Scrum Master também exercia a função de Product Owner, no qual trabalhei na elaboração do Product Backlog, do Sprint Backlog e principalmente no contato com o cliente do projeto.</p>
@@ -458,7 +457,7 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
 </details>
 
 
-<h4> LIÇÕES APRENDIDAS </h4>
+<h4> LIÇÕES APRENDIDAS:</h4>
 <p align="justify">Durante o desenvolvimento desse projeto, pude aprender a como aplicar as metodologias ágeis do Scrum, como reuniões diárias e planejamento. Também aprendi como coordenar uma equipe respeitando o processo de aprendizado individual, sempre tentando usar uma comunicação mais assetiva, clara e menos impositória. Já como desenvolvedor, pude aprimorar os conhecimentos em estrutura HTML e como utilizar pela primeira vez um framework, o Laravel, para realizar a conexão do frontend com o backend e entender melhor as camadas de uma aplicação.</p>
 
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
@@ -525,20 +524,17 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
 <p align="center">
 <img src="https://github.com/user-attachments/assets/b0fc3747-1842-4b3d-a34f-c393edb29138" width="500"/>
 </p>
-<h4>PROBLEMA</h4>
+<h4>PROBLEMA:</h4>
 <p>A Jetsoft é uma empresa de terceirização de serviços, a qual necessitava emitir relatórios mensais, apresentando o quadro de presença de colaboradores em postos de trabalhos acordados em contrato. Esses quadros de presença deveriam possuir um fechamento mensal e passar por um nível de aprovação.</p>
 
-<h4>SOLUÇÃO</h4>
+<h4>SOLUÇÃO:</h4>
 <p> Aplicação Web para emissão de relatórios mensais do quadro de presença de colaboradores em postos de trabalhos acordados em contrato, para uma empresa de tercerização de serviços.</p>
-
-
-
-<p>Link do Repositório </p><a href="https://github.com/gbrramos/API_ADS_2021_2">JetSoft</a>
-<h4> Prévia da Solução </h4>
 <p> Como solução foi estruturado um site, para realizar os cadastros de colaborades e postos de trabalho. O site também possui um quadro de colaboradores, com um sistema de contigências para possíveis alterações no quadro. Por fim, pelo site também é possível gerar relatórios e dahsboards para garantir o acompanhamento.</p>
-<h4> Tecnologias Utilizadas </h4>
-<p> Python,Django, Html, CSS, MySQL</p>
-<h4> Contribuições Pessoais </h4>
+
+<p> Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções. O video encontra-se na íntegra, no canal fatecsjc:</p>
+<a href="youtube.com/watch?v=822ikn9mlRQ"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
+<p>Link do Repositório: <a href="https://github.com/gbrramos/API_ADS_2021_2">API_ADS_2021_2</a></p>
+<h4> CONTRIBUIÇÕES PESSOAIS:</h4>
 <details>
     <summary>Artefatos Scrum</summary>
     <p>Nesse semestre atuei como Product Owner e fui responsável por desenvolver os artefatos scrum</p>
@@ -1534,7 +1530,7 @@ def justificarFalta(request, id):
     <p>Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções, no qual fui responsável por fazer a apresentação do projeto.</po>
 <a href="https://youtu.be/822ikn9mlRQ?si=ENVGBBPhOa6YHv7O"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-2.png?raw=true" width="300"/></a>
 </details>
-<h4> Lições Aprendidas </h4>
+<h4>LIÇÕES APRENDIDAS:</h4>
 <p> Aprendi a implementar o modelo MVT para estruturar o projeto, utilizar API Rest e lógica de programação com Python.</p>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
@@ -1587,14 +1583,14 @@ def justificarFalta(request, id):
 <hr/>
 <h2> 3º Semestre • 1/2022 </h2>
 <p><strong>Parceiro Acadêmico:</strong> TecSUS </p>
-<h4>Descrição do projeto</h4>
+<h4>PROBLEMA:</h4>
      Sistema Web desenvolvido para coleta e processamento de contas de energia, água e gás para diversas empresas dos setores do atacado e varejo, a fim de salvar essas informações no banco de dados para eventuais consultas e análises técnicas/financeiras, que podem trazer ao cliente oportunidades de redução de custos e alteração de contratos. 
-<p>Link do Repositório </p><a href="https://github.com/UniversalDevs/Projeto_API_TecSus"> TecSUS</a>
-<h4> Prévia da Solução </h4>
+<h4>SOLUÇÃO:</h4>
 <p>Desenvolver um site responsivo para cadastro de faturas, clientes e contratos dos fornecimentos de energia e água e fornecendo relatórios de  pós cadastro, para emissão de alertas de alta demanda de consumo e alto preço.</p>
-<h4> Contribuições Pessoais </h4>
+<p>Link do Repositório: <a href="https://github.com/UniversalDevs/Projeto_API_TecSus"> Projeto_API_TecSus</a></p>
+<h4>CONTRIBUIÇÕES PESSOAIS:</h4>
 <p>Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, trabalhei no desenvolvimento das funcionalidades do backend, criando todas as entidades de cadastro e rotas de acesso</p>
-<h4> Lições Aprendidas </h4>
+<h4>LIÇÕES APRENDIDAS:</h4>
 <p> Aprendi a lidar com diferentes tecnologias no processo de desenvolvimento do software. E também como estruturar toda a parte de planejamento do projeto, estabelecer uma comunicação ativa com o cliente, como Product Owner.</p>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
@@ -1649,18 +1645,12 @@ def justificarFalta(request, id):
 <h3> Controle de Laudos de Inspeção Predial</h3>
 <p><strong>Parceiro Acadêmico:</strong> Jaia Software </p>
 
+<h4>PROBLEMA:</h4>
 <p> Aplicação que gerencia anomalias apontadas em um Laudo de Inspeção Predial e otimiza a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.</p>
-
-<p>Link do Repositório </p><a href="https://github.com/Great-Pretender/GreatPretender-API"> Jaia Software</a>
-<h4> Prévia da Solução </h4>
+<h4>SOLUÇÃO:</h4>
 <p> Desenvolver um site para emissão de laudos prediais, gerenciamento de ordens de serviço e controle de usuários, serviços e setores.</p>
-<h4> Tecnologias Utilizadas </h4>
-Java
-Spring Boot
-Typescript
-Vue
-Oracle
-<h4> Contribuições Pessoais </h4>
+<p>Link do Repositório: <a href="https://github.com/Great-Pretender/GreatPretender-API">GreatPretender-API</a></p>
+<h4>CONTRIBUIÇÕES PESSOAIS:</h4>
 <details>
     <summary>Artefatos Scrum</summary>
     <p>Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, sendo as atividades realizadas:</p>
@@ -1981,7 +1971,7 @@ public class UsuarioController {
 ```
 </details>
 
-<h4> Lições Aprendidas </h4>
+<h4>LIÇÕES APRENDIDAS:</h4>
 Como Product Owner, aprendi como absorver as necessidades do cliente e transformá-las em uma solução, assim como fazer o levantamento dos requisitos e estruturar um backlog e users stories, para que a equipe pudesse atuar no desenvolvimento do produto. Como desenvolvedor tive a oportunidade de aprender uma nova tecnologia para frontend - o Vue - que me permitiu entender como utilizar o Typescript nesse framework e extrair os benefícios de seu uso. Com ele, pude aplicar os conceitos de UX/UI no projeto e aprender como isso pode afetar a interação do usuário com o sistema.
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
