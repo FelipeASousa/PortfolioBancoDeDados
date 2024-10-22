@@ -532,7 +532,7 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
 <p> Como solução foi estruturado um site, para realizar os cadastros de colaborades e postos de trabalho. O site também possui um quadro de colaboradores, com um sistema de contigências para possíveis alterações no quadro. Por fim, pelo site também é possível gerar relatórios e dahsboards para garantir o acompanhamento.</p>
 
 <p> Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções. O video encontra-se na íntegra, no canal fatecsjc:</p>
-<a href="youtube.com/watch?v=822ikn9mlRQ"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
+<a href="https://www.youtube.com/watch?v=822ikn9mlRQ"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
 <p>Link do Repositório: <a href="https://github.com/gbrramos/API_ADS_2021_2">API_ADS_2021_2</a></p>
 <h4> CONTRIBUIÇÕES PESSOAIS:</h4>
 <details>
