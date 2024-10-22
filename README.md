@@ -492,7 +492,7 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
       </tr>
    </tbody>
 </table>
-<h4>DESENVOLVIMENTO DE HABILIDADES:</h4>
+<h4>HABILIDADES DESENVOLVIDAS:</h4>
 <table>
    <thead>
       <th>SOFT SKILL</th>
@@ -1536,45 +1536,43 @@ def justificarFalta(request, id):
 </details>
 <h4> Lições Aprendidas </h4>
 <p> Aprendi a implementar o modelo MVT para estruturar o projeto, utilizar API Rest e lógica de programação com Python.</p>
+<h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
-    <thead>
-        <th>Soft Skill</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                Frontend
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>Bootstrap</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Backend
-                <ul>
-                    <li>Python</li>
-                    <li>Django</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Banco de Dados
-                <ul>
-                    <li>MySQL</li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+   <thead>
+      <th>FrontEnd</th>
+      <th>BackEnd</th>
+      <th>Database</th>
+   </thead>
+   <tbody>
+      <tr>
+         <td>
+            <ul>
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>Javascript</li>
+               <li>Bootstrap</li>
+            </ul>
+         </td>
+         <td>
+            <ul>
+               <li>Python</li>
+               <li>Django</li>
+            </ul>
+         </td>
+         <td>
+            <ul>
+               <li>SQL</li>
+               <li>MySQL</li>
+            </ul>
+         </td>
+      </tr>
+   </tbody>
 </table>
-
+<h4>HABILIDADES DESENVOLVIDAS:</h4>
 <table>
     <thead>
-        <th>Soft Skill</th>
+        <th>SOFT SKILL</th>
+        <th>HARD SKILL</th>
     </thead>
     <tbody>
         <tr>
@@ -1594,48 +1592,42 @@ def justificarFalta(request, id):
 <p>Link do Repositório </p><a href="https://github.com/UniversalDevs/Projeto_API_TecSus"> TecSUS</a>
 <h4> Prévia da Solução </h4>
 <p>Desenvolver um site responsivo para cadastro de faturas, clientes e contratos dos fornecimentos de energia e água e fornecendo relatórios de  pós cadastro, para emissão de alertas de alta demanda de consumo e alto preço.</p>
-<h4> Tecnologias Utilizadas </h4>
-<p>Java, Spring Boot, Html, CSS e PostgreSQL</p>
 <h4> Contribuições Pessoais </h4>
 <p>Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, trabalhei no desenvolvimento das funcionalidades do backend, criando todas as entidades de cadastro e rotas de acesso</p>
 <h4> Lições Aprendidas </h4>
 <p> Aprendi a lidar com diferentes tecnologias no processo de desenvolvimento do software. E também como estruturar toda a parte de planejamento do projeto, estabelecer uma comunicação ativa com o cliente, como Product Owner.</p>
+<h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
-    <thead>
-        <th>Hard Skill</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                Frontend
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-    <li>Bootstrap</li>
-</ul>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Backend
-<ul>
-    <li>Java</li>
-    <li>Spring Boot</li>
-</ul>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Banco de Dados
-<ul>
-    <li>PostgreSQL</li>
-</ul>
-            </td>
-        </tr>
-    </tbody>
+   <thead>
+      <th>FrontEnd</th>
+      <th>BackEnd</th>
+      <th>Database</th>
+   </thead>
+   <tbody>
+      <tr>
+         <td>
+            <ul>
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>Javascript</li>
+            </ul>
+         </td>
+         <td>
+            <ul>
+               <li>Java</li>
+               <li>Spring Boot</li>
+            </ul>
+         </td>
+         <td>
+            <ul>
+               <li>SQL</li>
+               <li>PostgreSQL</li>
+            </ul>
+         </td>
+      </tr>
+   </tbody>
 </table>
-
+<h4>HABILIDADES DESENVOLVIDAS:</h4>
 <table>
     <thead>
         <th>Soft Skill</th>
@@ -1991,62 +1983,61 @@ public class UsuarioController {
 
 <h4> Lições Aprendidas </h4>
 Como Product Owner, aprendi como absorver as necessidades do cliente e transformá-las em uma solução, assim como fazer o levantamento dos requisitos e estruturar um backlog e users stories, para que a equipe pudesse atuar no desenvolvimento do produto. Como desenvolvedor tive a oportunidade de aprender uma nova tecnologia para frontend - o Vue - que me permitiu entender como utilizar o Typescript nesse framework e extrair os benefícios de seu uso. Com ele, pude aplicar os conceitos de UX/UI no projeto e aprender como isso pode afetar a interação do usuário com o sistema.
-
+<h4>TECNOLOGIAS UTILIZADAS:</h4>
+<table>
+   <thead>
+      <th>FrontEnd</th>
+      <th>BackEnd</th>
+      <th>Database</th>
+   </thead>
+   <tbody>
+      <tr>
+         <td>
+            <ul>
+               <li>Vue</li>
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>Typescript</li>
+            </ul>
+         </td>
+         <td>
+            <ul>
+               <li>Java</li>
+               <li>Spring Boot</li>
+            </ul>
+         </td>
+         <td>
+            <ul>
+               <li>SQL</li>
+               <li>Oracle</li>
+            </ul>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<h4>HABILIDADES DESENVOLVIDAS:</h4>
 <table>
     <thead>
-        <th>Hard Skill</th>
+       <th>SOFT SKILL</th>
+       <th>HARD SKILL</th>
     </thead>
     <tbody>
         <tr>
             <td>
-                Linguagem de programação
                 <ul>
-                    <li>Java</li>
-                    <li>Typescript</li>
+                    <li>Organização e Planejamento</li>
+                    <li>Disciplina</li>
+                    <li>Respeito e Empatia</li>
                 </ul>
             </td>
-        </tr>
-        <tr>
-            <td>
-                Desenvolvimento Web
+           <td>
                 <ul>
+                   <li>Java</li>
+                   <li>Spring Boot</li>
                     <li>Vue</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Backend
-                <ul>
-                    <li>Java</li>
-                    <li>Spring Boot</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Banco de Dados
-                <ul>
                     <li>Oracle</li>
                 </ul>
             </td>
-        </tr>
-    </tbody>
-</table>
-
-<table>
-    <thead>
-        <th>Soft Skill</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Organização e Planejamento</td>
-        </tr>
-        <tr>
-            <td>Disciplina</td>
-        </tr>
-        <tr>
-            <td>Respeito e Empatia</td>
         </tr>
     </tbody>
 </table>
