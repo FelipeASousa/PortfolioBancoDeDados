@@ -1586,7 +1586,7 @@ def justificarFalta(request, id):
     </tbody>
 </table>
 
-<h3> </h3>
+<hr/>
 <h2> 3º Semestre • 1/2022 </h2>
 <p><strong>Parceiro Acadêmico:</strong> TecSUS </p>
 <h4>Descrição do projeto</h4>
@@ -1653,8 +1653,8 @@ def justificarFalta(request, id):
 </table>
 
 <hr/>
-<h3> Controle de Laudos de Inspeção Predial</h3>
 <h2> 4º Semestre • 2/2023 </h2>
+<h3> Controle de Laudos de Inspeção Predial</h3>
 <p><strong>Parceiro Acadêmico:</strong> Jaia Software </p>
 
 <p> Aplicação que gerencia anomalias apontadas em um Laudo de Inspeção Predial e otimiza a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.</p>
