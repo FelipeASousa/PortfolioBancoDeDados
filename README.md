@@ -1979,7 +1979,7 @@ public class UsuarioController {
 </details>
 
 <h4>LIÇÕES APRENDIDAS:</h4>
-Como Product Owner, aprendi como absorver as necessidades do cliente e transformá-las em uma solução, assim como fazer o levantamento dos requisitos e estruturar um backlog e users stories, para que a equipe pudesse atuar no desenvolvimento do produto. Como desenvolvedor tive a oportunidade de aprender uma nova tecnologia para frontend - o Vue - que me permitiu entender como utilizar o Typescript nesse framework e extrair os benefícios de seu uso. Com ele, pude aplicar os conceitos de UX/UI no projeto e aprender como isso pode afetar a interação do usuário com o sistema.
+<p align="justify">Como Product Owner, aprendi como absorver as necessidades do cliente e transformá-las em uma solução, assim como fazer o levantamento dos requisitos e estruturar um backlog e users stories, para que a equipe pudesse atuar no desenvolvimento do produto. Como desenvolvedor tive a oportunidade de aprender uma nova tecnologia para frontend - o Vue - que me permitiu entender como utilizar o Typescript nesse framework e extrair os benefícios de seu uso. Com ele, pude aplicar os conceitos de UX/UI no projeto e aprender como isso pode afetar a interação do usuário com o sistema.</p>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
    <thead>
