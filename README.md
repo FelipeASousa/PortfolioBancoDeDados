@@ -5,7 +5,7 @@
 <hr/>
 <h2 align="center"> Sobre mim </h2>
 <p align="center"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/profile_photo.jfif" width="20%"></p>
-<p align="justify"> Sou Felipe Augusto dos Santos Sousa, tenho 21 anos, sou formado em Técnico em Informática pela Escola Técnica Estadual profª Ilza Nascimento Pintus e atualmente, cursando Tecnologia em Banco de Dados na Faculdade de Tecnologia de São José dos Campos (FATEC).
+<p align="justify"> Sou Felipe Augusto dos Santos Sousa, tenho 21 anos, sou formado em Técnico em Informática pela Escola Técnica Estadual profª Ilza Nascimento Pintus e atualmente, estou cursando Tecnologia em Banco de Dados na Faculdade de Tecnologia de São José dos Campos (FATEC).
 </p>
 <p align="justify">
    Iniciei minha carreira na área de tecnologia em 2018, quando ingressei em um curso de Informática, onde descobri minha afeição pela ramo e que posteriormente, me motivou a continuar nesse setor. Em 2021, visando mais conhecimento, ingressei no Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas na FATEC, onde estudei por dois anos antes de migrar para o curso superior de Banco de Dados no ano de 2023, na mesma instituição.
@@ -491,6 +491,21 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
          </td>
       </tr>
    </tbody>
+</table>
+
+<table>
+   <thead>
+      <th>SOFT SKILL</th>
+      <th>HARD SKILL</th>
+   </thead>
+   <tbody>
+      <tr>
+         <td></td>
+      </tr>
+      <tr>
+         <td></td>
+      </tr>
+   </tbody>  
 </table>
 
 <hr/>
