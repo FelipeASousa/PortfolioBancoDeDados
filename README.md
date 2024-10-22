@@ -527,8 +527,7 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
 <p align="justify">A Jetsoft é uma empresa de terceirização de serviços, a qual necessitava emitir relatórios mensais, apresentando o quadro de presença de colaboradores em postos de trabalhos acordados em contrato. Esses quadros de presença deveriam possuir um fechamento mensal e passar por um nível de aprovação.</p>
 
 <h4>SOLUÇÃO:</h4>
-<p> Aplicação Web para emissão de relatórios mensais do quadro de presença de colaboradores em postos de trabalhos acordados em contrato, para uma empresa de tercerização de serviços.</p>
-<p> Como solução foi estruturado um site, para realizar os cadastros de colaborades e postos de trabalho. O site também possui um quadro de colaboradores, com um sistema de contigências para possíveis alterações no quadro. Por fim, pelo site também é possível gerar relatórios e dahsboards para garantir o acompanhamento.</p>
+<p> Como solução foi estruturado uma aplicação Web, para realizar os cadastros de colaborades e postos de trabalho. O site possui um quadro de colaboradores, com um sistema de contigências para possíveis alterações no quadro. E por fim, pelo aplicação também é possível gerar relatórios e dahsboards para garantir o acompanhamento das presenças.</p>
 
 <p> Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções. O video encontra-se na íntegra, no canal fatecsjc:</p>
 <a href="https://www.youtube.com/watch?v=822ikn9mlRQ"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
@@ -1585,10 +1584,14 @@ def justificarFalta(request, id):
 <p align="center">
 <img src="https://github.com/user-attachments/assets/173d34f5-8d80-44a9-bf72-e833e9bb2f1e" width=500/>
 </p>
+
+
 <h4>PROBLEMA:</h4>
-     Sistema Web desenvolvido para coleta e processamento de contas de energia, água e gás para diversas empresas dos setores do atacado e varejo, a fim de salvar essas informações no banco de dados para eventuais consultas e análises técnicas/financeiras, que podem trazer ao cliente oportunidades de redução de custos e alteração de contratos. 
+<p align="justify">
+   A TecSUS é uma empresa especializada na coleta e processamento de contas de energia, água e gás, e que atende empresas dos setores atacadista e varejista. Nesse contexto, a TecSUS necessitava melhorar no processo de digitalização dessas contas devido ao grande volume de dados e à falta de estruturação adequada para automação e visualização eficiente das informações.
+</p>
 <h4>SOLUÇÃO:</h4>
-<p>Desenvolver um site responsivo para cadastro de faturas, clientes e contratos dos fornecimentos de energia e água e fornecendo relatórios de  pós cadastro, para emissão de alertas de alta demanda de consumo e alto preço.</p>
+<p align="justify"> A solução desenvolvida era um sistema web responsivo, com o foco de otimizar o processo de cadastro e gestão de faturas de energia, água e gás. O principal objetivo era coletar, processar e armazenar os dados relacionados à essas faturas, contratos e cliente de forma eficiente, gerando também relatórios pós-cadastro para obter análises.</p>
 <p>Link do Repositório: <a href="https://github.com/UniversalDevs/Projeto_API_TecSus"> Projeto_API_TecSus</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
 <p>Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, trabalhei no desenvolvimento das funcionalidades do backend, criando todas as entidades de cadastro e rotas de acesso</p>
