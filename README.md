@@ -76,7 +76,6 @@ Atualmente, meu objetivo é ampliar meus conhecimentos em análise de dados e ap
 <p align="center">
 <img src="https://github.com/user-attachments/assets/bc4d88f7-a16c-455a-a838-019f64308252"/>
 </p>
-
 <h4>PROBLEMA:</h4>
 <p align="justify"> Desenvolver um site institucional para a ONG Instituto Vó Maria Félix, que atende crianças de 0 à 7 anos e que necessitava gerenciar suas atividades e projetos voluntários. O site deveria permitir que o usuário gerenciasse o cadastro de participantes, de voluntários e de projetos, de forma eficiente, para melhorar a gestão e organização do instituto.</p>
 <h4>SOLUÇÃO:</h4>
@@ -1583,6 +1582,9 @@ def justificarFalta(request, id):
 <hr/>
 <h2> 3º Semestre • 1/2022 </h2>
 <p><strong>Parceiro Acadêmico:</strong> TecSUS </p>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/173d34f5-8d80-44a9-bf72-e833e9bb2f1e" width=500/>
+</p>
 <h4>PROBLEMA:</h4>
      Sistema Web desenvolvido para coleta e processamento de contas de energia, água e gás para diversas empresas dos setores do atacado e varejo, a fim de salvar essas informações no banco de dados para eventuais consultas e análises técnicas/financeiras, que podem trazer ao cliente oportunidades de redução de custos e alteração de contratos. 
 <h4>SOLUÇÃO:</h4>
@@ -1644,7 +1646,9 @@ def justificarFalta(request, id):
 <h2> 4º Semestre • 2/2023 </h2>
 <h3> Controle de Laudos de Inspeção Predial</h3>
 <p><strong>Parceiro Acadêmico:</strong> Jaia Software </p>
-
+<p align="center">
+<img src="https://github.com/user-attachments/assets/77bc5978-15f2-4bfa-b28c-9bfeef51acdc" width=500/>
+</p>
 <h4>PROBLEMA:</h4>
 <p> Aplicação que gerencia anomalias apontadas em um Laudo de Inspeção Predial e otimiza a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.</p>
 <h4>SOLUÇÃO:</h4>
