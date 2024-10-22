@@ -80,7 +80,7 @@ Atualmente, meu objetivo é ampliar meus conhecimentos em análise de dados e ap
 <h4>PROBLEMA:</h4>
 <p align="justify"> Desenvolver um site institucional para a ONG Instituto Vó Maria Félix, que atende crianças de 0 à 7 anos e que necessitava gerenciar suas atividades e projetos voluntários. O site deveria permitir que o usuário gerenciasse o cadastro de participantes, de voluntários e de projetos, de forma eficiente, para melhorar a gestão e organização do instituto.</p>
 <h4>SOLUÇÃO:</h4>
-<p align="justify">A partir do problema proposto, foi desenvolvida uma proposta de solução composta por duas etapas principais. A primeira etapa consistia em um painel administrativo com o foco no gerenciamento dos participantes, projetos e voluntários. Esse painel também permitiria controlar as publicações que seriam expostas no site voltado à exposição dos projetos realizados.</p>
+<p align="justify">A partir do problema proposto, foi desenvolvida uma proposta de solução de uma plataforma Web composta por duas etapas principais. A primeira etapa consistia em um painel administrativo com o foco no gerenciamento dos participantes, projetos e voluntários. Esse painel também permitiria controlar as publicações que seriam expostas no site voltado à exposição dos projetos realizados.</p>
 <p align="justify">
 A segunda etapa era desenvolver um site informativo, voltado para o público externo, com o foco de apresentar os projetos trabalhados e atividades do instituto, visando promover maior visibilidade e recrutar novos voluntários.</p>
 <p align="justify"> Esses foram os resultados desse projeto:</p>
@@ -458,7 +458,7 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
 </details>
 
 
-<h4> Lições Aprendidas </h4>
+<h4> LIÇÕES APRENDIDAS </h4>
 <p align="justify">Durante o desenvolvimento desse projeto, pude aprender a como aplicar as metodologias ágeis do Scrum, como reuniões diárias e planejamento. Também aprendi como coordenar uma equipe respeitando o processo de aprendizado individual, sempre tentando usar uma comunicação mais assetiva, clara e menos impositória. Já como desenvolvedor, pude aprimorar os conhecimentos em estrutura HTML e como utilizar pela primeira vez um framework, o Laravel, para realizar a conexão do frontend com o backend e entender melhor as camadas de uma aplicação.</p>
 
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
