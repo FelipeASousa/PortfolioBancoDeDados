@@ -1588,7 +1588,7 @@ def justificarFalta(request, id):
 
 <h3> </h3>
 <h2> 3º Semestre • 1/2022 </h2>
-<p> Parceiro Acadêmico: TecSUS </p>
+<p><strong>Parceiro Acadêmico:</strong> TecSUS </p>
 <h4>Descrição do projeto</h4>
      Sistema Web desenvolvido para coleta e processamento de contas de energia, água e gás para diversas empresas dos setores do atacado e varejo, a fim de salvar essas informações no banco de dados para eventuais consultas e análises técnicas/financeiras, que podem trazer ao cliente oportunidades de redução de custos e alteração de contratos. 
 <p>Link do Repositório </p><a href="https://github.com/UniversalDevs/Projeto_API_TecSus"> TecSUS</a>
@@ -1655,7 +1655,7 @@ def justificarFalta(request, id):
 <hr/>
 <h3> Controle de Laudos de Inspeção Predial</h3>
 <h2> 4º Semestre • 2/2023 </h2>
-<p> Parceiro Acadêmico:  Jaia Software </p>
+<p><strong>Parceiro Acadêmico:</strong> Jaia Software </p>
 
 <p> Aplicação que gerencia anomalias apontadas em um Laudo de Inspeção Predial e otimiza a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.</p>
 
