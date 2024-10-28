@@ -2047,7 +2047,7 @@ public class UsuarioController {
 <h4>PROBLEMA:</h4>
 <p align="justify"> A TecSUS é uma empresa especializada na coleta e processamento de contas de energia, água e gás, e que atende empresas dos setores atacadista e varejista. Devido ao grande volume de dados coletados, é necessário visibilidades para observar e atuar em redução de custos e alteração de contratos. O desafio é desenvolver ferramentas de visualização de dados para organizar e explorar melhor os dados acerca das faturas, visando a otimização de análises e serviços para a empresa e seus clientes.</p>
 <h4>SOLUÇÃO:</h4>
-<p> ...</p>
+<p align="justify">Como solução foi proposto o desenvolvimento de um dashboard web de alta complexidade para análise e exibição de dados de faturas de energia, água, com o objetivo de atender a necessidade de visualização apurada das informações, visando a redução de custos e otimização de contratos. O sistema também tinha como proposta, o carregamento de arquivos csv e tratamento de tais, para proporcionar ao usuário um método ágil de visualizar, através de dashboards, as novas informações coletadas.</p>
 <p>Link do Repositório: <a href="https://github.com/quarks-team/Projeto-Integrador-TecSUS">Quarks-API</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
 <p>...</p>
@@ -2121,7 +2121,7 @@ public class UsuarioController {
 <h4>PROBLEMA:</h4>
 <p align="justify"> A SPC Grafeno é uma empresa especializada em tecnologia financeira para gestão de crédito e garantia de recebíveis e incubiu o desafio de explorar diversas bases de dados, em prol de desenvolver produtos financeiros para o mercado de duplicatas de crédito, buscando produtos de identificação de risco e tendências de mercado.</p>
 <h4>SOLUÇÃO:</h4>
-<p align="justify"> Como solução foi proposto o desenvolvimento de um dashboard web de alta complexidade para análise e exibição de dados de faturas de energia, água, com o objetivo de atender a necessidade de visualização apurada das informações, visando a redução de custos e otimização de contratos. O sistema também tinha como proposta, o carregamento de arquivos csv e tratamento de tais, para proporcionar ao usuário um método ágil de visualizar, através de dashboards, as novas informações coletadas.</p>
+<p align="justify"> </p>
 <p>Link do Repositório: <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno">Quarks-API</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
 <p>...</p>
