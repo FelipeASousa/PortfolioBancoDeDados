@@ -2042,13 +2042,13 @@ public class UsuarioController {
 <h3> ...</h3>
 <p><strong>Parceiro Acadêmico:</strong> TecSus </p>
 <p align="center">
-<img src="" width=500/>
+<img src="https://github.com/user-attachments/assets/173d34f5-8d80-44a9-bf72-e833e9bb2f1e" width=500/>
 </p>
 <h4>PROBLEMA:</h4>
 <p> ...</p>
 <h4>SOLUÇÃO:</h4>
 <p> ...</p>
-<p>Link do Repositório: <a href="">Quarks-API</a></p>
+<p>Link do Repositório: <a href="https://github.com/quarks-team/Projeto-Integrador-TecSUS">Quarks-API</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
 <p>...</p>
 
@@ -2112,17 +2112,17 @@ public class UsuarioController {
         </tr>
     </tbody>
 </table>
-<h2> 6º Semestre • 1/2024 </h2>
+<h2> 6º Semestre • 2/2024 </h2>
 <h3> ...</h3>
 <p><strong>Parceiro Acadêmico:</strong> SPC Grafeno</p>
 <p align="center">
-<img src="" width=500/>
+<img src="https://github.com/user-attachments/assets/a595da07-2632-4342-af5c-a8ab1035a66a" width=500/>
 </p>
 <h4>PROBLEMA:</h4>
 <p> ...</p>
 <h4>SOLUÇÃO:</h4>
 <p> ...</p>
-<p>Link do Repositório: <a href="">Quarks-API</a></p>
+<p>Link do Repositório: <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno">Quarks-API</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
 <p>...</p>
 
