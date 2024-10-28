@@ -1594,9 +1594,9 @@ def justificarFalta(request, id):
 <p align="justify"> A solução desenvolvida era um sistema web responsivo, com o foco de otimizar o processo de cadastro e gestão de faturas de energia, água e gás. O principal objetivo era coletar, processar e armazenar os dados relacionados à essas faturas, contratos e cliente de forma eficiente, gerando também relatórios pós-cadastro para obter análises.</p>
 <p>Link do Repositório: <a href="https://github.com/UniversalDevs/Projeto_API_TecSus"> Projeto_API_TecSus</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
-<p>Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, trabalhei no desenvolvimento das funcionalidades do backend, criando todas as entidades de cadastro e rotas de acesso</p>
+<p align="justify">Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, trabalhei no desenvolvimento das funcionalidades do backend, criando todas as entidades de cadastro e rotas de acesso</p>
 <h4>LIÇÕES APRENDIDAS:</h4>
-<p> Aprendi a lidar com diferentes tecnologias no processo de desenvolvimento do software. E também como estruturar toda a parte de planejamento do projeto, estabelecer uma comunicação ativa com o cliente, como Product Owner.</p>
+<p align="justify"> Aprendi a lidar com diferentes tecnologias no processo de desenvolvimento do software. E também como estruturar toda a parte de planejamento do projeto, estabelecer uma comunicação ativa com o cliente, como Product Owner.</p>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
    <thead>
