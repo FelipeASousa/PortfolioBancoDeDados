@@ -2119,7 +2119,7 @@ public class UsuarioController {
 <img src="https://github.com/user-attachments/assets/a595da07-2632-4342-af5c-a8ab1035a66a" width=500/>
 </p>
 <h4>PROBLEMA:</h4>
-<p> ...</p>
+<p align="justify"> A SPC Grafeno é uma empresa especializada em tecnologia financeira para gestão de crédito e garantia de recebíveis e incubiu o desafio de explorar diversas bases de dados, em prol de desenvolver produtos financeiros para o mercado de duplicatas de crédito, propondo analises de risco e tendências de mercado.</p>
 <h4>SOLUÇÃO:</h4>
 <p> ...</p>
 <p>Link do Repositório: <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno">Quarks-API</a></p>
