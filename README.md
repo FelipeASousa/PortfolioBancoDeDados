@@ -529,7 +529,7 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
 <h4>SOLUÇÃO:</h4>
 <p align="justify"> Como solução foi estruturado uma aplicação Web, para realizar os cadastros de colaboradores e postos de trabalho. O site possui um quadro de funcionários, com um sistema de contigências para possíveis alterações no quadro. E por fim, pela aplicação também é possível gerar relatórios e dashboards para garantir o acompanhamento das presenças.</p>
 
-<p> Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções. O video encontra-se na íntegra, no canal fatecsjc:</p>
+<p align="justify"> Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções. O video encontra-se na íntegra, no canal fatecsjc:</p>
 <a href="https://www.youtube.com/watch?v=822ikn9mlRQ"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
 <p>Link do Repositório: <a href="https://github.com/gbrramos/API_ADS_2021_2">API_ADS_2021_2</a></p>
 <h4> CONTRIBUIÇÕES PESSOAIS:</h4>
@@ -1525,11 +1525,11 @@ def justificarFalta(request, id):
 </details>
 <details>
     <summary>Apresentação do Projeto</summary>
-    <p>Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções, no qual fui responsável por fazer a apresentação do projeto.</po>
+    <p align="justify">Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções, no qual fui responsável por fazer a apresentação do projeto.</po>
 <a href="https://youtu.be/822ikn9mlRQ?si=ENVGBBPhOa6YHv7O"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-2.png?raw=true" width="300"/></a>
 </details>
 <h4>LIÇÕES APRENDIDAS:</h4>
-<p> Aprendi a implementar o modelo MVT para estruturar o projeto, utilizar API Rest e lógica de programação com Python.</p>
+<p align="justify"> Aprendi a implementar o modelo MVT para estruturar o projeto, utilizar API Rest e lógica de programação com Python.</p>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
    <thead>
@@ -1653,14 +1653,14 @@ def justificarFalta(request, id):
 <img src="https://github.com/user-attachments/assets/77bc5978-15f2-4bfa-b28c-9bfeef51acdc" width=500/>
 </p>
 <h4>PROBLEMA:</h4>
-<p> Aplicação que gerencia anomalias apontadas em um Laudo de Inspeção Predial e otimiza a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.</p>
+<p align="justify"> Aplicação que gerencia anomalias apontadas em um Laudo de Inspeção Predial e otimiza a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.</p>
 <h4>SOLUÇÃO:</h4>
-<p> Desenvolver um site para emissão de laudos prediais, gerenciamento de ordens de serviço e controle de usuários, serviços e setores.</p>
+<p align="justify"> Desenvolver um site para emissão de laudos prediais, gerenciamento de ordens de serviço e controle de usuários, serviços e setores.</p>
 <p>Link do Repositório: <a href="https://github.com/Great-Pretender/GreatPretender-API">GreatPretender-API</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
 <details>
     <summary>Artefatos Scrum</summary>
-    <p>Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, sendo as atividades realizadas:</p>
+    <p align="justify">Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, sendo as atividades realizadas:</p>
     Solução do problema
 <ul>
     <li>Levantamento de Requisitos</li>
@@ -1671,7 +1671,7 @@ def justificarFalta(request, id):
 </details>
 <details>
     <summary>Controller do Backend</summary>
-  <p>Crier a estrutura de rotas do backend para as funcionalidades de cadastro de Contratos, Setores, Serviços, Ordens de Serviço e Usuários, para que fosse possível a utilização dessas funcionalidades no frontend.</p>
+  <p align="justify">Crier a estrutura de rotas do backend para as funcionalidades de cadastro de Contratos, Setores, Serviços, Ordens de Serviço e Usuários, para que fosse possível a utilização dessas funcionalidades no frontend.</p>
 <h5>Controller de Contrato</h5>
     
 ```java
@@ -2113,7 +2113,7 @@ public class UsuarioController {
     </tbody>
 </table>
 <h2> 6º Semestre • 2/2024 </h2>
-<h3> ...</h3>
+<h3>Soluções de IA para o mercado de duplicatas de crédito</h3>
 <p><strong>Parceiro Acadêmico:</strong> SPC Grafeno</p>
 <p align="center">
 <img src="https://github.com/user-attachments/assets/a595da07-2632-4342-af5c-a8ab1035a66a" width=500/>
