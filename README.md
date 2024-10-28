@@ -125,7 +125,7 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
       <img src="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix/blob/main/Gifs/EnviarEmailContatos1.gif?raw=true" width="500"/>
    </ul>
 </details>
-    <p> Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções. O video encontra-se na íntegra, no canal fatecsjc:</p>
+    <p align="justify"> Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções. O video encontra-se na íntegra, no canal fatecsjc:</p>
 <a href="https://www.youtube.com/watch?v=B-WpxeDSc34"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
 <p>Link do Repositório: <a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix">Projeto_API_VoMariaFelix</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
