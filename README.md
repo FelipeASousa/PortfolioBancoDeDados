@@ -2038,3 +2038,152 @@ public class UsuarioController {
         </tr>
     </tbody>
 </table>
+<h2> 5º Semestre • 1/2024 </h2>
+<h3> ...</h3>
+<p><strong>Parceiro Acadêmico:</strong> TecSus </p>
+<p align="center">
+<img src="" width=500/>
+</p>
+<h4>PROBLEMA:</h4>
+<p> ...</p>
+<h4>SOLUÇÃO:</h4>
+<p> ...</p>
+<p>Link do Repositório: <a href="">Quarks-API</a></p>
+<h4>CONTRIBUIÇÕES PESSOAIS:</h4>
+<p>...</p>
+
+<h4>LIÇÕES APRENDIDAS:</h4>
+<p align="justify">...</p>
+<h4>TECNOLOGIAS UTILIZADAS:</h4>
+<table>
+   <thead>
+      <th>FrontEnd</th>
+      <th>BackEnd</th>
+      <th>Database</th>
+   </thead>
+   <tbody>
+      <tr>
+         <td>
+            <ul>
+               <li>Vue</li>
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>Typescript</li>
+            </ul>
+         </td>
+         <td>
+            <ul>
+               <li>Typescript</li>
+               <li>Nest</li>
+            </ul>
+         </td>
+         <td>
+            <ul>
+               <li>SQL</li>
+               <li>MySQL</li>
+            </ul>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<h4>HABILIDADES DESENVOLVIDAS:</h4>
+<table>
+    <thead>
+       <th>SOFT SKILL</th>
+       <th>HARD SKILL</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </td>
+           <td>
+                <ul>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h2> 6º Semestre • 1/2024 </h2>
+<h3> ...</h3>
+<p><strong>Parceiro Acadêmico:</strong> SPC Grafeno</p>
+<p align="center">
+<img src="" width=500/>
+</p>
+<h4>PROBLEMA:</h4>
+<p> ...</p>
+<h4>SOLUÇÃO:</h4>
+<p> ...</p>
+<p>Link do Repositório: <a href="">Quarks-API</a></p>
+<h4>CONTRIBUIÇÕES PESSOAIS:</h4>
+<p>...</p>
+
+<h4>LIÇÕES APRENDIDAS:</h4>
+<p align="justify">...</p>
+<h4>TECNOLOGIAS UTILIZADAS:</h4>
+<table>
+   <thead>
+      <th>FrontEnd</th>
+      <th>BackEnd</th>
+      <th>Database</th>
+   </thead>
+   <tbody>
+      <tr>
+         <td>
+            <ul>
+               <li>Vue</li>
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>Javascript</li>
+            </ul>
+         </td>
+         <td>
+            <ul>
+               <li>Typescript</li>
+               <li>Nest</li>
+               <li>Python</li>
+            </ul>
+         </td>
+         <td>
+            <ul>
+               <li>SQL</li>
+               <li>PostgreSQL</li>
+            </ul>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<h4>HABILIDADES DESENVOLVIDAS:</h4>
+<table>
+    <thead>
+       <th>SOFT SKILL</th>
+       <th>HARD SKILL</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </td>
+           <td>
+                <ul>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
