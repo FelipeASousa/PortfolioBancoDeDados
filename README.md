@@ -2124,7 +2124,10 @@ public class UsuarioController {
 <p align="justify"> </p>
 <p>Link do Repositório: <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno">Quarks-API</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
-<p>...</p>
+<p>Nesse projeto, fui incubido de atuar como Scrum Master da equipe Quarks, no qual tive a oportunidade de contribuir conduzindo as metodologias Scrum com o time. Fui responsável por desenvolver o hábito, nos membros da equipe, de realizarem suas dailies e também de facilitar os processos, tanto de desenvolvimento, quanto de aprendizagem dos integrantes. Ao fim de cada sprint, eu conduzia as reuniões de Sprint Retrospective, onde os membros da equipe podiam se expressar acerca de como se sentiram acerca da sprint realizada e o que poderia ser melhorado, tanto em questão de produto, quanto de cultura e relacionamento. Após isso, também conduzia as reuniões de Sprint Planning, reuniões essas onde os integrantes da equipe, em apoio do Product Owner, discorriam acerca do planejamento da próxima sprint, sobre o que seria composto a entrega.</p>
+<p align="justify">
+   Além das responsabilidades de Scrum Master, também contribui com o desenvolvimento dos dashboards que seriam carregados no sistema Web. Dessa forma, através da ferramenta Power BI, construí os dashboards acerca das faturas de água e e de energia, como também, na conexão das informações do banco de dados com essas visibilidades.</p>
+
 
 <h4>LIÇÕES APRENDIDAS:</h4>
 <p align="justify">...</p>
