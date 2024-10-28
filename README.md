@@ -2039,7 +2039,7 @@ public class UsuarioController {
     </tbody>
 </table>
 <h2> 5º Semestre • 1/2024 </h2>
-<h3> ...</h3>
+<h3>Dashboard Web de Análise de Faturas de Energia, Água e Gás</h3>
 <p><strong>Parceiro Acadêmico:</strong> TecSus </p>
 <p align="center">
 <img src="https://github.com/user-attachments/assets/173d34f5-8d80-44a9-bf72-e833e9bb2f1e" width=500/>
