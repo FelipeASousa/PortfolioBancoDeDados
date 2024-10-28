@@ -2045,7 +2045,7 @@ public class UsuarioController {
 <img src="https://github.com/user-attachments/assets/173d34f5-8d80-44a9-bf72-e833e9bb2f1e" width=500/>
 </p>
 <h4>PROBLEMA:</h4>
-<p align="justify"> A TecSUS é uma empresa especializada na coleta e processamento de contas de energia, água e gás, e que atende empresas dos setores atacadista e varejista. Devido ao grande volume de dados coletados, é necessário visibilidades para observar e atuar em redução de custos e alteração de contratos. O desafio é desenvolver ferramentas de visualização de dados para organizar e explorar melhor os dados acerca das faturas, visando a otimização de análises e serviços para e empresa e seus clientes.</p>
+<p align="justify"> A TecSUS é uma empresa especializada na coleta e processamento de contas de energia, água e gás, e que atende empresas dos setores atacadista e varejista. Devido ao grande volume de dados coletados, é necessário visibilidades para observar e atuar em redução de custos e alteração de contratos. O desafio é desenvolver ferramentas de visualização de dados para organizar e explorar melhor os dados acerca das faturas, visando a otimização de análises e serviços para a empresa e seus clientes.</p>
 <h4>SOLUÇÃO:</h4>
 <p> ...</p>
 <p>Link do Repositório: <a href="https://github.com/quarks-team/Projeto-Integrador-TecSUS">Quarks-API</a></p>
