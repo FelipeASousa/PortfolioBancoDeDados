@@ -2121,7 +2121,7 @@ public class UsuarioController {
 <h4>PROBLEMA:</h4>
 <p align="justify"> A SPC Grafeno é uma empresa especializada em tecnologia financeira para gestão de crédito e garantia de recebíveis e incubiu o desafio de explorar diversas bases de dados, em prol de desenvolver produtos financeiros para o mercado de duplicatas de crédito, buscando produtos de identificação de risco e tendências de mercado.</p>
 <h4>SOLUÇÃO:</h4>
-<p> ...</p>
+<p> Como solução foi proposto o desenvolvimento de um dashboard web de alta complexidade para análise e exibição de dados de faturas de energia, água, com o objetivo de atender a necessidade de visualização apurada das informações, visando a redução de custos e otimização de contratos. O sistema também tinha como proposta, o carregamento de arquivos csv e tratamento de tais, para proporcionar ao usuário um método ágil de visualizar, através de dashboards, as novas informações coletadas.</p>
 <p>Link do Repositório: <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno">Quarks-API</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
 <p>...</p>
