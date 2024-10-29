@@ -2111,17 +2111,16 @@ public class UsuarioController {
         <tr>
             <td>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Liderança</li>
+                    <li>Comunicação</li>
+                    <li>Auto-controle</li>
                 </ul>
             </td>
            <td>
                 <ul>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
+                   <li>Jest</li>
+                   <li>Cypress</li>
+                   <li>Linguagem M</li>
                 </ul>
             </td>
         </tr>
