@@ -2054,6 +2054,19 @@ public class UsuarioController {
 <p align="justify">
    Além das responsabilidades de Scrum Master, também contribui com o desenvolvimento dos dashboards que seriam carregados no sistema Web. Dessa forma, através da ferramenta Power BI, construí os dashboards acerca das faturas de água e de energia, como também, na conexão das informações do banco de dados com essas visibilidades.</p>
 <p align="justify">Por fim, nesse projeto também havia o desafio de aplicar a cultura Devops, durante o desenvolvimento de tal. Nesse contexto, desenvolvi a rotina de testes de integração e também sua documentação, para que qualquer integrante da equipe ou um novo possível membro pudessem, perante as instruções criadas, desenvolver estando cientes do procedimento de testes de integração no projeto.</p>
+<details>
+    <summary>Descrição de Desenvolvimento da equipe</summary>
+   <p align="justify">Durante o projeto, como Scrum Master, fui documentando os processos de desenvolvimento, burndown e as contribuições da equipe.</p>
+    <a href="https://github.com/quarks-team/Projeto-Integrador-TecSUS?tab=readme-ov-file#reposit%C3%B3rios">Documentação</a>
+</details>
+<details>
+    <summary>Testes de integração</summary>
+    <a href="https://github.com/quarks-team/Projeto-Integrador-TecSUS/wiki/Testes-de-Integra%C3%A7%C3%A3o">Documentação</a>
+</details>
+<details>
+   <summary>Dashboards</summary>
+   <a href="https://github.com/quarks-team/projeto-integrador-tecsus-dashboard">Dashboard TecSUS></a>
+</details>
 <h4>LIÇÕES APRENDIDAS:</h4>
 <p align="justify">...</p>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
