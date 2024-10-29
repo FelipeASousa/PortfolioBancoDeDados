@@ -2068,7 +2068,7 @@ public class UsuarioController {
    <a href="https://github.com/quarks-team/projeto-integrador-tecsus-dashboard">Dashboard TecSUS</a>
 </details>
 <h4>LIÇÕES APRENDIDAS:</h4>
-<p align="justify">...</p>
+<p align="justify"> Durante o desenvolvimento desse projeto, aprendi a como liderar uma equipe com eficiência, abrangendo os ideiais e conhecimentos de cada membro e também à como agir como um facilitador para meus colegas de time. Foi um processo de dedicação e aprendizado, principalmente na comunicação, onde busquei ser mais assertivo e ponderado com as palavras, o que acresceu tanto na minha carreira, como na minha vida pessoal. Já como desenvolvedor, aprendi a como desenvolver testes de integração e como construir um fluxo para que esses testes ocorram durante o desenvolvimento de um projeto.</p>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
    <thead>
