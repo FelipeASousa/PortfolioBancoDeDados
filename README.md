@@ -2065,7 +2065,7 @@ public class UsuarioController {
 </details>
 <details>
    <summary>Dashboards</summary>
-   <a href="https://github.com/quarks-team/projeto-integrador-tecsus-dashboard">Dashboard TecSUS></a>
+   <a href="https://github.com/quarks-team/projeto-integrador-tecsus-dashboard">Dashboard TecSUS</a>
 </details>
 <h4>LIÇÕES APRENDIDAS:</h4>
 <p align="justify">...</p>
