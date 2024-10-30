@@ -514,9 +514,9 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
          </td>
          <td>
             <ul>
-               <li>Desenvolvimento Frontend</li>
-               <li>Uso de frameworks</li>
-               <li>Comandos github</li>
+               <li>Javascript</li>
+               <li>Laravel</li>
+               <li>GitHub</li>
             </ul>
          </td>
       </tr>
@@ -1646,7 +1646,8 @@ def justificarFalta(request, id):
 <h4>HABILIDADES DESENVOLVIDAS:</h4>
 <table>
     <thead>
-        <th>Soft Skill</th>
+        <th>SOFT SKILL</th>
+       <th>HARD SKILL</th>
     </thead>
     <tbody>
         <tr>
@@ -1657,8 +1658,6 @@ def justificarFalta(request, id):
                   <li>Disciplina</li>
                </ul>
             </td>
-        </tr>
-        <tr>
             <td>
                <ul>
                   <li>Java</li>
