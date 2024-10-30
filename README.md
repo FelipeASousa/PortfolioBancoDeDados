@@ -1588,7 +1588,7 @@ def justificarFalta(request, id):
                  <li>Python</li>
                  <li>Django</li>
               </ul>   
-              </td>
+          </td>
         </tr>
     </tbody>
 </table>
