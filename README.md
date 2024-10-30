@@ -1577,13 +1577,20 @@ def justificarFalta(request, id):
     </thead>
     <tbody>
         <tr>
-            <td>Organização</td>
-           <td>Comunicação</td>
+            <td>
+               <ul>
+                  <li>Organização</li>
+                  <li>Comunicação</li>
+               </ul>
+            </td>
+           <td>
+              <ul> 
+                 <li>Python</li>
+                 <li>Django</li>
+              </ul>   
+              </td>
         </tr>
-        <tr>
-            <td> Python </td>
-           <td> Django</td>
-        </tr>
+
     </tbody>
 </table>
 
