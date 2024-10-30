@@ -32,38 +32,45 @@ Atualmente, meu objetivo é ampliar meus conhecimentos em análise de dados e ap
     <thead>
         <tr>
         <th>Semestre</th>
-        <th>Projeto/ Repositório </th>
+        <th>Projeto</th>
+        <th>Repositório </th>
         <th>Empresa/ Parceiro Acadêmico</th>
         </tr>
     </thead>
     <tbody>
         <tr align="center">
             <td>1º</td>
+            <td>Site de Gerenciamento de Projetos</td>
             <td><a href="https://github.com/UniversalDevs/Projeto_API_VoMariaFelix">API 01/2021</a></td>
             <td>FATEC</td>
         </tr>
         <tr align="center">
             <td>2º</td>
+           <td>Sistema WEB de controle de presença</td>
             <td><a href="API_ADS_2021_2"> API 02/2021</a></td>
             <td>Jetsoft</td>
         </tr>
         <tr align="center">
             <td>3º</td>
+           <td>Sistema de coleta e processamento de faturas</td>
             <td><a href="https://github.com/UniversalDevs/Projeto_API_TecSus">API 01/2022</a></td>
             <td>TecSUS</td>
         </tr>
         <tr align="center">
             <td>4º</td>
+           <td>Controle de Laudos de Inspeção Predial</td>
             <td><a href="https://github.com/UniversalDevs/Projeto_API_TecSus">API 02/2023</a></td>
             <td>Jaia Software</td>
         </tr>
         <tr align="center">
             <td>5º</td>
+           <td>Dashboard Web de Análise de Faturas </td>
             <td><a href="">API 01/2024</a></td>
             <td>TecSUS</td>
         </tr>
         <tr align="center">
             <td>6º</td>
+           <td>Soluções de IA para o mercado de duplicatas de crédito</td>
             <td><a href="">API 02/2024</a></td>
             <td>SPC Grafeno</td>
         </tr>
