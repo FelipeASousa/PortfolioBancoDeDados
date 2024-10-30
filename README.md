@@ -1590,7 +1590,6 @@ def justificarFalta(request, id):
               </ul>   
               </td>
         </tr>
-
     </tbody>
 </table>
 
