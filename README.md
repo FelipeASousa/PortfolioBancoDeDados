@@ -543,14 +543,12 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
 <p align="justify">Durante esse projeto atuei com Product Owner, que me fez ser responsável por fazer a interação com o cliente, elaborar a solução do problema, bem como os artefatos Scrum necessários para o desenvolvimento do produto, como o Product Backlog e o Sprint Backlog. Já como desenvolvedor, atuei na parte de backend do projeto e através do framework Django, desenvolvi as funcionalidades de cadastro de Clientes, Contratos e Postos de Trabalho e também a funcionalidade de preenchimento de quadro de presença.</p>
 <details>
     <summary>Artefatos Scrum</summary>
-    <p>Nesse semestre atuei como Product Owner e fui responsável por desenvolver os artefatos scrum</p>
     <h5>Product Backlog</h5>
     <img src="https://github.com/gbrramos/API_ADS_2021_2/raw/main/Documentacao/BacklogProdutoAPI.PNG" width="300"/>
 </details>
 
 <details>
     <summary>Funcionalidades de Cadastro</summary>
-    <p> Nesse projeto contribui para as funcionalidades do backend, como cadastros, atualizações e deleções. Também realizei a construção do quadro de presenças e do sistema de contigências, através do uso de framework Django.</p>
     <details>
         <summary>Cadastro de Clientes</summary>
         
