@@ -1531,7 +1531,7 @@ def justificarFalta(request, id):
 </details>
 
 <h4>LIÇÕES APRENDIDAS:</h4>
-<p align="justify"> Aprendi a implementar o modelo MVT para estruturar o projeto, utilizar API Rest e lógica de programação com Python.</p>
+<p align="justify"> Por ter sido a primeira experiência sendo Product Owner, aprendi a como desenvolver um Product Backlog, estruturado nas necessidades do cliente e também a como planejar as sprints de um projeto. Já como desenvolvedor, tive o meu primeiro contato com o framework Django e com a técnica de ORM, no qual aprendi a como mapear um banco de dados.</p>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
    <thead>
