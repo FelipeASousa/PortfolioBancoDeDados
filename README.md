@@ -540,6 +540,7 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
 <a href="https://www.youtube.com/watch?v=822ikn9mlRQ"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-1.png?raw=true" width="300"/></a>
 <p>Link do Repositório: <a href="https://github.com/gbrramos/API_ADS_2021_2">API_ADS_2021_2</a></p>
 <h4> CONTRIBUIÇÕES PESSOAIS:</h4>
+<p align="justify">Durante esse projeto atuei com Product Owner, que me fez ser responsável por fazer a interação com o cliente, elaborar a solução do problema, bem como os artefatos Scrum necessários para o desenvolvimento do produto, como o Product Backlog e o Sprint Backlog. Já como desenvolvedor, atuei na parte de backend do projeto e através do framework Django, desenvolvi as funcionalidades de cadastro de Clientes, Contratos e Postos de Trabalho e também a funcionalidade de preenchimento de quadro de presença.</p>
 <details>
     <summary>Artefatos Scrum</summary>
     <p>Nesse semestre atuei como Product Owner e fui responsável por desenvolver os artefatos scrum</p>
@@ -1530,11 +1531,7 @@ def justificarFalta(request, id):
 ```
 </details>
 </details>
-<details>
-    <summary>Apresentação do Projeto</summary>
-    <p align="justify">Ao fim do desenvolvimento do projeto, devido a pandemia, foi desenvolvido um vídeo apresentando todas as funcionalidades e práticas Scrum aplicadas, para ser apresentado na Feira de Soluções, no qual fui responsável por fazer a apresentação do projeto.</po>
-<a href="https://youtu.be/822ikn9mlRQ?si=ENVGBBPhOa6YHv7O"><img src="https://github.com/FelipeASousa/PortifolioBancoDeDados/blob/main/files/api-2.png?raw=true" width="300"/></a>
-</details>
+
 <h4>LIÇÕES APRENDIDAS:</h4>
 <p align="justify"> Aprendi a implementar o modelo MVT para estruturar o projeto, utilizar API Rest e lógica de programação com Python.</p>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
