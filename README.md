@@ -2290,7 +2290,7 @@ public interface EnergiaRepositorio extends CrudRepository<Energia, Long>{
 <img src="https://github.com/user-attachments/assets/77bc5978-15f2-4bfa-b28c-9bfeef51acdc" width=500/>
 </p>
 <h4>PROBLEMA:</h4>
-<p align="justify"> Aplicação que gerencia anomalias apontadas em um Laudo de Inspeção Predial e otimiza a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.</p>
+<p align="justify"> A Jaia Software é uma empresa de Software House e consultoria de negócios voltados para sistema de gestão empresarial e que incubiu o problema de desenvolver uma aplicação para gerenciar anomalias apontadas em um Laudo de Inspeção Predial e otimizar a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.</p>
 <h4>SOLUÇÃO:</h4>
 <p align="justify"> Desenvolver um site para emissão de laudos prediais, gerenciamento de ordens de serviço e controle de usuários, serviços e setores.</p>
 <p>Link do Repositório: <a href="https://github.com/Great-Pretender/GreatPretender-API">GreatPretender-API</a></p>
