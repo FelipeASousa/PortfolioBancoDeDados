@@ -1605,7 +1605,7 @@ def justificarFalta(request, id):
 </p>
 <p>Link do Repositório: <a href="https://github.com/UniversalDevs/Projeto_API_TecSus"> Projeto_API_TecSus</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
-<p align="justify">Nesse projeto atuei no desenvolvimento backend, onde estruturei a arquitetura REST do projeto. Criei todas as entidades de cadastro: Faturas (Água e Energia), Cliente, Concessionária, Contrato e Instalação. Também desenvolvi as rotas HTTP no controller. Já na parte do frontend, desenvolvi os dashboards para a análise de consumo de energia e de água, por cliente e os alertas de consumo acima da demanda.</p>
+<p align="justify">Nesse projeto atuei no desenvolvimento backend, onde estruturei a arquitetura REST do projeto. Criei todas as entidades de cadastro: Faturas (Água e Energia), Cliente, Concessionária, Contrato e Instalação. Também desenvolvi as rotas HTTP no controller. Já na parte do frontend, desenvolvi os dashboards para a análise de consumo de energia e de água, por cliente e os alertas de consumo acima da demanda. Por fim, desenvolvi a coleta de arquivos PDF através de um input, para ser usado para o cadastro de faturas.</p>
 <p align="justify">Abaixo segue um exemplo dos códigos desenvolvidos para a entidade Energia:</p>
 <details>
     <summary>Model</summary>
@@ -2224,7 +2224,7 @@ public interface EnergiaRepositorio extends CrudRepository<Energia, Long>{
 ```
 </details>
 <h4>LIÇÕES APRENDIDAS:</h4>
-<p align="justify"> Aprendi a lidar com diferentes tecnologias no processo de desenvolvimento do software. E também como estruturar toda a parte de planejamento do projeto, estabelecer uma comunicação ativa com o cliente, como Product Owner.</p>
+<p align="justify"> Aprendi a como utilizar o framework Sprint Boot para desenvolver projetos em Java e criar uma estrutura REST. Na parte do frontend pude exercitar a manipulação da biblioteca HighChart do Javascript, para desenvolver gráficos de análise. Nesse projeto, foi minha primeira experiência como apenas desenvolvedor, o que me concebeu outras responsabilidades que tive que aprender a exercer, como realizar dailies, entregas e colaboração com a equipe.</p>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
    <thead>
@@ -2267,8 +2267,8 @@ public interface EnergiaRepositorio extends CrudRepository<Energia, Long>{
             <td>
                <ul>
                   <li>Comunicação</li>
-                  <li>Planejamento de Projeto</li>
-                  <li>Disciplina</li>
+                  <li>Confiança</li>
+                  <li>Auto-disciplina</li>
                </ul>
             </td>
             <td>
