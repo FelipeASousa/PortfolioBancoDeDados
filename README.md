@@ -2295,20 +2295,25 @@ public interface EnergiaRepositorio extends CrudRepository<Energia, Long>{
 <p align="justify"> Desenvolver uma aplicação Web que permita gerar emissão de laudos prediais, realizar o gerenciamento de ordens de serviço e controle de usuários, serviços e setores, através de um sistema CRUD. Ele também permitiria o agendamento de demanda aos responsáveis e uma Landing Page para solicitar a prestação de serviço de inspeção predial.</p>
 <p>Link do Repositório: <a href="https://github.com/Great-Pretender/GreatPretender-API">GreatPretender-API</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
+<p align="justify">
+Durante esse projeto, atuei como Product Owner, no qual fiquei responsável por entender as necessidades do cliente e desenvolver toda a documentação do produto, como as User Stories, Product Backlog e Sprint Backlog. Também apoiei no desenvolvimento frontend, onde criei as telas para cadastro de Setor, Ordem de Serviço e Contratos. Já no backend criei o controller para as entidades Cliente, Produto, Usuario, Serviço, Setor e Contrato.
+</p>
 <details>
-    <summary>Artefatos Scrum</summary>
-    <p align="justify">Atuei como Product Owner, no entendimento das necessidades do cliente, no desenvolvimento da solução do problema, no levantamento de requisitos para a construção do backlog e como Desenvolvedor, sendo as atividades realizadas:</p>
-    Solução do problema
+    <summary>ARTEFATOS SCRUM</summary>
 <ul>
     <li>Levantamento de Requisitos</li>
+   <img width="649" alt="{BE2645FA-E0FD-42EF-B4B0-36F80F745B6B}" src="https://github.com/user-attachments/assets/8f986e29-15ee-461e-978f-d2c850847e73">
     <li>Users Stories</li>
+    <img src="https://github.com/user-attachments/assets/59eab9ad-138f-432b-9fcb-1da54ea22fdb"/ width="500">
     <li>Product Backlog</li>
+    <img src="https://github.com/user-attachments/assets/71f2f724-fab0-41ba-8383-277967a2d660"/>
     <li>Sprint Backlog</li>
+   <img src="https://github.com/user-attachments/assets/9bfa4a1e-95e7-4959-a21c-a5d0cac20a07"/>
+
 </ul>
 </details>
 <details>
-    <summary>Controller do Backend</summary>
-  <p align="justify">Crier a estrutura de rotas do backend para as funcionalidades de cadastro de Contratos, Setores, Serviços, Ordens de Serviço e Usuários, para que fosse possível a utilização dessas funcionalidades no frontend.</p>
+    <summary>CÓDIGO</summary>
 <h5>Controller de Contrato</h5>
     
 ```java
