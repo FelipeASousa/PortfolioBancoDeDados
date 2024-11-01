@@ -1598,7 +1598,7 @@ def justificarFalta(request, id):
 
 <h4>PROBLEMA:</h4>
 <p align="justify">
-   A TecSUS é uma empresa especializada na coleta e processamento de contas de energia, água e gás, e que atende empresas dos setores atacadista e varejista. Nesse contexto, a TecSUS necessitava melhorar no processo de digitalização dessas contas devido ao grande volume de dados e à falta de estruturação adequada para automação e visualização eficiente das informações.
+   A TecSUS é uma empresa especializada na coleta e processamento de contas de energia, água e gás, e que atende empresas dos setores atacadista e varejista. Nesse contexto, a TecSUS necessitava melhorar no processo de digitalização dessas contas devido ao grande volume de dados e a falta de estruturação adequada para automação e visualização eficiente das informações.
 </p>
 <h4>SOLUÇÃO:</h4>
 <p align="justify"> A solução desenvolvida era um sistema web responsivo, com o foco de otimizar o processo de cadastro e gestão de faturas de energia, água e gás. O principal objetivo era coletar, processar e armazenar os dados relacionados à essas faturas, contratos e cliente de forma eficiente, gerando também relatórios e dashboards pós-cadastro para obter análises.
