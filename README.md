@@ -1529,7 +1529,29 @@ def justificarFalta(request, id):
 </details>
 
 <h4>LIÇÕES APRENDIDAS:</h4>
-<p align="justify"> Por ter sido a primeira experiência sendo Product Owner, aprendi a como desenvolver um Product Backlog, estruturado nas necessidades do cliente e também a como planejar as sprints de um projeto. Já como desenvolvedor, tive o meu primeiro contato com o framework Django e com a técnica de ORM, no qual aprendi a como mapear um banco de dados.</p>
+<p align="justify"> Por ter sido a primeira experiência sendo Product Owner, aprendi a como desenvolver um Product Backlog, estruturado nas necessidades do cliente e também a como planejar e <strong>organizar</strong> as sprints de um projeto. Nesse processo, também pude aprimorar minha <strong>comunicação</strong>, devido aos constantes contatos com o cliente do projeto. Já como desenvolvedor, trabalhei com a linguagem de programação <strong>Python</strong> para desenvolver o backend do projeto e tive o meu primeiro contato com o framework <strong>Django</strong> e com a técnica de ORM, no qual aprendi a como mapear um banco de dados.</p>
+<table>
+    <thead>
+        <th>SOFT SKILL</th>
+        <th>HARD SKILL</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+               <ul>
+                  <li>Organização</li>
+                  <li>Comunicação</li>
+               </ul>
+            </td>
+           <td>
+              <ul> 
+                 <li>Python</li>
+                 <li>Django</li>
+              </ul>   
+          </td>
+        </tr>
+    </tbody>
+</table>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
    <thead>
@@ -1561,29 +1583,6 @@ def justificarFalta(request, id):
          </td>
       </tr>
    </tbody>
-</table>
-<h4>HABILIDADES DESENVOLVIDAS:</h4>
-<table>
-    <thead>
-        <th>SOFT SKILL</th>
-        <th>HARD SKILL</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-               <ul>
-                  <li>Organização</li>
-                  <li>Comunicação</li>
-               </ul>
-            </td>
-           <td>
-              <ul> 
-                 <li>Python</li>
-                 <li>Django</li>
-              </ul>   
-          </td>
-        </tr>
-    </tbody>
 </table>
 
 <hr/>
