@@ -2701,7 +2701,31 @@ public class UsuarioController {
    <a href="https://github.com/quarks-team/projeto-integrador-tecsus-dashboard">Dashboard TecSUS</a>
 </details>
 <h4>LIÇÕES APRENDIDAS:</h4>
-<p align="justify"> Durante o desenvolvimento desse projeto, aprendi a como liderar uma equipe com eficiência, abrangendo os ideiais e conhecimentos de cada membro e também à como agir como um facilitador para meus colegas de time. Foi um processo de dedicação e aprendizado, principalmente na comunicação, onde busquei ser mais assertivo e ponderado com as palavras, o que acresceu tanto na minha carreira, como na minha vida pessoal. Já como desenvolvedor, aprendi a como desenvolver testes de integração e como construir um fluxo para que esses testes ocorram durante o desenvolvimento de um projeto.</p>
+<p align="justify"> Durante o desenvolvimento desse projeto, aprendi a como <strong>liderar</strong> uma equipe com eficiência, abrangendo os ideiais e conhecimentos de cada membro e também à como agir como um facilitador para meus colegas de time. Foi um processo de dedicação e aprendizado, principalmente na <strong>comunicação</strong>, onde busquei ser mais assertivo e ponderado com as palavras, o que acresceu tanto na minha carreira, como na minha vida pessoal. Já como desenvolvedor, aprendi a como desenvolver testes de integração com o <strong>Cypress</strong> e o <strong>Jest</strong>, para verificar a comunicação, compatibilidade e interação dos componentes e módulos, para atestar que todo o fluxo de ETL ocorra corretamente, desde a entrada dos dados, até a carga no banco de dados. Dessa forma, construi um fluxo para que esses testes ocorram durante o desenvolvimento de um projeto. Também aprendi a como utilizar a <strong>linguagem M</strong> para criar as medidas necessárias para a construção dos gráficos dos dashboards de energia e água. </p>
+<table>
+    <thead>
+       <th>SOFT SKILL</th>
+       <th>HARD SKILL</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <ul>
+                    <li>Liderança</li>
+                    <li>Comunicação</li>
+                    <li>Auto-controle</li>
+                </ul>
+            </td>
+           <td>
+                <ul>
+                   <li>Jest</li>
+                   <li>Cypress</li>
+                   <li>Linguagem M</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
    <thead>
@@ -2734,31 +2758,7 @@ public class UsuarioController {
       </tr>
    </tbody>
 </table>
-<h4>HABILIDADES DESENVOLVIDAS:</h4>
-<table>
-    <thead>
-       <th>SOFT SKILL</th>
-       <th>HARD SKILL</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <ul>
-                    <li>Liderança</li>
-                    <li>Comunicação</li>
-                    <li>Auto-controle</li>
-                </ul>
-            </td>
-           <td>
-                <ul>
-                   <li>Jest</li>
-                   <li>Cypress</li>
-                   <li>Linguagem M</li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
+
 <h2> 6º Semestre • 2/2024 </h2>
 <h3>Soluções de IA para o mercado de duplicatas de crédito</h3>
 <p><strong>Parceiro Acadêmico:</strong> SPC Grafeno</p>
@@ -2771,7 +2771,9 @@ public class UsuarioController {
 <p align="justify"> </p>
 <p>Link do Repositório: <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno">Quarks-API</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
-<p>...</p>
+Score gerado por IA baseado em no histórico de duplicatas
+IA de predição de finalização de duplicatas de acordo com paramêtros estabelecidos
+Séries temporais para previsão da volumetria de duplicatas
 
 <h4>LIÇÕES APRENDIDAS:</h4>
 <p align="justify">...</p>
