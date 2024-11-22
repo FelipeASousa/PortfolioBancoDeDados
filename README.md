@@ -464,8 +464,31 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
 
 
 <h4> LIÇÕES APRENDIDAS:</h4>
-<p align="justify">Durante o desenvolvimento desse projeto, pude aprender a como aplicar as metodologias ágeis do Scrum, como reuniões diárias e planejamento. Também aprendi como coordenar uma equipe respeitando o processo de aprendizado individual, sempre tentando usar uma comunicação mais assetiva, clara e menos impositória. Já como desenvolvedor, pude aprimorar os conhecimentos em estrutura HTML e como utilizar pela primeira vez um framework, o Laravel, para realizar a conexão do frontend com o backend e entender melhor as camadas de uma aplicação.</p>
-
+<p align="justify">Durante o desenvolvimento desse projeto, pude aprender a como aplicar as metodologias ágeis do Scrum, como reuniões diárias e planejamento, onde consegui me <strong>organizar</strong> individualmente e coletivamente. Também aprendi como coordenar uma equipe e <strong>liderar</strong> respeitando o processo de aprendizado individual, sempre tentando usar uma <strong>comunicação mais assetiva</strong>, clara e menos impositória. Já como desenvolvedor, pude aprimorar os conhecimentos em estrutura HTML e na linguagem de programação <strong>Javascript</strong> e como utilizar pela primeira vez um framework, o <strong>Laravel</strong>, para realizar a conexão do frontend com o backend e entender melhor as camadas de uma aplicação. Também pude aprender acerca do <strong>Github</strong> e seus comandos que me permitiu entender sobre versionamento de código.</p>
+<table>
+   <thead>
+      <th>SOFT SKILL</th>
+      <th>HARD SKILL</th>
+   </thead>
+   <tbody>
+      <tr>
+         <td>
+            <ul>
+               <li>Organização pessoal</li>
+               <li>Comunicação assertiva</li>
+               <li>Liderança</li>
+            </ul>
+         </td>
+         <td>
+            <ul>
+               <li>Javascript</li>
+               <li>Laravel</li>
+               <li>GitHub</li>
+            </ul>
+         </td>
+      </tr>
+   </tbody>  
+</table>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
    <thead>
@@ -496,31 +519,6 @@ A segunda etapa era desenvolver um site informativo, voltado para o público ext
          </td>
       </tr>
    </tbody>
-</table>
-<h4>HABILIDADES DESENVOLVIDAS:</h4>
-<table>
-   <thead>
-      <th>SOFT SKILL</th>
-      <th>HARD SKILL</th>
-   </thead>
-   <tbody>
-      <tr>
-         <td>
-            <ul>
-               <li>Organização pessoal</li>
-               <li>Comunicação assertiva</li>
-               <li>Liderança</li>
-            </ul>
-         </td>
-         <td>
-            <ul>
-               <li>Javascript</li>
-               <li>Laravel</li>
-               <li>GitHub</li>
-            </ul>
-         </td>
-      </tr>
-   </tbody>  
 </table>
 
 <hr/>
