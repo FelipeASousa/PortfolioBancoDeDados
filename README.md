@@ -2221,7 +2221,30 @@ public interface EnergiaRepositorio extends CrudRepository<Energia, Long>{
 ```
 </details>
 <h4>LIÇÕES APRENDIDAS:</h4>
-<p align="justify"> Aprendi a como utilizar o framework Sprint Boot para desenvolver projetos em Java e criar uma estrutura REST. Na parte do frontend pude exercitar a manipulação da biblioteca HighChart do Javascript, para desenvolver gráficos de análise. Nesse projeto, foi minha primeira experiência como apenas desenvolvedor, o que me concebeu outras responsabilidades que tive que aprender a exercer, como realizar dailies, entregas e colaboração com a equipe.</p>
+<p align="justify"> Nesse semestre aprendi a como utilizar o framework <strong>Spring Boot</strong> para desenvolver projetos em <strong>Java</strong> e criar uma estrutura REST. Na parte do frontend pude exercitar a manipulação da biblioteca HighChart do <strong>Javascript</strong>, para desenvolver gráficos de análise. Nesse projeto, foi minha primeira experiência como apenas desenvolvedor, o que me concebeu outras responsabilidades que tive que aprender a exercer, como realizar dailies, entregas e colaboração com a equipe, um processo de <strong>auto-disciplina</strong> e <strong>confiança</strong> em meus colegas e em minhas próprias entregas.</p>
+<table>
+    <thead>
+        <th>SOFT SKILL</th>
+       <th>HARD SKILL</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+               <ul>
+                  <li>Confiança</li>
+                  <li>Auto-disciplina</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>Java</li>
+                  <li>Spring Boot</li>
+                  <li>Javascript</li>
+               </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
    <thead>
@@ -2252,31 +2275,6 @@ public interface EnergiaRepositorio extends CrudRepository<Energia, Long>{
          </td>
       </tr>
    </tbody>
-</table>
-<h4>HABILIDADES DESENVOLVIDAS:</h4>
-<table>
-    <thead>
-        <th>SOFT SKILL</th>
-       <th>HARD SKILL</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-               <ul>
-                  <li>Comunicação</li>
-                  <li>Confiança</li>
-                  <li>Auto-disciplina</li>
-               </ul>
-            </td>
-            <td>
-               <ul>
-                  <li>Java</li>
-                  <li>Spring Boot</li>
-                  <li>Javascript</li>
-               </ul>
-            </td>
-        </tr>
-    </tbody>
 </table>
 
 <hr/>
