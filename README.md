@@ -2768,7 +2768,8 @@ public class UsuarioController {
 <h4>PROBLEMA:</h4>
 <p align="justify"> A SPC Grafeno é uma empresa especializada em tecnologia financeira para gestão de crédito e garantia de recebíveis e incubiu o desafio de explorar diversas bases de dados, em prol de desenvolver produtos financeiros para o mercado de duplicatas de crédito, buscando produtos de identificação de risco e tendências de mercado.</p>
 <h4>SOLUÇÃO:</h4>
-<p align="justify"> </p>
+<p align="justify">
+Desenvolver um sistema que analise a confiabilidade de endossantes utilizando algoritmos e modelos de IA. O sistema deveria gerar um score que refletiria o quão bem uma empresa cumpre seus compromissos de crédito. Considerando que a posse de uma duplicata geralmente garante que o valor contratado antecipadamente será pago, a solução visava aprimorar o processo de avaliação tanto para a empresa, quanto para seus clientes.</p>
 <p>Link do Repositório: <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno">Quarks-API</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
 <p align="justify">Neste projeto fui responsável pelo desenvolvimento dos algoritmos de Inteligência Artificial, com o foco em soluções relacionadas ao histórico e previsão de duplicatas. Com o objetivo de criar um método de avaliação de confiabilidade de um endossante, o primeiro modelo de IA que desenvolvi foi sistema de score, que era calculado baseado no histórico de duplicatas de um endossante, que através de um algoritmo de Regressão Linear, gerava as pontuações de acordo com as informações armazenadas. 
