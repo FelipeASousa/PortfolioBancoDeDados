@@ -2790,14 +2790,41 @@ Por fim, diante da análise feita na base de informações, foi criada uma propo
 </details>
 <details>
    <summary>Simulador de Duplicatas</summary>
-   <a href="https://github.com/quarks-team/projeto-integrador-tecsus-dashboard">Dashboard TecSUS</a>
+   <p align="justify"> No modelo de simulação de duplicatas, foram obtidos excelentes resultados, entretanto, somente para quando os resultados de probabilidades eram mais proximas à 0% do que a à 100%. Isso demonstra que caso o objetivo fosse identificar fraudes, o modelo seria adequado a proposta, porém dentro da proposta de encontrar as probabilidades altas, há um disparidade de performance. </p>
+   <img src="https://github.com/user-attachments/assets/8ac1fa96-7470-483a-84f5-7f5edee6114d"/>
 </details>
 <details>
-   <summary>Pevisão de comportamento de duplicatas</summary>
-   <a href="https://github.com/quarks-team/projeto-integrador-tecsus-dashboard">Dashboard TecSUS</a>
+   <summary>Previsão de comportamento de duplicatas</summary>
+   <p align="justify">No caso do modelo de séries temporais, foi notável que os dados mais próximos a data limite da base eram quantitativamente menor e isso afetava os resultados futuros, também quanto maior a quantidade de dias que se eram necessários prever, maior era a probabilidade dos resultados não serem precisos. Ainda assim o uso da biblioteca Prophet trouxe bons resultados, visto que é possível habilitar a consideração de feriados, além de trazer margem de erros dentro dos resultados gerados:</p>
+   <img src="https://github.com/user-attachments/assets/c3c7d538-3bac-494e-95e2-1378c33e5c01"/>
+   <img src="https://github.com/user-attachments/assets/40d04289-55c8-4129-ae1b-25dcfc756a5d"/>
 </details>
 <h4>LIÇÕES APRENDIDAS:</h4>
-<p align="justify">...</p>
+<p align="justify">Durante esse semestre pude aprender a como desenvolver modelos de Inteligência Artificial e pela primeira vez utilizar algoritmos como: Árvore de Classificação, Random Forest, Regressão Linear, Regressão Logística, ARIMA e Séries Temporais. Ainda assim, pude aprender também um pouco mais acerca do análise e tratamento de dados, como análise de histogramas, desvio padrão e dispersão de dados, tratamento de dados nulos, agregações, etc, pois tais informações eram essenciais para o desenvolvimento dos modelos. Também adquiri o conhecimento de avaliar modelos segundo as métricas geradas, como Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), acurácia e precisão. No quesito de LGPD, tive a primeira experiência de como desenvolver uma aplicação de forma que esteja de acordo com a legislação brasileira. Já na parte de Soft Skills, aprendi a como colaborar com minha equipe e desenvolver um bom ambiente de convívio e desenvolvimento, o que foi essencial para que eu pudesse ter confiança para realizar meu papel no projeto.</p>
+<h4>HABILIDADES DESENVOLVIDAS:</h4>
+<table>
+    <thead>
+       <th>SOFT SKILL</th>
+       <th>HARD SKILL</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <ul>
+                    <li>Colaboração</li>
+                    <li>Confiança</li>
+                </ul>
+            </td>
+           <td>
+                <ul>
+                   <li>Python</li>
+                   <li>Inteliência Artificial</li>
+                   <li>Análise de Dados</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
 <table>
    <thead>
@@ -2824,36 +2851,10 @@ Por fim, diante da análise feita na base de informações, foi criada uma propo
          </td>
          <td>
             <ul>
-               <li>SQL</li>
-               <li>PostgreSQL</li>
+               <li>MongoDB</li>
             </ul>
          </td>
       </tr>
    </tbody>
 </table>
-<h4>HABILIDADES DESENVOLVIDAS:</h4>
-<table>
-    <thead>
-       <th>SOFT SKILL</th>
-       <th>HARD SKILL</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </td>
-           <td>
-                <ul>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
+
