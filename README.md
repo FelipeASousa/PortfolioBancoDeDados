@@ -2771,10 +2771,31 @@ public class UsuarioController {
 <p align="justify"> </p>
 <p>Link do Repositório: <a href="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno">Quarks-API</a></p>
 <h4>CONTRIBUIÇÕES PESSOAIS:</h4>
-Score gerado por IA baseado em no histórico de duplicatas
-IA de predição de finalização de duplicatas de acordo com paramêtros estabelecidos
-Séries temporais para previsão da volumetria de duplicatas
+<p align="justify">Neste projeto fui responsável pelo desenvolvimento dos algoritmos de Inteligência Artificial, com o foco em soluções relacionadas ao histórico e previsão de duplicatas. Com o objetivo de criar um método de avaliação de confiabilidade de um endossante, o primeiro modelo de IA que desenvolvi foi sistema de score, que era calculado baseado no histórico de duplicatas de um endossante, que através de um algoritmo de Regressão Linear, gerava as pontuações de acordo com as informações armazenadas. 
+</p>
+<p align="justify">
+Para a solução do produto, também era necessário criar um método para mensurar os riscos de um contrato de uma duplicata, assim, o segundo modelo de IA que desenvolvi era um algoritmo de Random Forest, que simulava duplicatas e retornava a probabilidade de finalização de acordo com as combinações de alguns parâmetros, como localidade, área de atuação e tempo de contrato, de forma a buscar encontrar cenários mais favoráveis dentro desse mercado. 
+</p>
+<p align="justify">
+Por fim, diante da análise feita na base de informações, foi criada uma proposta para melhorar a gestão dos contratos de duplicatas e dessa forma, através da biblioteca Prophet, desenvolvi um modelo de Séries temporais. Este modelo previa, com base nos status e históricos das duplicatas, o comportamento esperado da quantidade total desses documentos nos próximos 30 dias. E assim prever qual seria o desempenho dos contratos ativos.
+</p>
+<p align="justify"> Abaixo segue as métricas dos modelos desenvolvidos:</p>
+<details>
+   <summary>Sistema de Score</summary>
+   <p align="justify"> Para desenvolver o sistema de score, foram desenvolvidos dois modelos para tentar gerar o score os endossantes, o primeiro seria através de um algoritmo de Árvore de Classificação, entretando somente no segundo modelo, de Regressão Linear, foi obtido um desempenho considerável para uso no projeto.</p>
+   <img src="https://github.com/user-attachments/assets/9ad63e1c-fb4f-48e0-8777-38a00d95addc"/>
+   <p align="justify"> Mesmo com um resultado considerado bom para uso, aprimorei o modelo de Regressão Linear, de forma com que fosse obtidos os seguintes resultados:</p>
+   <img src="https://github.com/user-attachments/assets/03fa5c65-fef3-4e2a-8abe-56e249ffe085"/>
 
+</details>
+<details>
+   <summary>Simulador de Duplicatas</summary>
+   <a href="https://github.com/quarks-team/projeto-integrador-tecsus-dashboard">Dashboard TecSUS</a>
+</details>
+<details>
+   <summary>Pevisão de comportamento de duplicatas</summary>
+   <a href="https://github.com/quarks-team/projeto-integrador-tecsus-dashboard">Dashboard TecSUS</a>
+</details>
 <h4>LIÇÕES APRENDIDAS:</h4>
 <p align="justify">...</p>
 <h4>TECNOLOGIAS UTILIZADAS:</h4>
